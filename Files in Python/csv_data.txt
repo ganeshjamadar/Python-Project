@@ -1,0 +1,4 @@
+name,age,university,degree
+rolf,25,mit,computer science
+ganesh, 25,DYP,bachlor of engineering
+harshada,23,oxford,B.com

@@ -1,0 +1,4 @@
+05-10-2020 19:40:03 INFO     [AdvancePython.py:261] : This will not show up.
+05-10-2020 19:40:03 WARNING  [AdvancePython.py:263] : This will
+05-10-2020 19:40:03 DEBUG    [AdvancePython.py:265] : This is debug message.
+05-10-2020 19:40:03 CRITICAL [AdvancePython.py:267] : Critical erro occured.

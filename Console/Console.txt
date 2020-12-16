@@ -1,0 +1,2903 @@
+Microsoft Windows [Version 10.0.18362.1198]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\WINDOWS\system32>pip
+
+Usage:
+  pip <command> [options]
+
+Commands:
+  install                     Install packages.
+  download                    Download packages.
+  uninstall                   Uninstall packages.
+  freeze                      Output installed packages in requirements format.
+  list                        List installed packages.
+  show                        Show information about installed packages.
+  check                       Verify installed packages have compatible dependencies.
+  config                      Manage local and global configuration.
+  search                      Search PyPI for packages.
+  cache                       Inspect and manage pip's wheel cache.
+  wheel                       Build wheels from your requirements.
+  hash                        Compute hashes of package archives.
+  completion                  A helper command used for command completion.
+  debug                       Show information useful for debugging.
+  help                        Show help for commands.
+
+General Options:
+  -h, --help                  Show help.
+  --isolated                  Run pip in an isolated mode, ignoring environment variables and user configuration.
+  -v, --verbose               Give more output. Option is additive, and can be used up to 3 times.
+  -V, --version               Show version and exit.
+  -q, --quiet                 Give less output. Option is additive, and can be used up to 3 times (corresponding to
+                              WARNING, ERROR, and CRITICAL logging levels).
+  --log <path>                Path to a verbose appending log.
+  --no-input                  Disable prompting for input.
+  --proxy <proxy>             Specify a proxy in the form [user:passwd@]proxy.server:port.
+  --retries <retries>         Maximum number of retries each connection should attempt (default 5 times).
+  --timeout <sec>             Set the socket timeout (default 15 seconds).
+  --exists-action <action>    Default action when a path already exists: (s)witch, (i)gnore, (w)ipe, (b)ackup,
+                              (a)bort.
+  --trusted-host <hostname>   Mark this host or host:port pair as trusted, even though it does not have valid or any
+                              HTTPS.
+  --cert <path>               Path to alternate CA bundle.
+  --client-cert <path>        Path to SSL client certificate, a single file containing the private key and the
+                              certificate in PEM format.
+  --cache-dir <dir>           Store the cache data in <dir>.
+  --no-cache-dir              Disable the cache.
+  --disable-pip-version-check
+                              Don't periodically check PyPI to determine whether a new version of pip is available for
+                              download. Implied with --no-index.
+  --no-color                  Suppress colored output
+  --no-python-version-warning
+                              Silence deprecation warnings for upcoming unsupported Pythons.
+  --use-feature <feature>     Enable new functionality, that may be backward incompatible.
+  --use-deprecated <feature>  Enable deprecated functionality, that will be removed in the future.
+
+C:\WINDOWS\system32>pip install upgrade pip
+ERROR: Could not find a version that satisfies the requirement upgrade (from versions: none)
+ERROR: No matching distribution found for upgrade
+
+C:\WINDOWS\system32>pip install upgrade pip3.7
+ERROR: Could not find a version that satisfies the requirement upgrade (from versions: none)
+ERROR: No matching distribution found for upgrade
+
+C:\WINDOWS\system32>pip -v
+
+Usage:
+  pip <command> [options]
+
+Commands:
+  install                     Install packages.
+  download                    Download packages.
+  uninstall                   Uninstall packages.
+  freeze                      Output installed packages in requirements format.
+  list                        List installed packages.
+  show                        Show information about installed packages.
+  check                       Verify installed packages have compatible dependencies.
+  config                      Manage local and global configuration.
+  search                      Search PyPI for packages.
+  cache                       Inspect and manage pip's wheel cache.
+  wheel                       Build wheels from your requirements.
+  hash                        Compute hashes of package archives.
+  completion                  A helper command used for command completion.
+  debug                       Show information useful for debugging.
+  help                        Show help for commands.
+
+General Options:
+  -h, --help                  Show help.
+  --isolated                  Run pip in an isolated mode, ignoring environment variables and user configuration.
+  -v, --verbose               Give more output. Option is additive, and can be used up to 3 times.
+  -V, --version               Show version and exit.
+  -q, --quiet                 Give less output. Option is additive, and can be used up to 3 times (corresponding to
+                              WARNING, ERROR, and CRITICAL logging levels).
+  --log <path>                Path to a verbose appending log.
+  --no-input                  Disable prompting for input.
+  --proxy <proxy>             Specify a proxy in the form [user:passwd@]proxy.server:port.
+  --retries <retries>         Maximum number of retries each connection should attempt (default 5 times).
+  --timeout <sec>             Set the socket timeout (default 15 seconds).
+  --exists-action <action>    Default action when a path already exists: (s)witch, (i)gnore, (w)ipe, (b)ackup,
+                              (a)bort.
+  --trusted-host <hostname>   Mark this host or host:port pair as trusted, even though it does not have valid or any
+                              HTTPS.
+  --cert <path>               Path to alternate CA bundle.
+  --client-cert <path>        Path to SSL client certificate, a single file containing the private key and the
+                              certificate in PEM format.
+  --cache-dir <dir>           Store the cache data in <dir>.
+  --no-cache-dir              Disable the cache.
+  --disable-pip-version-check
+                              Don't periodically check PyPI to determine whether a new version of pip is available for
+                              download. Implied with --no-index.
+  --no-color                  Suppress colored output
+  --no-python-version-warning
+                              Silence deprecation warnings for upcoming unsupported Pythons.
+  --use-feature <feature>     Enable new functionality, that may be backward incompatible.
+  --use-deprecated <feature>  Enable deprecated functionality, that will be removed in the future.
+
+C:\WINDOWS\system32>pip -version
+
+Usage:
+  pip <command> [options]
+
+no such option: -e
+
+C:\WINDOWS\system32>pip --version
+pip 20.2.4 from c:\users\ganesh.jamadar\appdata\local\programs\python\python38-32\lib\site-packages\pip (python 3.8)
+
+C:\WINDOWS\system32>pip upgrade
+ERROR: unknown command "upgrade"
+
+C:\WINDOWS\system32>which python3.7
+'which' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\WINDOWS\system32>$path
+'$path' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\WINDOWS\system32>cd D:
+D:\
+
+C:\WINDOWS\system32>cd D
+The system cannot find the path specified.
+
+C:\WINDOWS\system32>cd D:
+D:\
+
+C:\WINDOWS\system32>cd ..
+
+C:\Windows> cd ..
+
+C:\>cd D:
+D:\
+
+C:\>D:
+
+D:\>cd "Ganesh Jamadar"
+
+D:\Ganesh Jamadar>cd "Ganesh Private"
+
+D:\Ganesh Jamadar\Ganesh Private>cd ..
+
+D:\Ganesh Jamadar>cd "Python Project"
+
+D:\Ganesh Jamadar\Python Project>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\Ganesh Jamadar\Python Project>dir
+ Volume in drive D is New Volume
+ Volume Serial Number is E8DA-80F1
+
+ Directory of D:\Ganesh Jamadar\Python Project
+
+11/23/2020  02:10 PM    <DIR>          .
+11/23/2020  02:10 PM    <DIR>          ..
+10/05/2020  07:40 PM    <DIR>          Advance Python
+08/20/2020  01:16 PM    <DIR>          DataBase in Python
+08/13/2020  11:09 PM    <DIR>          Errors in Python
+08/17/2020  04:40 PM    <DIR>          Files in Python
+08/20/2020  03:57 PM    <DIR>          InBuildFunctions in Python
+08/13/2020  01:34 PM    <DIR>          Object Oriented Programing
+08/11/2020  05:02 PM    <DIR>          Project One
+11/23/2020  07:59 PM    <DIR>          Scraping Books
+11/23/2020  12:32 PM    <DIR>          Scraping quotes
+10/29/2020  04:52 PM    <DIR>          Web Scraping in Python
+               0 File(s)              0 bytes
+              12 Dir(s)  161,897,627,648 bytes free
+
+D:\Ganesh Jamadar\Python Project>cd "Scraping quotes"
+
+D:\Ganesh Jamadar\Python Project\Scraping quotes>dir
+ Volume in drive D is New Volume
+ Volume Serial Number is E8DA-80F1
+
+ Directory of D:\Ganesh Jamadar\Python Project\Scraping quotes
+
+11/23/2020  12:32 PM    <DIR>          .
+11/23/2020  12:32 PM    <DIR>          ..
+11/23/2020  12:35 PM    <DIR>          scraping-quotes
+               0 File(s)              0 bytes
+               3 Dir(s)  161,897,627,648 bytes free
+
+D:\Ganesh Jamadar\Python Project\Scraping quotes>cd scraping-quotes
+
+D:\Ganesh Jamadar\Python Project\Scraping quotes\scraping-quotes>dir
+ Volume in drive D is New Volume
+ Volume Serial Number is E8DA-80F1
+
+ Directory of D:\Ganesh Jamadar\Python Project\Scraping quotes\scraping-quotes
+
+11/23/2020  12:35 PM    <DIR>          .
+11/23/2020  12:35 PM    <DIR>          ..
+11/23/2020  02:08 PM               210 app.py
+11/23/2020  01:05 PM    <DIR>          Locators
+11/23/2020  01:05 PM    <DIR>          Pages
+11/23/2020  01:05 PM    <DIR>          Parsers
+               1 File(s)            210 bytes
+               5 Dir(s)  161,897,627,648 bytes free
+
+D:\Ganesh Jamadar\Python Project\Scraping quotes\scraping-quotes>python app.py
+<Quote “The world as we have created it is a process of our thinking. It cannot be changed without changing our thinking.”, by Albert Einstein>
+<Quote “It is our choices, Harry, that show what we truly are, far more than our abilities.”, by J.K. Rowling>
+<Quote “There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.”, by Albert Einstein>
+<Quote “The person, be it gentleman or lady, who has not pleasure in a good novel, must be intolerably stupid.”, by Jane Austen>
+<Quote “Imperfection is beauty, madness is genius and it's better to be absolutely ridiculous than absolutely boring.”, by Marilyn Monroe>
+<Quote “Try not to become a man of success. Rather become a man of value.”, by Albert Einstein>
+<Quote “It is better to be hated for what you are than to be loved for what you are not.”, by André Gide>
+<Quote “I have not failed. I've just found 10,000 ways that won't work.”, by Thomas A. Edison>
+<Quote “A woman is like a tea bag; you never know how strong it is until it's in hot water.”, by Eleanor Roosevelt>
+<Quote “A day without sunshine is like, you know, night.”, by Steve Martin>
+
+D:\Ganesh Jamadar\Python Project\Scraping quotes\scraping-quotes>cd ..
+
+D:\Ganesh Jamadar\Python Project\Scraping quotes>cd ..
+
+D:\Ganesh Jamadar\Python Project> cd "Scraping Books"
+
+D:\Ganesh Jamadar\Python Project\Scraping Books>cd scraping-books
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>dir
+ Volume in drive D is New Volume
+ Volume Serial Number is E8DA-80F1
+
+ Directory of D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books
+
+11/23/2020  03:50 PM    <DIR>          .
+11/23/2020  03:50 PM    <DIR>          ..
+11/23/2020  07:40 PM               705 app.py
+11/23/2020  03:32 PM    <DIR>          locators
+11/23/2020  07:59 PM             1,452 menu.py
+11/23/2020  03:32 PM    <DIR>          pages
+11/23/2020  03:32 PM    <DIR>          parsers
+11/23/2020  07:42 PM    <DIR>          __pycache__
+               2 File(s)          2,157 bytes
+               6 Dir(s)  161,897,627,648 bytes free
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>python menu.py
+
+Enter one of the following
+    - 'l' to list all books
+    - 'b' to look at 5-star books
+    - 'c' to look at cheapest books
+    - 'n' to just get next avilable book on catalogue
+    - 'q' to exit
+
+Enter your choice:              q
+Please choose a valid command,
+
+Enter one of the following
+    - 'l' to list all books
+    - 'b' to look at 5-star books
+    - 'c' to look at cheapest books
+    - 'n' to just get next avilable book on catalogue
+    - 'q' to exit
+
+Enter your choice: 1
+Please choose a valid command,
+
+Enter one of the following
+    - 'l' to list all books
+    - 'b' to look at 5-star books
+    - 'c' to look at cheapest books
+    - 'n' to just get next avilable book on catalogue
+    - 'q' to exit
+
+Enter your choice: q
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>virtualenv venv --python=python3.7
+RuntimeError: failed to find interpreter for Builtin discover of python_spec='python3.7'
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>virtualenv venv --python=python3.8
+created virtual environment CPython3.8.5.final.0-32 in 10859ms
+  creator CPython3Windows(dest=D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books\venv, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=C:\Users\ganesh.jamadar\AppData\Local\pypa\virtualenv)
+    added seed packages: pip==20.2.4, setuptools==50.3.2, wheel==0.35.1
+  activators BashActivator,BatchActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>dir
+ Volume in drive D is New Volume
+ Volume Serial Number is E8DA-80F1
+
+ Directory of D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books
+
+11/26/2020  09:21 PM    <DIR>          .
+11/26/2020  09:21 PM    <DIR>          ..
+11/23/2020  07:40 PM               705 app.py
+11/23/2020  03:32 PM    <DIR>          locators
+11/26/2020  09:20 PM         1,058,449 logs.txt
+11/23/2020  07:59 PM             1,452 menu.py
+11/23/2020  03:32 PM    <DIR>          pages
+11/23/2020  03:32 PM    <DIR>          parsers
+11/26/2020  09:21 PM    <DIR>          venv
+11/23/2020  07:42 PM    <DIR>          __pycache__
+               3 File(s)      1,060,606 bytes
+               7 Dir(s)  161,885,605,888 bytes free
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>.\venv\Scripts\activate.bat
+
+(venv) D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>python menu.py
+Traceback (most recent call last):
+  File "menu.py", line 1, in <module>
+    from app import books
+  File "D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books\app.py", line 1, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+(venv) D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>pip install requests
+Collecting requests
+  Downloading requests-2.25.0-py2.py3-none-any.whl (61 kB)
+     |████████████████████████████████| 61 kB 178 kB/s
+Collecting certifi>=2017.4.17
+  Downloading certifi-2020.11.8-py2.py3-none-any.whl (155 kB)
+     |████████████████████████████████| 155 kB 126 kB/s
+Collecting urllib3<1.27,>=1.21.1
+  Downloading urllib3-1.26.2-py2.py3-none-any.whl (136 kB)
+     |████████████████████████████████| 136 kB 198 kB/s
+Collecting idna<3,>=2.5
+  Using cached idna-2.10-py2.py3-none-any.whl (58 kB)
+Collecting chardet<4,>=3.0.2
+  Using cached chardet-3.0.4-py2.py3-none-any.whl (133 kB)
+Installing collected packages: certifi, urllib3, idna, chardet, requests
+Successfully installed certifi-2020.11.8 chardet-3.0.4 idna-2.10 requests-2.25.0 urllib3-1.26.2
+
+(venv) D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>python menu.py
+Traceback (most recent call last):
+  File "menu.py", line 1, in <module>
+    from app import books
+  File "D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books\app.py", line 4, in <module>
+    from pages.all_books_page import AllBooksPage
+  File "D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books\pages\all_books_page.py", line 1, in <module>
+    from bs4 import BeautifulSoup
+ModuleNotFoundError: No module named 'bs4'
+
+(venv) D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>pip install beautifulsoup4
+Collecting beautifulsoup4
+  Using cached beautifulsoup4-4.9.3-py3-none-any.whl (115 kB)
+Collecting soupsieve>1.2; python_version >= "3.0"
+  Using cached soupsieve-2.0.1-py3-none-any.whl (32 kB)
+Installing collected packages: soupsieve, beautifulsoup4
+Successfully installed beautifulsoup4-4.9.3 soupsieve-2.0.1
+
+(venv) D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>python menu.py
+
+Enter one of the following
+    - 'l' to list all books
+    - 'b' to look at 5-star books
+    - 'c' to look at cheapest books
+    - 'n' to just get next avilable book on catalogue
+    - 'q' to exit
+
+Enter your choice: q
+
+(venv) D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>pop freeze
+'pop' is not recognized as an internal or external command,
+operable program or batch file.
+
+(venv) D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>pip freeze
+beautifulsoup4==4.9.3
+certifi==2020.11.8
+chardet==3.0.4
+idna==2.10
+requests==2.25.0
+soupsieve==2.0.1
+urllib3==1.26.2
+
+(venv) D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>pip freeze > requirement.txt
+
+(venv) D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>dir
+ Volume in drive D is New Volume
+ Volume Serial Number is E8DA-80F1
+
+ Directory of D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books
+
+11/26/2020  09:27 PM    <DIR>          .
+11/26/2020  09:27 PM    <DIR>          ..
+11/23/2020  07:40 PM               705 app.py
+11/23/2020  03:32 PM    <DIR>          locators
+11/26/2020  09:25 PM         2,116,898 logs.txt
+11/23/2020  07:59 PM             1,452 menu.py
+11/23/2020  03:32 PM    <DIR>          pages
+11/23/2020  03:32 PM    <DIR>          parsers
+11/26/2020  09:27 PM               124 requirement.txt
+11/26/2020  09:21 PM    <DIR>          venv
+11/23/2020  07:42 PM    <DIR>          __pycache__
+               4 File(s)      2,119,179 bytes
+               7 Dir(s)  161,877,286,912 bytes free
+
+(venv) D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>requirement.txt
+
+(venv) D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>open requirement.txt
+'open' is not recognized as an internal or external command,
+operable program or batch file.
+
+(venv) D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>vi requirement.txt
+'vi' is not recognized as an internal or external command,
+operable program or batch file.
+
+(venv) D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>gedit requirement.txt
+'gedit' is not recognized as an internal or external command,
+operable program or batch file.
+
+(venv) D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>pip install -r requirement.txt
+Requirement already satisfied: beautifulsoup4==4.9.3 in d:\ganesh jamadar\python project\scraping books\scraping-books\venv\lib\site-packages (from -r requirement.txt (line 1)) (4.9.3)
+Requirement already satisfied: certifi==2020.11.8 in d:\ganesh jamadar\python project\scraping books\scraping-books\venv\lib\site-packages (from -r requirement.txt (line 2)) (2020.11.8)
+Requirement already satisfied: chardet==3.0.4 in d:\ganesh jamadar\python project\scraping books\scraping-books\venv\lib\site-packages (from -r requirement.txt (line 3)) (3.0.4)
+Requirement already satisfied: idna==2.10 in d:\ganesh jamadar\python project\scraping books\scraping-books\venv\lib\site-packages (from -r requirement.txt (line 4)) (2.10)
+Requirement already satisfied: requests==2.25.0 in d:\ganesh jamadar\python project\scraping books\scraping-books\venv\lib\site-packages (from -r requirement.txt (line 5)) (2.25.0)
+Requirement already satisfied: soupsieve==2.0.1 in d:\ganesh jamadar\python project\scraping books\scraping-books\venv\lib\site-packages (from -r requirement.txt (line 6)) (2.0.1)
+Requirement already satisfied: urllib3==1.26.2 in d:\ganesh jamadar\python project\scraping books\scraping-books\venv\lib\site-packages (from -r requirement.txt (line 7)) (1.26.2)
+
+(venv) D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>dir
+ Volume in drive D is New Volume
+ Volume Serial Number is E8DA-80F1
+
+ Directory of D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books
+
+11/26/2020  09:27 PM    <DIR>          .
+11/26/2020  09:27 PM    <DIR>          ..
+11/23/2020  07:40 PM               705 app.py
+11/23/2020  03:32 PM    <DIR>          locators
+11/26/2020  09:25 PM         2,116,898 logs.txt
+11/23/2020  07:59 PM             1,452 menu.py
+11/23/2020  03:32 PM    <DIR>          pages
+11/23/2020  03:32 PM    <DIR>          parsers
+11/26/2020  09:27 PM               124 requirement.txt
+11/26/2020  09:21 PM    <DIR>          venv
+11/23/2020  07:42 PM    <DIR>          __pycache__
+               4 File(s)      2,119,179 bytes
+               7 Dir(s)  161,877,286,912 bytes free
+
+(venv) D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>deactivate
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>rmdir venv
+The directory is not empty.
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>rmdir /S venv
+venv, Are you sure (Y/N)? y
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>dir
+ Volume in drive D is New Volume
+ Volume Serial Number is E8DA-80F1
+
+ Directory of D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books
+
+11/26/2020  09:31 PM    <DIR>          .
+11/26/2020  09:31 PM    <DIR>          ..
+11/23/2020  07:40 PM               705 app.py
+11/23/2020  03:32 PM    <DIR>          locators
+11/26/2020  09:25 PM         2,116,898 logs.txt
+11/23/2020  07:59 PM             1,452 menu.py
+11/23/2020  03:32 PM    <DIR>          pages
+11/23/2020  03:32 PM    <DIR>          parsers
+11/26/2020  09:27 PM               124 requirement.txt
+11/23/2020  07:42 PM    <DIR>          __pycache__
+               4 File(s)      2,119,179 bytes
+               6 Dir(s)  161,894,457,344 bytes free
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>pip install pipenv
+Collecting pipenv
+  Downloading pipenv-2020.11.15-py2.py3-none-any.whl (3.9 MB)
+     |████████████████████████████████| 3.9 MB 409 kB/s
+Requirement already satisfied: pip>=18.0 in c:\users\ganesh.jamadar\appdata\local\programs\python\python38-32\lib\site-packages (from pipenv) (20.2.4)
+Requirement already satisfied: setuptools>=36.2.1 in c:\users\ganesh.jamadar\appdata\local\programs\python\python38-32\lib\site-packages (from pipenv) (47.1.0)
+Requirement already satisfied: certifi in c:\users\ganesh.jamadar\appdata\local\programs\python\python38-32\lib\site-packages (from pipenv) (2020.6.20)
+Collecting virtualenv-clone>=0.2.5
+  Downloading virtualenv_clone-0.5.4-py2.py3-none-any.whl (6.6 kB)
+Requirement already satisfied: virtualenv in c:\users\ganesh.jamadar\appdata\local\programs\python\python38-32\lib\site-packages (from pipenv) (20.2.1)
+Requirement already satisfied: appdirs<2,>=1.4.3 in c:\users\ganesh.jamadar\appdata\local\programs\python\python38-32\lib\site-packages (from virtualenv->pipenv) (1.4.4)
+Requirement already satisfied: filelock<4,>=3.0.0 in c:\users\ganesh.jamadar\appdata\local\programs\python\python38-32\lib\site-packages (from virtualenv->pipenv) (3.0.12)
+Requirement already satisfied: distlib<1,>=0.3.1 in c:\users\ganesh.jamadar\appdata\local\programs\python\python38-32\lib\site-packages (from virtualenv->pipenv) (0.3.1)
+Requirement already satisfied: six<2,>=1.9.0 in c:\users\ganesh.jamadar\appdata\roaming\python\python38\site-packages (from virtualenv->pipenv) (1.15.0)
+Installing collected packages: virtualenv-clone, pipenv
+Successfully installed pipenv-2020.11.15 virtualenv-clone-0.5.4
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>pipenv
+Usage: pipenv [OPTIONS] COMMAND [ARGS]...
+
+Options:
+  --where                         Output project home information.
+  --venv                          Output virtualenv information.
+  --py                            Output Python interpreter information.
+  --envs                          Output Environment Variable options.
+  --rm                            Remove the virtualenv.
+  --bare                          Minimal output.
+  --completion                    Output completion (to be executed by the
+                                  shell).
+
+  --man                           Display manpage.
+  --support                       Output diagnostic information for use in
+                                  GitHub issues.
+
+  --site-packages / --no-site-packages
+                                  Enable site-packages for the virtualenv.
+                                  [env var: PIPENV_SITE_PACKAGES]
+
+  --python TEXT                   Specify which version of Python virtualenv
+                                  should use.
+
+  --three / --two                 Use Python 3/2 when creating virtualenv.
+  --clear                         Clears caches (pipenv, pip, and pip-tools).
+                                  [env var: PIPENV_CLEAR]
+
+  -v, --verbose                   Verbose mode.
+  --pypi-mirror TEXT              Specify a PyPI mirror.
+  --version                       Show the version and exit.
+  -h, --help                      Show this message and exit.
+
+
+Usage Examples:
+   Create a new project using Python 3.7, specifically:
+   $ pipenv --python 3.7
+
+   Remove project virtualenv (inferred from current directory):
+   $ pipenv --rm
+
+   Install all dependencies for a project (including dev):
+   $ pipenv install --dev
+
+   Create a lockfile containing pre-releases:
+   $ pipenv lock --pre
+
+   Show a graph of your installed dependencies:
+   $ pipenv graph
+
+   Check your installed dependencies for security vulnerabilities:
+   $ pipenv check
+
+   Install a local setup.py into your virtual environment/Pipfile:
+   $ pipenv install -e .
+
+   Use a lower-level pip command:
+   $ pipenv run pip freeze
+
+Commands:
+  check      Checks for PyUp Safety security vulnerabilities and against PEP
+             508 markers provided in Pipfile.
+
+  clean      Uninstalls all packages not specified in Pipfile.lock.
+  graph      Displays currently-installed dependency graph information.
+  install    Installs provided packages and adds them to Pipfile, or (if no
+             packages are given), installs all packages from Pipfile.
+
+  lock       Generates Pipfile.lock.
+  open       View a given module in your editor.
+  run        Spawns a command installed into the virtualenv.
+  scripts    Lists scripts in current environment config.
+  shell      Spawns a shell within the virtualenv.
+  sync       Installs all packages specified in Pipfile.lock.
+  uninstall  Uninstalls a provided package and removes it from Pipfile.
+  update     Runs lock, then sync.
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>pipenv install
+Creating a virtualenv for this project...
+Pipfile: D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books\Pipfile
+Using C:/Users/ganesh.jamadar/AppData/Local/Programs/Python/Python38-32/python.exe (3.8.5) to create virtualenv...
+[=   ] Creating virtual environment...created virtual environment CPython3.8.5.final.0-32 in 7242ms
+  creator CPython3Windows(dest=C:\Users\ganesh.jamadar\.virtualenvs\scraping-books-tW2_ytF4, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=C:\Users\ganesh.jamadar\AppData\Local\pypa\virtualenv)
+    added seed packages: pip==20.2.4, setuptools==50.3.2, wheel==0.35.1
+  activators BashActivator,BatchActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
+
+Successfully created virtual environment!
+Virtualenv location: C:\Users\ganesh.jamadar\.virtualenvs\scraping-books-tW2_ytF4
+Creating a Pipfile for this project...
+Pipfile.lock not found, creating...
+Locking [dev-packages] dependencies...
+Locking [packages] dependencies...
+Updated Pipfile.lock (db4242)!
+Installing dependencies from Pipfile.lock (db4242)...
+  ================================ 0/0 - 00:00:00
+To activate this project's virtualenv, run pipenv shell.
+Alternatively, run a command inside the virtualenv with pipenv run.
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>dir
+ Volume in drive D is New Volume
+ Volume Serial Number is E8DA-80F1
+
+ Directory of D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books
+
+11/26/2020  09:33 PM    <DIR>          .
+11/26/2020  09:33 PM    <DIR>          ..
+11/23/2020  07:40 PM               705 app.py
+11/23/2020  03:32 PM    <DIR>          locators
+11/26/2020  09:25 PM         2,116,898 logs.txt
+11/23/2020  07:59 PM             1,452 menu.py
+11/23/2020  03:32 PM    <DIR>          pages
+11/23/2020  03:32 PM    <DIR>          parsers
+11/26/2020  09:33 PM               138 Pipfile
+11/26/2020  09:33 PM               453 Pipfile.lock
+11/26/2020  09:27 PM               124 requirement.txt
+11/23/2020  07:42 PM    <DIR>          __pycache__
+               6 File(s)      2,119,770 bytes
+               6 Dir(s)  161,894,457,344 bytes free
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>edit Pipfile
+'edit' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>edit /R Pipfile
+'edit' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>pripfile
+'pripfile' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>dir
+ Volume in drive D is New Volume
+ Volume Serial Number is E8DA-80F1
+
+ Directory of D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books
+
+11/26/2020  09:33 PM    <DIR>          .
+11/26/2020  09:33 PM    <DIR>          ..
+11/23/2020  07:40 PM               705 app.py
+11/23/2020  03:32 PM    <DIR>          locators
+11/26/2020  09:25 PM         2,116,898 logs.txt
+11/23/2020  07:59 PM             1,452 menu.py
+11/23/2020  03:32 PM    <DIR>          pages
+11/23/2020  03:32 PM    <DIR>          parsers
+11/26/2020  09:33 PM               138 Pipfile
+11/26/2020  09:33 PM               453 Pipfile.lock
+11/26/2020  09:27 PM               124 requirement.txt
+11/23/2020  07:42 PM    <DIR>          __pycache__
+               6 File(s)      2,119,770 bytes
+               6 Dir(s)  161,894,457,344 bytes free
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>app.py
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>edit /R app.py
+'edit' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>delete /f requirement.txt
+'delete' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>del /f requirement.txt
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>dir
+ Volume in drive D is New Volume
+ Volume Serial Number is E8DA-80F1
+
+ Directory of D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books
+
+11/26/2020  09:39 PM    <DIR>          .
+11/26/2020  09:39 PM    <DIR>          ..
+11/23/2020  07:40 PM               705 app.py
+11/23/2020  03:32 PM    <DIR>          locators
+11/26/2020  09:25 PM         2,116,898 logs.txt
+11/23/2020  07:59 PM             1,452 menu.py
+11/23/2020  03:32 PM    <DIR>          pages
+11/23/2020  03:32 PM    <DIR>          parsers
+11/26/2020  09:33 PM               138 Pipfile
+11/26/2020  09:33 PM               453 Pipfile.lock
+11/23/2020  07:42 PM    <DIR>          __pycache__
+               5 File(s)      2,119,646 bytes
+               6 Dir(s)  161,894,457,344 bytes free
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>pipenv install
+Installing dependencies from Pipfile.lock (db4242)...
+  ================================ 0/0 - 00:00:00
+To activate this project's virtualenv, run pipenv shell.
+Alternatively, run a command inside the virtualenv with pipenv run.
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>run pipenv python menu.py
+'run' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>pipenv run python menu.py
+Traceback (most recent call last):
+  File "menu.py", line 1, in <module>
+    from app import books
+  File "D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books\app.py", line 1, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>pipenv run python menu.py
+Traceback (most recent call last):
+  File "menu.py", line 1, in <module>
+    from app import books
+  File "D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books\app.py", line 1, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>pipenv install
+Installing dependencies from Pipfile.lock (db4242)...
+  ================================ 0/0 - 00:00:00
+To activate this project's virtualenv, run pipenv shell.
+Alternatively, run a command inside the virtualenv with pipenv run.
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>pipenv run python menu.py
+Traceback (most recent call last):
+  File "menu.py", line 1, in <module>
+    from app import books
+  File "D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books\app.py", line 1, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>pipenv install
+Installing dependencies from Pipfile.lock (db4242)...
+  ================================ 0/0 - 00:00:00
+To activate this project's virtualenv, run pipenv shell.
+Alternatively, run a command inside the virtualenv with pipenv run.
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>pipenv run python menu.py
+Traceback (most recent call last):
+  File "menu.py", line 1, in <module>
+    from app import books
+  File "D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books\app.py", line 1, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>pip install requests
+Requirement already satisfied: requests in c:\users\ganesh.jamadar\appdata\local\programs\python\python38-32\lib\site-packages (2.24.0)
+Requirement already satisfied: chardet<4,>=3.0.2 in c:\users\ganesh.jamadar\appdata\local\programs\python\python38-32\lib\site-packages (from requests) (3.0.4)
+Requirement already satisfied: idna<3,>=2.5 in c:\users\ganesh.jamadar\appdata\local\programs\python\python38-32\lib\site-packages (from requests) (2.10)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in c:\users\ganesh.jamadar\appdata\local\programs\python\python38-32\lib\site-packages (from requests) (1.25.11)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\ganesh.jamadar\appdata\local\programs\python\python38-32\lib\site-packages (from requests) (2020.6.20)
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>pip upgrad
+ERROR: unknown command "upgrad"
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>pip upgrade
+ERROR: unknown command "upgrade"
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>pipenv run python menu.py
+Traceback (most recent call last):
+  File "menu.py", line 1, in <module>
+    from app import books
+  File "D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books\app.py", line 1, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>pip freeze > requirement.txt
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>dir
+ Volume in drive D is New Volume
+ Volume Serial Number is E8DA-80F1
+
+ Directory of D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books
+
+11/26/2020  09:47 PM    <DIR>          .
+11/26/2020  09:47 PM    <DIR>          ..
+11/23/2020  07:40 PM               705 app.py
+11/23/2020  03:32 PM    <DIR>          locators
+11/26/2020  09:25 PM         2,116,898 logs.txt
+11/23/2020  07:59 PM             1,452 menu.py
+11/23/2020  03:32 PM    <DIR>          pages
+11/23/2020  03:32 PM    <DIR>          parsers
+11/26/2020  09:33 PM               138 Pipfile
+11/26/2020  09:33 PM               453 Pipfile.lock
+11/26/2020  09:47 PM               401 requirement.txt
+11/23/2020  07:42 PM    <DIR>          __pycache__
+               6 File(s)      2,120,047 bytes
+               6 Dir(s)  161,894,457,344 bytes free
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>pipenv install
+Installing dependencies from Pipfile.lock (db4242)...
+  ================================ 0/0 - 00:00:00
+To activate this project's virtualenv, run pipenv shell.
+Alternatively, run a command inside the virtualenv with pipenv run.
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>pip freeeze
+ERROR: unknown command "freeeze" - maybe you meant "freeze"
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>pip freeze
+appdirs==1.4.4
+astroid==2.4.2
+beautifulsoup4==4.9.3
+certifi==2020.6.20
+chardet==3.0.4
+colorama==0.4.3
+distlib==0.3.1
+filelock==3.0.12
+idna==2.10
+isort==4.3.21
+lazy-object-proxy==1.4.3
+mccabe==0.6.1
+numpy==1.19.4
+pipenv==2020.11.15
+pylint==2.5.3
+requests==2.24.0
+six==1.15.0
+soupsieve==2.0.1
+toml==0.10.1
+urllib3==1.25.11
+virtualenv==20.2.1
+virtualenv-clone==0.5.4
+wrapt==1.12.1
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>pipenv install -r requirement.txt
+Requirements file provided! Importing into Pipfile...
+C:\Users\ganesh.jamadar\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\pipenv\vendor\urllib3\connectionpool.py:447: ResourceWarning: unclosed <ssl.SSLSocket fd=800, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.1.101', 57639), raddr=('151.101.128.223', 443)>
+  self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+C:\Users\ganesh.jamadar\AppData\Local\Programs\Python\Python38-32\Lib\site-packages\pipenv\vendor\urllib3\connectionpool.py:447: ResourceWarning: unclosed <ssl.SSLSocket fd=976, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('192.168.1.101', 57644), raddr=('151.101.128.223', 443)>
+  self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+Pipfile.lock (db4242) out of date, updating to (45be1b)...
+Locking [dev-packages] dependencies...
+Locking [packages] dependencies...
+ Locking...Building requirements...
+Resolving dependencies...
+Success!
+Updated Pipfile.lock (45be1b)!
+Installing dependencies from Pipfile.lock (45be1b)...
+  ================================ 23/23 - 00:00:42
+To activate this project's virtualenv, run pipenv shell.
+Alternatively, run a command inside the virtualenv with pipenv run.
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>pipenv install
+Installing dependencies from Pipfile.lock (45be1b)...
+  ================================ 0/0 - 00:00:00
+To activate this project's virtualenv, run pipenv shell.
+Alternatively, run a command inside the virtualenv with pipenv run.
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>pipenv run python menu.py
+
+Enter one of the following
+    - 'l' to list all books
+    - 'b' to look at 5-star books
+    - 'c' to look at cheapest books
+    - 'n' to just get next avilable book on catalogue
+    - 'q' to exit
+
+Enter your choice: l
+<Book A Light in the Attic, £51.77, (3 stars).>
+<Book Tipping the Velvet, £53.74, (1 stars).>
+<Book Soumission, £50.1, (1 stars).>
+<Book Sharp Objects, £47.82, (4 stars).>
+<Book Sapiens: A Brief History of Humankind, £54.23, (5 stars).>
+<Book The Requiem Red, £22.65, (1 stars).>
+<Book The Dirty Little Secrets of Getting Your Dream Job, £33.34, (4 stars).>
+<Book The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull, £17.93, (3 stars).>
+<Book The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics, £22.6, (4 stars).>
+<Book The Black Maria, £52.15, (1 stars).>
+<Book Starving Hearts (Triangular Trade Trilogy, #1), £13.99, (2 stars).>
+<Book Shakespeare's Sonnets, £20.66, (4 stars).>
+<Book Set Me Free, £17.46, (5 stars).>
+<Book Scott Pilgrim's Precious Little Life (Scott Pilgrim #1), £52.29, (5 stars).>
+<Book Rip it Up and Start Again, £35.02, (5 stars).>
+<Book Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991, £57.25, (3 stars).>
+<Book Olio, £23.88, (1 stars).>
+<Book Mesaerion: The Best Science Fiction Stories 1800-1849, £37.59, (1 stars).>
+<Book Libertarianism for Beginners, £51.33, (2 stars).>
+<Book It's Only the Himalayas, £45.17, (2 stars).>
+<Book In Her Wake, £12.84, (1 stars).>
+<Book How Music Works, £37.32, (2 stars).>
+<Book Foolproof Preserving: A Guide to Small Batch Jams, Jellies, Pickles, Condiments, and More: A Foolproof Guide to Making Small Batch Jams, Jellies, Pickles, Condiments, and More, £30.52, (3 stars).>
+<Book Chase Me (Paris Nights #2), £25.27, (5 stars).>
+<Book Black Dust, £34.53, (5 stars).>
+<Book Birdsong: A Story in Pictures, £54.64, (3 stars).>
+<Book America's Cradle of Quarterbacks: Western Pennsylvania's Football Factory from Johnny Unitas to Joe Montana, £22.5, (3 stars).>
+<Book Aladdin and His Wonderful Lamp, £53.13, (3 stars).>
+<Book Worlds Elsewhere: Journeys Around Shakespeare’s Globe, £40.3, (5 stars).>
+<Book Wall and Piece, £44.18, (4 stars).>
+<Book The Four Agreements: A Practical Guide to Personal Freedom, £17.66, (5 stars).>
+<Book The Five Love Languages: How to Express Heartfelt Commitment to Your Mate, £31.05, (3 stars).>
+<Book The Elephant Tree, £23.82, (5 stars).>
+<Book The Bear and the Piano, £36.89, (1 stars).>
+<Book Sophie's World, £15.94, (5 stars).>
+<Book Penny Maybe, £33.29, (3 stars).>
+<Book Maude (1883-1993):She Grew Up with the country, £18.02, (2 stars).>
+<Book In a Dark, Dark Wood, £19.63, (1 stars).>
+<Book Behind Closed Doors, £52.22, (4 stars).>
+<Book You can't bury them all: Poems, £33.63, (2 stars).>
+<Book Slow States of Collapse: Poems, £57.31, (3 stars).>
+<Book Reasons to Stay Alive, £26.41, (2 stars).>
+<Book Private Paris (Private #10), £47.61, (5 stars).>
+<Book #HigherSelfie: Wake Up Your Life. Free Your Soul. Find Your Tribe., £23.11, (5 stars).>
+<Book Without Borders (Wanderlove #1), £45.07, (2 stars).>
+<Book When We Collided, £31.77, (1 stars).>
+<Book We Love You, Charlie Freeman, £50.27, (5 stars).>
+<Book Untitled Collection: Sabbath Poems 2014, £14.27, (4 stars).>
+<Book Unseen City: The Majesty of Pigeons, the Discreet Charm of Snails & Other Wonders of the Urban Wilderness, £44.18, (4 stars).>
+<Book Unicorn Tracks, £18.78, (3 stars).>
+<Book Unbound: How Eight Technologies Made Us Human, Transformed Society, and Brought Our World to the Brink, £25.52, (1 stars).>
+<Book Tsubasa: WoRLD CHRoNiCLE 2 (Tsubasa WoRLD CHRoNiCLE #2), £16.28, (1 stars).>
+<Book Throwing Rocks at the Google Bus: How Growth Became the Enemy of Prosperity, £31.12, (3 stars).>
+<Book This One Summer, £19.49, (4 stars).>
+<Book Thirst, £17.27, (5 stars).>
+<Book The Torch Is Passed: A Harding Family Story, £19.09, (1 stars).>
+<Book The Secret of Dreadwillow Carse, £56.13, (1 stars).>
+<Book The Pioneer Woman Cooks: Dinnertime: Comfort Classics, Freezer Food, 16-Minute Meals, and Other Delicious Ways to Solve Supper!, £56.41, (1 stars).>
+<Book The Past Never Ends, £56.5, (4 stars).>
+<Book The Natural History of Us (The Fine Art of Pretending #2), £45.22, (3 stars).>
+<Book The Nameless City (The Nameless City #1), £38.16, (4 stars).>
+<Book The Murder That Never Was (Forensic Instincts #5), £54.11, (3 stars).>
+<Book The Most Perfect Thing: Inside (and Outside) a Bird's Egg, £42.96, (4 stars).>
+<Book The Mindfulness and Acceptance Workbook for Anxiety: A Guide to Breaking Free from Anxiety, Phobias, and Worry Using Acceptance and Commitment Therapy, £23.89, (4 stars).>
+<Book The Life-Changing Magic of Tidying Up: The Japanese Art of Decluttering and Organizing, £16.77, (3 stars).>
+<Book The Inefficiency Assassin: Time Management Tactics for Working Smarter, Not Longer, £20.59, (5 stars).>
+<Book The Gutsy Girl: Escapades for Your Life of Epic Adventure, £37.13, (1 stars).>
+<Book The Electric Pencil: Drawings from Inside State Hospital No. 3, £56.06, (1 stars).>
+<Book The Death of Humanity: and the Case for Life, £58.11, (4 stars).>
+<Book The Bulletproof Diet: Lose up to a Pound a Day, Reclaim Energy and Focus, Upgrade Your Life, £49.05, (3 stars).>
+<Book The Art Forger, £40.76, (3 stars).>
+<Book The Age of Genius: The Seventeenth Century and the Birth of the Modern Mind, £19.73, (1 stars).>
+<Book The Activist's Tao Te Ching: Ancient Advice for a Modern Revolution, £32.24, (5 stars).>
+<Book Spark Joy: An Illustrated Master Class on the Art of Organizing and Tidying Up, £41.83, (4 stars).>
+<Book Soul Reader, £39.58, (2 stars).>
+<Book Security, £39.25, (2 stars).>
+<Book Saga, Volume 6 (Saga (Collected Editions) #6), £25.02, (3 stars).>
+<Book Saga, Volume 5 (Saga (Collected Editions) #5), £51.04, (2 stars).>
+<Book Reskilling America: Learning to Labor in the Twenty-First Century, £19.83, (2 stars).>
+<Book Rat Queens, Vol. 3: Demons (Rat Queens (Collected Editions) #11-15), £50.4, (3 stars).>
+<Book Princess Jellyfish 2-in-1 Omnibus, Vol. 01 (Princess Jellyfish 2-in-1 Omnibus #1), £13.61, (5 stars).>
+<Book Princess Between Worlds (Wide-Awake Princess #5), £13.34, (5 stars).>
+<Book Pop Gun War, Volume 1: Gift, £18.97, (1 stars).>
+<Book Political Suicide: Missteps, Peccadilloes, Bad Calls, Backroom Hijinx, Sordid Pasts, Rotten Breaks, and Just Plain Dumb Mistakes in the Annals of American Politics, £36.28, (2 stars).>
+<Book Patience, £10.16, (3 stars).>
+<Book Outcast, Vol. 1: A Darkness Surrounds Him (Outcast #1), £15.44, (4 stars).>
+<Book orange: The Complete Collection 1 (orange: The Complete Collection #1), £48.41, (1 stars).>
+<Book Online Marketing for Busy Authors: A Step-By-Step Guide, £46.35, (1 stars).>
+<Book On a Midnight Clear, £14.07, (3 stars).>
+<Book Obsidian (Lux #1), £14.86, (2 stars).>
+<Book My Paris Kitchen: Recipes and Stories, £33.37, (2 stars).>
+<Book Masks and Shadows, £56.4, (2 stars).>
+<Book Mama Tried: Traditional Italian Cooking for the Screwed, Crude, Vegan, and Tattooed, £14.02, (4 stars).>
+<Book Lumberjanes, Vol. 2: Friendship to the Max (Lumberjanes #5-8), £46.91, (2 stars).>
+<Book Lumberjanes, Vol. 1: Beware the Kitten Holy (Lumberjanes #1-4), £45.61, (3 stars).>
+<Book Lumberjanes Vol. 3: A Terrible Plan (Lumberjanes #9-12), £19.92, (2 stars).>
+<Book Layered: Baking, Building, and Styling Spectacular Cakes, £40.11, (1 stars).>
+<Book Judo: Seven Steps to Black Belt (an Introductory Guide for Beginners), £53.9, (2 stars).>
+<Book Join, £35.67, (5 stars).>
+<Book In the Country We Love: My Family Divided, £22.0, (4 stars).>
+<Book Immunity: How Elie Metchnikoff Changed the Course of Modern Medicine, £57.36, (5 stars).>
+<Book I Hate Fairyland, Vol. 1: Madly Ever After (I Hate Fairyland (Compilations) #1-5), £29.17, (2 stars).>
+<Book I am a Hero Omnibus Volume 1, £54.63, (3 stars).>
+<Book How to Be Miserable: 40 Strategies You Already Use, £46.03, (1 stars).>
+<Book Her Backup Boyfriend (The Sorensen Family #1), £33.97, (1 stars).>
+<Book Giant Days, Vol. 2 (Giant Days #5-8), £22.11, (2 stars).>
+<Book Forever and Forever: The Courtship of Henry Longfellow and Fanny Appleton, £29.69, (3 stars).>
+<Book First and First (Five Boroughs #3), £15.97, (4 stars).>
+<Book Fifty Shades Darker (Fifty Shades #2), £21.96, (1 stars).>
+<Book Everydata: The Misinformation Hidden in the Little Data You Consume Every Day, £54.35, (2 stars).>
+<Book Don't Be a Jerk: And Other Practical Advice from Dogen, Japan's Greatest Zen Master, £37.97, (2 stars).>
+<Book Danganronpa Volume 1, £51.99, (4 stars).>
+<Book Crown of Midnight (Throne of Glass #2), £43.29, (3 stars).>
+<Book Codename Baboushka, Volume 1: The Conclave of Death, £36.72, (4 stars).>
+<Book Camp Midnight, £17.08, (4 stars).>
+<Book Call the Nurse: True Stories of a Country Nurse on a Scottish Isle, £29.14, (5 stars).>
+<Book Burning, £28.81, (3 stars).>
+<Book Bossypants, £49.46, (2 stars).>
+<Book Bitch Planet, Vol. 1: Extraordinary Machine (Bitch Planet (Collected Editions)), £37.92, (2 stars).>
+<Book Avatar: The Last Airbender: Smoke and Shadow, Part 3 (Smoke and Shadow #3), £28.09, (2 stars).>
+<Book Algorithms to Live By: The Computer Science of Human Decisions, £30.81, (1 stars).>
+<Book A World of Flavor: Your Gluten Free Passport, £42.95, (1 stars).>
+<Book A Piece of Sky, a Grain of Rice: A Memoir in Four Meditations, £56.76, (5 stars).>
+<Book A Murder in Time, £16.64, (1 stars).>
+<Book A Flight of Arrows (The Pathfinders #2), £55.53, (5 stars).>
+<Book A Fierce and Subtle Poison, £28.13, (4 stars).>
+<Book A Court of Thorns and Roses (A Court of Thorns and Roses #1), £52.37, (1 stars).>
+<Book (Un)Qualified: How God Uses Broken People to Do Big Things, £54.0, (5 stars).>
+<Book You Are What You Love: The Spiritual Power of Habit, £21.87, (4 stars).>
+<Book William Shakespeare's Star Wars: Verily, A New Hope (William Shakespeare's Star Wars #4), £43.3, (4 stars).>
+<Book Tuesday Nights in 1980, £21.04, (2 stars).>
+<Book Tracing Numbers on a Train, £41.6, (3 stars).>
+<Book Throne of Glass (Throne of Glass #1), £35.07, (3 stars).>
+<Book Thomas Jefferson and the Tripoli Pirates: The Forgotten War That Changed American History, £59.64, (1 stars).>
+<Book Thirteen Reasons Why, £52.72, (1 stars).>
+<Book The White Cat and the Monk: A Retelling of the Poem “Pangur Bán”, £58.08, (4 stars).>
+<Book The Wedding Dress, £24.12, (1 stars).>
+<Book The Vacationers, £42.15, (4 stars).>
+<Book The Third Wave: An Entrepreneur’s Vision of the Future, £12.61, (5 stars).>
+<Book The Stranger, £17.44, (4 stars).>
+<Book The Shadow Hero (The Shadow Hero), £33.14, (1 stars).>
+<Book The Secret (The Secret #1), £27.37, (4 stars).>
+<Book The Regional Office Is Under Attack!, £51.36, (5 stars).>
+<Book The Psychopath Test: A Journey Through the Madness Industry, £36.0, (2 stars).>
+<Book The Project, £10.65, (1 stars).>
+<Book The Power of Now: A Guide to Spiritual Enlightenment, £43.54, (2 stars).>
+<Book The Omnivore's Dilemma: A Natural History of Four Meals, £38.21, (2 stars).>
+<Book The Nerdy Nummies Cookbook: Sweet Treats for the Geek in All of Us, £37.34, (5 stars).>
+<Book The Murder of Roger Ackroyd (Hercule Poirot #4), £44.1, (4 stars).>
+<Book The Mistake (Off-Campus #2), £43.29, (3 stars).>
+<Book The Matchmaker's Playbook (Wingmen Inc. #1), £55.85, (1 stars).>
+<Book The Love and Lemons Cookbook: An Apple-to-Zucchini Celebration of Impromptu Cooking, £37.6, (2 stars).>
+<Book The Long Shadow of Small Ghosts: Murder and Memory in an American City, £10.97, (1 stars).>
+<Book The Kite Runner, £41.82, (4 stars).>
+<Book The House by the Lake, £36.95, (1 stars).>
+<Book The Glittering Court (The Glittering Court #1), £44.28, (1 stars).>
+<Book The Girl on the Train, £55.02, (2 stars).>
+<Book The Genius of Birds, £17.24, (1 stars).>
+<Book The Emerald Mystery, £23.15, (2 stars).>
+<Book The Cookies & Cups Cookbook: 125+ sweet & savory recipes reminding you to Always Eat Dessert First, £41.25, (1 stars).>
+<Book The Bridge to Consciousness: I'm Writing the Bridge Between Science and Our Old and New Beliefs., £32.0, (3 stars).>
+<Book The Artist's Way: A Spiritual Path to Higher Creativity, £38.49, (5 stars).>
+<Book The Art of War, £33.34, (5 stars).>
+<Book The Argonauts, £10.93, (2 stars).>
+<Book The 10% Entrepreneur: Live Your Startup Dream Without Quitting Your Day Job, £27.55, (3 stars).>
+<Book Suddenly in Love (Lake Haven #1), £55.99, (2 stars).>
+<Book Something More Than This, £16.24, (4 stars).>
+<Book Soft Apocalypse, £26.12, (2 stars).>
+<Book So You've Been Publicly Shamed, £12.23, (2 stars).>
+<Book Shoe Dog: A Memoir by the Creator of NIKE, £23.99, (2 stars).>
+<Book Shobu Samurai, Project Aryoku (#3), £29.06, (3 stars).>
+<Book Secrets and Lace (Fatal Hearts #1), £20.27, (1 stars).>
+<Book Scarlett Epstein Hates It Here, £43.55, (5 stars).>
+<Book Romero and Juliet: A Tragic Tale of Love and Zombies, £36.94, (1 stars).>
+<Book Redeeming Love, £20.47, (5 stars).>
+<Book Poses for Artists Volume 1 - Dynamic and Sitting Poses: An Essential Reference for Figure Drawing and the Human Form, £41.06, (1 stars).>
+<Book Poems That Make Grown Women Cry, £14.19, (4 stars).>
+<Book Nightingale, Sing, £38.28, (1 stars).>
+<Book Night Sky with Exit Wounds, £41.05, (1 stars).>
+<Book Mrs. Houdini, £30.25, (5 stars).>
+<Book Modern Romance, £28.26, (5 stars).>
+<Book Miss Peregrine’s Home for Peculiar Children (Miss Peregrine’s Peculiar Children #1), £10.76, (1 stars).>
+<Book Louisa: The Extraordinary Life of Mrs. Adams, £16.85, (2 stars).>
+<Book Little Red, £13.47, (3 stars).>
+<Book Library of Souls (Miss Peregrine’s Peculiar Children #3), £48.56, (5 stars).>
+<Book Large Print Heart of the Pride, £19.15, (2 stars).>
+<Book I Had a Nice Time And Other Lies...: How to find love & sh*t like that, £57.36, (4 stars).>
+<Book Hollow City (Miss Peregrine’s Peculiar Children #2), £42.98, (1 stars).>
+<Book Grumbles, £22.16, (2 stars).>
+<Book Full Moon over Noah’s Ark: An Odyssey to Mount Ararat and Beyond, £49.43, (4 stars).>
+<Book Frostbite (Vampire Academy #2), £29.99, (5 stars).>
+<Book Follow You Home, £21.36, (1 stars).>
+<Book First Steps for New Christians (Print Edition), £29.0, (1 stars).>
+<Book Finders Keepers (Bill Hodges Trilogy #2), £53.53, (5 stars).>
+<Book Fables, Vol. 1: Legends in Exile (Fables #1), £41.62, (4 stars).>
+<Book Eureka Trivia 6.0, £54.59, (4 stars).>
+<Book Drive: The Surprising Truth About What Motivates Us, £34.95, (4 stars).>
+<Book Done Rubbed Out (Reightman & Bailey #1), £37.72, (5 stars).>
+<Book Doing It Over (Most Likely To #1), £35.61, (3 stars).>
+<Book Deliciously Ella Every Day: Quick and Easy Recipes for Gluten-Free Snacks, Packed Lunches, and Simple Meals, £42.16, (3 stars).>
+<Book Dark Notes, £19.19, (5 stars).>
+<Book Daring Greatly: How the Courage to Be Vulnerable Transforms the Way We Live, Love, Parent, and Lead, £19.43, (3 stars).>
+<Book Close to You, £49.46, (4 stars).>
+<Book Chasing Heaven: What Dying Taught Me About Living, £37.8, (2 stars).>
+<Book Big Magic: Creative Living Beyond Fear, £30.8, (3 stars).>
+<Book Becoming Wise: An Inquiry into the Mystery and Art of Living, £27.43, (2 stars).>
+<Book Beauty Restored (Riley Family Legacy Novellas #3), £11.11, (2 stars).>
+<Book Batman: The Long Halloween (Batman), £36.5, (2 stars).>
+<Book Batman: The Dark Knight Returns (Batman), £15.38, (5 stars).>
+<Book Ayumi's Violin, £15.48, (2 stars).>
+<Book Anonymous, £46.82, (4 stars).>
+<Book Amy Meets the Saints and Sages, £18.46, (3 stars).>
+<Book Amid the Chaos, £36.58, (1 stars).>
+<Book Amatus, £50.54, (5 stars).>
+<Book Agnostic: A Spirited Manifesto, £12.51, (5 stars).>
+<Book Zealot: The Life and Times of Jesus of Nazareth, £24.7, (3 stars).>
+<Book You (You #1), £43.61, (5 stars).>
+<Book Wonder Woman: Earth One, Volume One (Wonder Woman: Earth One #1), £37.34, (4 stars).>
+<Book Wild Swans, £14.36, (2 stars).>
+<Book Why the Right Went Wrong: Conservatism--From Goldwater to the Tea Party and Beyond, £52.65, (4 stars).>
+<Book Whole Lotta Creativity Going On: 60 Fun and Unusual Exercises to Awaken and Strengthen Your Creativity, £38.2, (4 stars).>
+<Book What's It Like in Space?: Stories from Astronauts Who've Been There, £19.6, (2 stars).>
+<Book We Are Robin, Vol. 1: The Vigilante Business (We Are Robin #1), £53.9, (1 stars).>
+<Book Walt Disney's Alice in Wonderland, £12.96, (5 stars).>
+<Book V for Vendetta (V for Vendetta Complete), £37.1, (4 stars).>
+<Book Until Friday Night (The Field Party #1), £46.31, (2 stars).>
+<Book Unbroken: A World War II Story of Survival, Resilience, and Redemption, £45.95, (2 stars).>
+<Book Twenty Yawns, £22.08, (2 stars).>
+<Book Through the Woods, £25.38, (2 stars).>
+<Book This Is Where It Ends, £27.12, (2 stars).>
+<Book The Year of Magical Thinking, £43.04, (2 stars).>
+<Book The Wright Brothers, £56.8, (4 stars).>
+<Book The White Queen (The Cousins' War #1), £25.91, (5 stars).>
+<Book The Wedding Pact (The O'Malleys #2), £32.61, (3 stars).>
+<Book The Time Keeper, £27.88, (5 stars).>
+<Book The Testament of Mary, £52.67, (4 stars).>
+<Book The Star-Touched Queen, £46.02, (5 stars).>
+<Book The Songs of the Gods, £44.48, (5 stars).>
+<Book The Song of Achilles, £37.4, (5 stars).>
+<Book The Rosie Project (Don Tillman #1), £54.04, (1 stars).>
+<Book The Power of Habit: Why We Do What We Do in Life and Business, £16.88, (3 stars).>
+<Book The Marriage of Opposites, £28.08, (4 stars).>
+<Book The Lucifer Effect: Understanding How Good People Turn Evil, £10.4, (1 stars).>
+<Book The Long Haul (Diary of a Wimpy Kid #9), £44.07, (1 stars).>
+<Book The Loney, £23.4, (1 stars).>
+<Book The Literature Book (Big Ideas Simply Explained), £17.43, (3 stars).>
+<Book The Last Mile (Amos Decker #2), £54.21, (2 stars).>
+<Book The Immortal Life of Henrietta Lacks, £40.67, (2 stars).>
+<Book The Hidden Oracle (The Trials of Apollo #1), £52.26, (2 stars).>
+<Book The Help Yourself Cookbook for Kids: 60 Easy Plant-Based Recipes Kids Can Make to Stay Healthy and Save the Earth, £28.77, (3 stars).>
+<Book The Guilty (Will Robie #4), £13.82, (2 stars).>
+<Book The First Hostage (J.B. Collins #2), £25.85, (3 stars).>
+<Book The Dovekeepers, £48.78, (1 stars).>
+<Book The Darkest Lie, £35.35, (5 stars).>
+<Book The Bane Chronicles (The Bane Chronicles #1-11), £44.73, (4 stars).>
+<Book The Bad-Ass Librarians of Timbuktu: And Their Race to Save the World’s Most Precious Manuscripts, £15.77, (1 stars).>
+<Book The 14th Colony (Cotton Malone #11), £39.24, (1 stars).>
+<Book That Darkness (Gardiner and Renner #1), £13.92, (1 stars).>
+<Book Tastes Like Fear (DI Marnie Rome #3), £10.69, (1 stars).>
+<Book Take Me with You, £45.21, (3 stars).>
+<Book Swell: A Year of Waves, £45.58, (1 stars).>
+<Book Superman Vol. 1: Before Truth (Superman by Gene Luen Yang #1), £11.89, (5 stars).>
+<Book Still Life with Bread Crumbs, £26.41, (3 stars).>
+<Book Steve Jobs, £39.5, (5 stars).>
+<Book Sorting the Beef from the Bull: The Science of Food Fraud Forensics, £44.74, (4 stars).>
+<Book Someone Like You (The Harrisons #2), £52.79, (5 stars).>
+<Book So Cute It Hurts!!, Vol. 6 (So Cute It Hurts!! #6), £35.43, (4 stars).>
+<Book Shtum, £55.84, (4 stars).>
+<Book See America: A Celebration of Our National Parks & Treasured Sites, £48.87, (3 stars).>
+<Book salt., £46.78, (4 stars).>
+<Book Robin War, £47.82, (3 stars).>
+<Book Red Hood/Arsenal, Vol. 1: Open for Business (Red Hood/Arsenal #1), £25.48, (2 stars).>
+<Book Rain Fish, £23.57, (3 stars).>
+<Book Quarter Life Poetry: Poems for the Young, Broke and Hangry, £50.89, (5 stars).>
+<Book Pet Sematary, £10.56, (3 stars).>
+<Book Overload: How to Unplug, Unwind, and Unleash Yourself from the Pressure of Stress, £52.15, (3 stars).>
+<Book Once Was a Time, £18.28, (2 stars).>
+<Book Old School (Diary of a Wimpy Kid #10), £11.83, (5 stars).>
+<Book No Dream Is Too High: Life Lessons From a Man Who Walked on the Moon, £21.95, (2 stars).>
+<Book Naruto (3-in-1 Edition), Vol. 14: Includes Vols. 40, 41 & 42 (Naruto: Omnibus #14), £38.39, (2 stars).>
+<Book My Name Is Lucy Barton, £41.56, (1 stars).>
+<Book My Mrs. Brown, £24.48, (3 stars).>
+<Book My Kind of Crazy, £40.36, (1 stars).>
+<Book Mr. Mercedes (Bill Hodges Trilogy #1), £28.9, (1 stars).>
+<Book More Than Music (Chasing the Dream #1), £37.61, (2 stars).>
+<Book Made to Stick: Why Some Ideas Survive and Others Die, £38.85, (5 stars).>
+<Book Luis Paints the World, £53.95, (3 stars).>
+<Book Luckiest Girl Alive, £49.83, (3 stars).>
+<Book Lowriders to the Center of the Earth (Lowriders in Space #2), £51.51, (2 stars).>
+<Book Love Is a Mix Tape (Music #1), £18.03, (1 stars).>
+<Book Looking for Lovely: Collecting the Moments that Matter, £29.14, (5 stars).>
+<Book Living Leadership by Insight: A Good Leader Achieves, a Great Leader Builds Monuments, £46.91, (4 stars).>
+<Book Let It Out: A Journey Through Journaling, £26.79, (5 stars).>
+<Book Lady Midnight (The Dark Artifices #1), £16.28, (5 stars).>
+<Book It's All Easy: Healthy, Delicious Weeknight Meals in under 30 Minutes, £19.55, (1 stars).>
+<Book Island of Dragons (Unwanteds #7), £29.65, (1 stars).>
+<Book I Know What I'm Doing -- and Other Lies I Tell Myself: Dispatches from a Life Under Construction, £25.98, (4 stars).>
+<Book I Am Pilgrim (Pilgrim #1), £10.6, (4 stars).>
+<Book Hyperbole and a Half: Unfortunate Situations, Flawed Coping Mechanisms, Mayhem, and Other Things That Happened, £14.75, (5 stars).>
+<Book Hush, Hush (Hush, Hush #1), £47.02, (3 stars).>
+<Book Hold Your Breath (Search and Rescue #1), £28.82, (1 stars).>
+<Book Hamilton: The Revolution, £58.79, (3 stars).>
+<Book Greek Mythic History, £10.23, (5 stars).>
+<Book God: The Most Unpleasant Character in All Fiction, £30.03, (5 stars).>
+<Book Glory over Everything: Beyond The Kitchen House, £45.84, (3 stars).>
+<Book Feathers: Displays of Brilliant Plumage, £49.05, (3 stars).>
+<Book Far & Away: Places on the Brink of Change: Seven Continents, Twenty-Five Years, £15.06, (4 stars).>
+<Book Every Last Word, £46.47, (3 stars).>
+<Book Eligible (The Austen Project #4), £27.09, (3 stars).>
+<Book El Deafo, £57.62, (5 stars).>
+<Book Eight Hundred Grapes, £14.39, (4 stars).>
+<Book Eaternity: More than 150 Deliciously Easy Vegan Recipes for a Long, Healthy, Satisfied, Joyful Life, £51.75, (5 stars).>
+<Book Eat Fat, Get Thin, £54.07, (2 stars).>
+<Book Don't Get Caught, £55.35, (1 stars).>
+<Book Doctor Sleep (The Shining #2), £40.12, (2 stars).>
+<Book Demigods & Magicians: Percy and Annabeth Meet the Kanes (Percy Jackson & Kane Chronicles Crossover #1-3), £37.51, (5 stars).>
+<Book Dear Mr. Knightley, £11.21, (5 stars).>
+<Book Daily Fantasy Sports, £36.58, (1 stars).>
+<Book Crazy Love: Overwhelmed by a Relentless God, £47.72, (2 stars).>
+<Book Cometh the Hour (The Clifton Chronicles #6), £25.01, (3 stars).>
+<Book Code Name Verity (Code Name Verity #1), £22.13, (4 stars).>
+<Book Clockwork Angel (The Infernal Devices #1), £44.14, (1 stars).>
+<Book City of Glass (The Mortal Instruments #3), £56.02, (4 stars).>
+<Book City of Fallen Angels (The Mortal Instruments #4), £11.23, (4 stars).>
+<Book City of Bones (The Mortal Instruments #1), £43.28, (1 stars).>
+<Book City of Ashes (The Mortal Instruments #2), £47.27, (1 stars).>
+<Book Cell, £20.29, (4 stars).>
+<Book Catching Jordan (Hundred Oaks), £50.83, (3 stars).>
+<Book Carry On, Warrior: Thoughts on Life Unarmed, £31.85, (3 stars).>
+<Book Carrie, £46.23, (2 stars).>
+<Book Buying In: The Secret Dialogue Between What We Buy and Who We Are, £37.8, (4 stars).>
+<Book Brain on Fire: My Month of Madness, £49.32, (5 stars).>
+<Book Batman: Europa, £32.01, (2 stars).>
+<Book Barefoot Contessa Back to Basics, £28.01, (1 stars).>
+<Book Barefoot Contessa at Home: Everyday Recipes You'll Make Over and Over Again, £50.62, (5 stars).>
+<Book Balloon Animals, £17.03, (3 stars).>
+<Book Art Ops Vol. 1, £48.8, (3 stars).>
+<Book Aristotle and Dante Discover the Secrets of the Universe (Aristotle and Dante Discover the Secrets of the Universe #1), £58.14, (4 stars).>
+<Book Angels Walking (Angels Walking #1), £34.2, (2 stars).>
+<Book Angels & Demons (Robert Langdon #1), £51.48, (3 stars).>
+<Book All the Light We Cannot See, £29.87, (5 stars).>
+<Book Adulthood Is a Myth: A "Sarah's Scribbles" Collection, £10.9, (2 stars).>
+<Book Abstract City, £56.37, (5 stars).>
+<Book A Time of Torment (Charlie Parker #14), £48.35, (5 stars).>
+<Book A Study in Scarlet (Sherlock Holmes #1), £16.73, (2 stars).>
+<Book A Series of Catastrophes and Miracles: A True Story of Love, Science, and Cancer, £56.48, (2 stars).>
+<Book A People's History of the United States, £40.79, (2 stars).>
+<Book A Man Called Ove, £39.72, (1 stars).>
+<Book A Distant Mirror: The Calamitous 14th Century, £14.58, (3 stars).>
+<Book A Brush of Wings (Angels Walking #3), £55.51, (1 stars).>
+<Book 1491: New Revelations of the Americas Before Columbus, £21.8, (3 stars).>
+<Book The Three Searches, Meaning, and the Story, £13.33, (3 stars).>
+<Book Searching for Meaning in Gailana, £38.73, (1 stars).>
+<Book Rook, £37.86, (4 stars).>
+<Book My Kitchen Year: 136 Recipes That Saved My Life, £11.53, (2 stars).>
+<Book 13 Hours: The Inside Account of What Really Happened In Benghazi, £27.06, (1 stars).>
+<Book Will You Won't You Want Me?, £13.86, (3 stars).>
+<Book Tipping Point for Planet Earth: How Close Are We to the Edge?, £37.55, (1 stars).>
+<Book The Star-Touched Queen, £32.3, (5 stars).>
+<Book The Silent Sister (Riley MacPherson #1), £46.29, (5 stars).>
+<Book The Midnight Watch: A Novel of the Titanic and the Californian, £26.2, (1 stars).>
+<Book The Lonely City: Adventures in the Art of Being Alone, £33.26, (2 stars).>
+<Book The Gray Rhino: How to Recognize and Act on the Obvious Dangers We Ignore, £59.15, (4 stars).>
+<Book The Golden Condom: And Other Essays on Love Lost and Found, £39.43, (1 stars).>
+<Book The Epidemic (The Program 0.6), £14.44, (5 stars).>
+<Book The Dinner Party, £56.54, (2 stars).>
+<Book The Diary of a Young Girl, £59.9, (3 stars).>
+<Book The Children, £11.88, (3 stars).>
+<Book Stars Above (The Lunar Chronicles #4.5), £48.05, (2 stars).>
+<Book Snatched: How A Drug Queen Went Undercover for the DEA and Was Kidnapped By Colombian Guerillas, £21.21, (3 stars).>
+<Book Raspberry Pi Electronics Projects for the Evil Genius, £49.67, (4 stars).>
+<Book Quench Your Own Thirst: Business Lessons Learned Over a Beer or Two, £43.14, (1 stars).>
+<Book Psycho: Sanitarium (Psycho #1.5), £36.97, (5 stars).>
+<Book Poisonous (Max Revere Novels #3), £26.8, (3 stars).>
+<Book One with You (Crossfire #5), £15.71, (4 stars).>
+<Book No Love Allowed (Dodge Cove #1), £54.65, (4 stars).>
+<Book Murder at the 42nd Street Library (Raymond Ambler #1), £54.36, (4 stars).>
+<Book Most Wanted, £35.28, (3 stars).>
+<Book Love, Lies and Spies, £20.55, (2 stars).>
+<Book How to Speak Golf: An Illustrated Guide to Links Lingo, £58.32, (5 stars).>
+<Book Hide Away (Eve Duncan #20), £11.84, (1 stars).>
+<Book Furiously Happy: A Funny Book About Horrible Things, £41.46, (4 stars).>
+<Book Everyday Italian: 125 Simple and Delicious Recipes, £20.1, (5 stars).>
+<Book Equal Is Unfair: America's Misguided Fight Against Income Inequality, £56.86, (1 stars).>
+<Book Eleanor & Park, £56.51, (5 stars).>
+<Book Dirty (Dive Bar #1), £40.83, (4 stars).>
+<Book Can You Keep a Secret? (Fear Street Relaunch #4), £48.64, (1 stars).>
+<Book Boar Island (Anna Pigeon #19), £59.48, (3 stars).>
+<Book A Paris Apartment, £39.01, (4 stars).>
+<Book A la Mode: 120 Recipes in 60 Pairings: Pies, Tarts, Cakes, Crisps, and More Topped with Ice Cream, Gelato, Frozen Custard, and More, £38.77, (1 stars).>
+<Book Troublemaker: Surviving Hollywood and Scientology, £48.39, (2 stars).>
+<Book The Widow, £27.26, (2 stars).>
+<Book The Sleep Revolution: Transforming Your Life, One Night at a Time, £11.68, (4 stars).>
+<Book The Improbability of Love, £59.45, (1 stars).>
+<Book The Art of Startup Fundraising, £21.0, (3 stars).>
+<Book Take Me Home Tonight (Rock Star Romance #3), £53.98, (3 stars).>
+<Book Sleeping Giants (Themis Files #1), £48.74, (1 stars).>
+<Book Setting the World on Fire: The Brief, Astonishing Life of St. Catherine of Siena, £21.15, (2 stars).>
+<Book Playing with Fire, £13.71, (3 stars).>
+<Book Off the Hook (Fishing for Trouble #1), £47.67, (3 stars).>
+<Book Mothering Sunday, £13.34, (2 stars).>
+<Book Mother, Can You Not?, £16.89, (5 stars).>
+<Book M Train, £27.18, (1 stars).>
+<Book Lilac Girls, £17.28, (2 stars).>
+<Book Lies and Other Acts of Love, £45.14, (1 stars).>
+<Book Lab Girl, £40.85, (1 stars).>
+<Book Keep Me Posted, £20.46, (4 stars).>
+<Book It Didn't Start with You: How Inherited Family Trauma Shapes Who We Are and How to End the Cycle, £56.27, (3 stars).>
+<Book Grey (Fifty Shades #4), £48.49, (4 stars).>
+<Book Exit, Pursued by a Bear, £51.34, (4 stars).>
+<Book Daredevils, £16.34, (3 stars).>
+<Book Cravings: Recipes for What You Want to Eat, £20.5, (3 stars).>
+<Book Born for This: How to Find the Work You Were Meant to Do, £21.59, (5 stars).>
+<Book Arena, £21.36, (4 stars).>
+<Book Adultery, £20.88, (5 stars).>
+<Book A Mother's Reckoning: Living in the Aftermath of Tragedy, £19.53, (3 stars).>
+<Book A Gentleman's Position (Society of Gentlemen #3), £14.75, (5 stars).>
+<Book 11/22/63, £48.48, (3 stars).>
+<Book 10% Happier: How I Tamed the Voice in My Head, Reduced Stress Without Losing My Edge, and Found Self-Help That Actually Works, £24.57, (2 stars).>
+<Book 10-Day Green Smoothie Cleanse: Lose Up to 15 Pounds in 10 Days!, £49.71, (5 stars).>
+<Book Without Shame, £48.27, (5 stars).>
+<Book Watchmen, £58.05, (4 stars).>
+<Book Unlimited Intuition Now, £58.87, (4 stars).>
+<Book Underlying Notes, £11.82, (2 stars).>
+<Book The Shack, £28.03, (1 stars).>
+<Book The New Brand You: Your New Image Makes the Sale for You, £44.05, (5 stars).>
+<Book The Moosewood Cookbook: Recipes from Moosewood Restaurant, Ithaca, New York, £12.34, (4 stars).>
+<Book The Flowers Lied, £16.68, (2 stars).>
+<Book The Fabric of the Cosmos: Space, Time, and the Texture of Reality, £55.91, (1 stars).>
+<Book The Book of Mormon, £24.57, (3 stars).>
+<Book The Art and Science of Low Carbohydrate Living, £52.98, (5 stars).>
+<Book The Alien Club, £54.4, (1 stars).>
+<Book Suzie Snowflake: One beautiful flake (a self-esteem story), £54.81, (5 stars).>
+<Book Nap-a-Roo, £25.08, (1 stars).>
+<Book NaNo What Now? Finding your editing process, revising your NaNoWriMo book and building a writing career through publishing and beyond, £10.41, (4 stars).>
+<Book Modern Day Fables, £47.44, (2 stars).>
+<Book If I Gave You God's Phone Number....: Searching for Spirituality in America, £20.91, (1 stars).>
+<Book Fruits Basket, Vol. 9 (Fruits Basket #9), £33.95, (4 stars).>
+<Book Dress Your Family in Corduroy and Denim, £43.68, (3 stars).>
+<Book Don't Forget Steven, £33.23, (1 stars).>
+<Book Chernobyl 01:23:40: The Incredible True Story of the World's Worst Nuclear Disaster, £35.92, (2 stars).>
+<Book Art and Fear: Observations on the Perils (and Rewards) of Artmaking, £48.63, (4 stars).>
+<Book A Shard of Ice (The Black Symphony Saga #1), £56.63, (3 stars).>
+<Book A Hero's Curse (The Unseen Chronicles #1), £50.49, (3 stars).>
+<Book 23 Degrees South: A Tropical Tale of Changing Whether..., £35.79, (2 stars).>
+<Book Zero to One: Notes on Startups, or How to Build the Future, £34.06, (3 stars).>
+<Book Why Not Me?, £17.76, (1 stars).>
+<Book When Breath Becomes Air, £39.36, (2 stars).>
+<Book Vagabonding: An Uncommon Guide to the Art of Long-Term World Travel, £36.94, (2 stars).>
+<Book The Unlikely Pilgrimage of Harold Fry (Harold Fry #1), £43.62, (5 stars).>
+<Book The New Drawing on the Right Side of the Brain, £43.02, (3 stars).>
+<Book The Midnight Assassin: Panic, Scandal, and the Hunt for America's First Serial Killer, £28.45, (4 stars).>
+<Book The Martian (The Martian #1), £41.39, (2 stars).>
+<Book The High Mountains of Portugal, £51.15, (1 stars).>
+<Book The Grownup, £35.88, (1 stars).>
+<Book The E-Myth Revisited: Why Most Small Businesses Don't Work and What to Do About It, £36.91, (1 stars).>
+<Book South of Sunshine, £28.93, (1 stars).>
+<Book Smarter Faster Better: The Secrets of Being Productive in Life and Business, £38.89, (5 stars).>
+<Book Silence in the Dark (Logan Point #4), £58.33, (3 stars).>
+<Book Shadows of the Past (Logan Point #1), £39.67, (5 stars).>
+<Book Roller Girl, £14.1, (5 stars).>
+<Book Rising Strong, £21.82, (3 stars).>
+<Book Proofs of God: Classical Arguments from Tertullian to Barth, £54.21, (1 stars).>
+<Book Please Kill Me: The Uncensored Oral History of Punk, £31.19, (4 stars).>
+<Book Out of Print: City Lights Spotlight No. 14, £53.64, (5 stars).>
+<Book My Life Next Door (My Life Next Door ), £36.39, (5 stars).>
+<Book Miller's Valley, £58.54, (2 stars).>
+<Book Man's Search for Meaning, £29.48, (3 stars).>
+<Book Love That Boy: What Two Presidents, Eight Road Trips, and My Son Taught Me About a Parent's Expectations, £25.06, (2 stars).>
+<Book Living Forward: A Proven Plan to Stop Drifting and Get the Life You Want, £12.55, (3 stars).>
+<Book Les Fleurs du Mal, £29.04, (5 stars).>
+<Book Left Behind (Left Behind #1), £40.72, (2 stars).>
+<Book Kill 'Em and Leave: Searching for James Brown and the American Soul, £45.05, (5 stars).>
+<Book Kierkegaard: A Christian Missionary to Christians, £47.13, (1 stars).>
+<Book John Vassos: Industrial Design for Modern Life, £20.22, (4 stars).>
+<Book I'll Give You the Sun, £56.48, (1 stars).>
+<Book I Will Find You, £44.21, (1 stars).>
+<Book Hystopia: A Novel, £21.96, (4 stars).>
+<Book Howl and Other Poems, £40.45, (2 stars).>
+<Book History of Beauty, £10.29, (4 stars).>
+<Book Heaven is for Real: A Little Boy's Astounding Story of His Trip to Heaven and Back, £52.86, (2 stars).>
+<Book Future Shock (Future Shock #1), £55.65, (5 stars).>
+<Book Ender's Game (The Ender Quintet #1), £43.64, (1 stars).>
+<Book Diary of a Citizen Scientist: Chasing Tiger Beetles and Other New Ways of Engaging the World, £28.41, (1 stars).>
+<Book Death by Leisure: A Cautionary Tale, £37.51, (4 stars).>
+<Book Brilliant Beacons: A History of the American Lighthouse, £11.45, (3 stars).>
+<Book Brazen: The Courage to Find the You That's Been Hiding, £19.22, (2 stars).>
+<Book Between the World and Me, £56.91, (4 stars).>
+<Book Being Mortal: Medicine and What Matters in the End, £55.06, (4 stars).>
+<Book A Murder Over a Girl: Justice, Gender, Junior High, £13.2, (3 stars).>
+<Book 32 Yolks, £53.63, (2 stars).>
+<Book "Most Blessed of the Patriarchs": Thomas Jefferson and the Empire of the Imagination, £44.48, (5 stars).>
+<Book You Are a Badass: How to Stop Doubting Your Greatness and Start Living an Awesome Life, £12.08, (3 stars).>
+<Book Wildlife of New York: A Five-Borough Coloring Book, £22.14, (2 stars).>
+<Book What Happened on Beale Street (Secrets of the South Mysteries #2), £25.37, (5 stars).>
+<Book Unreasonable Hope: Finding Faith in the God Who Brings Purpose to Your Pain, £46.33, (2 stars).>
+<Book Under the Tuscan Sun, £37.33, (3 stars).>
+<Book Toddlers Are A**holes: It's Not Your Fault, £25.55, (1 stars).>
+<Book The Year of Living Biblically: One Man's Humble Quest to Follow the Bible as Literally as Possible, £34.72, (1 stars).>
+<Book The Whale, £35.96, (4 stars).>
+<Book The Story of Art, £41.14, (4 stars).>
+<Book The Origin of Species, £10.01, (4 stars).>
+<Book The Great Gatsby, £36.05, (4 stars).>
+<Book The Good Girl, £49.03, (3 stars).>
+<Book The Glass Castle, £16.24, (1 stars).>
+<Book The Faith of Christopher Hitchens: The Restless Soul of the World's Most Notorious Atheist, £39.55, (1 stars).>
+<Book The Drowning Girls, £35.67, (3 stars).>
+<Book The Constant Princess (The Tudor Court #1), £16.62, (3 stars).>
+<Book The Bourne Identity (Jason Bourne #1), £42.78, (4 stars).>
+<Book The Bachelor Girl's Guide to Murder (Herringford and Watts Mysteries #1), £52.3, (5 stars).>
+<Book The Art Book, £32.34, (2 stars).>
+<Book The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change, £33.17, (4 stars).>
+<Book Team of Rivals: The Political Genius of Abraham Lincoln, £20.12, (5 stars).>
+<Book Steal Like an Artist: 10 Things Nobody Told You About Being Creative, £20.9, (2 stars).>
+<Book Sit, Stay, Love, £20.9, (3 stars).>
+<Book Sister Dear, £40.2, (4 stars).>
+<Book Shrunken Treasures: Literary Classics, Short, Sweet, and Silly, £52.87, (3 stars).>
+<Book Rich Dad, Poor Dad, £51.74, (1 stars).>
+<Book Raymie Nightingale, £34.41, (2 stars).>
+<Book Playing from the Heart, £32.38, (1 stars).>
+<Book Nightstruck: A Novel, £50.35, (4 stars).>
+<Book Naturally Lean: 125 Nourishing Gluten-Free, Plant-Based Recipes--All Under 300 Calories, £11.38, (5 stars).>
+<Book Meternity, £43.58, (3 stars).>
+<Book Memoirs of a Geisha, £49.67, (3 stars).>
+<Book Like Never Before (Walker Family #2), £28.77, (2 stars).>
+<Book Life of Pi, £13.22, (4 stars).>
+<Book Leave This Song Behind: Teen Poetry at Its Best, £51.17, (5 stars).>
+<Book King's Folly (The Kinsman Chronicles #1), £39.61, (5 stars).>
+<Book John Adams, £57.43, (4 stars).>
+<Book How to Cook Everything Vegetarian: Simple Meatless Recipes for Great Food (How to Cook Everything), £46.01, (4 stars).>
+<Book How to Be a Domestic Goddess: Baking and the Art of Comfort Cooking, £28.25, (2 stars).>
+<Book Good in Bed (Cannie Shapiro #1), £37.05, (5 stars).>
+<Book Fruits Basket, Vol. 7 (Fruits Basket #7), £19.57, (1 stars).>
+<Book For the Love: Fighting for Grace in a World of Impossible Standards, £45.13, (3 stars).>
+<Book Finding God in the Ruins: How God Redeems Pain, £46.64, (2 stars).>
+<Book Every Heart a Doorway (Every Heart A Doorway #1), £12.16, (5 stars).>
+<Book Delivering the Truth (Quaker Midwife Mystery #1), £20.89, (4 stars).>
+<Book Counted With the Stars (Out from Egypt #1), £17.97, (5 stars).>
+<Book Chronicles, Vol. 1, £52.6, (2 stars).>
+<Book Blue Like Jazz: Nonreligious Thoughts on Christian Spirituality, £25.77, (1 stars).>
+<Book Benjamin Franklin: An American Life, £48.19, (3 stars).>
+<Book At The Existentialist Café: Freedom, Being, and apricot cocktails with: Jean-Paul Sartre, Simone de Beauvoir, Albert Camus, Martin Heidegger, Edmund Husserl, Karl Jaspers, Maurice Merleau-Ponty and others, £29.93, (5 stars).>
+<Book A Summer In Europe, £44.34, (2 stars).>
+<Book A Short History of Nearly Everything, £52.4, (5 stars).>
+<Book A Gathering of Shadows (Shades of Magic #2), £44.81, (4 stars).>
+<Book The Sound Of Love, £57.84, (5 stars).>
+<Book The Rise and Fall of the Third Reich: A History of Nazi Germany, £39.67, (2 stars).>
+<Book The Perks of Being a Wallflower, £55.02, (3 stars).>
+<Book The Mysterious Affair at Styles (Hercule Poirot #1), £24.8, (4 stars).>
+<Book The Man Who Mistook His Wife for a Hat and Other Clinical Tales, £59.45, (4 stars).>
+<Book The Makings of a Fatherless Child, £31.58, (2 stars).>
+<Book The Joy of Cooking, £43.27, (4 stars).>
+<Book The Invention of Wings, £37.34, (1 stars).>
+<Book The Hobbit (Middle-Earth Universe), £17.8, (5 stars).>
+<Book The Great Railway Bazaar, £30.54, (1 stars).>
+<Book The Golden Compass (His Dark Materials #1), £18.77, (1 stars).>
+<Book The God Delusion, £46.85, (3 stars).>
+<Book The Girl You Left Behind (The Girl You Left Behind #1), £15.79, (1 stars).>
+<Book The Fellowship of the Ring (The Lord of the Rings #1), £10.27, (2 stars).>
+<Book The Collected Poems of W.B. Yeats (The Collected Works of W.B. Yeats #1), £15.42, (5 stars).>
+<Book The Barefoot Contessa Cookbook, £59.92, (5 stars).>
+<Book Tell the Wolves I'm Home, £50.96, (2 stars).>
+<Book Ship Leaves Harbor: Essays on Travel by a Recovering Journeyman, £30.6, (3 stars).>
+<Book Pride and Prejudice, £19.27, (4 stars).>
+<Book Musicophilia: Tales of Music and the Brain, £46.58, (1 stars).>
+<Book Mere Christianity, £48.51, (3 stars).>
+<Book Me Before You (Me Before You #1), £19.02, (1 stars).>
+<Book In the Woods (Dublin Murder Squad #1), £38.38, (2 stars).>
+<Book In Cold Blood, £49.98, (4 stars).>
+<Book How to Stop Worrying and Start Living, £46.49, (5 stars).>
+<Book Give It Back, £18.32, (2 stars).>
+<Book Girl, Interrupted, £42.14, (3 stars).>
+<Book Fun Home: A Family Tragicomic, £56.59, (4 stars).>
+<Book Fruits Basket, Vol. 6 (Fruits Basket #6), £20.96, (4 stars).>
+<Book Deception Point, £40.32, (4 stars).>
+<Book Death Note, Vol. 6: Give-and-Take (Death Note #6), £36.39, (3 stars).>
+<Book Catherine the Great: Portrait of a Woman, £58.55, (4 stars).>
+<Book Better Homes and Gardens New Cook Book, £39.61, (3 stars).>
+<Book An Unquiet Mind: A Memoir of Moods and Madness, £21.3, (3 stars).>
+<Book A Year in Provence (Provence #1), £56.88, (4 stars).>
+<Book World Without End (The Pillars of the Earth #2), £32.97, (4 stars).>
+<Book Will Grayson, Will Grayson (Will Grayson, Will Grayson), £47.31, (4 stars).>
+<Book Why Save the Bankers?: And Other Essays on Our Economic and Political Crisis, £48.67, (2 stars).>
+<Book Where She Went (If I Stay #2), £41.73, (4 stars).>
+<Book What If?: Serious Scientific Answers to Absurd Hypothetical Questions, £53.68, (4 stars).>
+<Book Two Summers, £14.64, (1 stars).>
+<Book This Is Your Brain on Music: The Science of a Human Obsession, £38.4, (1 stars).>
+<Book The Secret Garden, £15.08, (4 stars).>
+<Book The Raven King (The Raven Cycle #4), £30.57, (2 stars).>
+<Book The Raven Boys (The Raven Cycle #1), £57.74, (4 stars).>
+<Book The Power Greens Cookbook: 140 Delicious Superfood Recipes, £11.05, (5 stars).>
+<Book The Metamorphosis, £28.58, (1 stars).>
+<Book The Mathews Men: Seven Brothers and the War Against Hitler's U-boats, £42.91, (5 stars).>
+<Book The Little Paris Bookshop, £24.73, (3 stars).>
+<Book The Hiding Place, £55.91, (4 stars).>
+<Book The Grand Design, £13.76, (3 stars).>
+<Book The Firm, £45.56, (3 stars).>
+<Book The Fault in Our Stars, £47.22, (1 stars).>
+<Book The False Prince (The Ascendance Trilogy #1), £56.0, (5 stars).>
+<Book The Expatriates, £44.58, (2 stars).>
+<Book The Dream Thieves (The Raven Cycle #2), £34.5, (1 stars).>
+<Book The Darkest Corners, £11.33, (5 stars).>
+<Book The Crossover, £38.77, (4 stars).>
+<Book The 5th Wave (The 5th Wave #1), £11.83, (2 stars).>
+<Book Tell the Wind and Fire, £45.51, (3 stars).>
+<Book Tell Me Three Things, £41.81, (1 stars).>
+<Book Talking to Girls About Duran Duran: One Young Man's Quest for True Love and a Cooler Haircut, £25.15, (4 stars).>
+<Book Siddhartha, £34.22, (5 stars).>
+<Book Shiver (The Wolves of Mercy Falls #1), £16.23, (5 stars).>
+<Book Remember Me?, £11.48, (3 stars).>
+<Book Red Dragon (Hannibal Lecter #1), £23.37, (3 stars).>
+<Book Peak: Secrets from the New Science of Expertise, £16.28, (2 stars).>
+<Book My Mother Was Nuts, £31.63, (4 stars).>
+<Book Mexican Today: New and Rediscovered Recipes for Contemporary Kitchens, £24.91, (5 stars).>
+<Book Maybe Something Beautiful: How Art Transformed a Neighborhood, £22.54, (1 stars).>
+<Book Lola and the Boy Next Door (Anna and the French Kiss #2), £23.63, (4 stars).>
+<Book Logan Kade (Fallen Crest High #5.5), £13.12, (2 stars).>
+<Book Last One Home (New Beginnings #1), £59.98, (3 stars).>
+<Book Killing Floor (Jack Reacher #1), £31.49, (4 stars).>
+<Book Kill the Boy Band, £15.52, (5 stars).>
+<Book Isla and the Happily Ever After (Anna and the French Kiss #3), £48.13, (5 stars).>
+<Book If I Stay (If I Stay #1), £38.13, (5 stars).>
+<Book I Know Why the Caged Bird Sings (Maya Angelou's Autobiography #1), £36.55, (2 stars).>
+<Book Harry Potter and the Deathly Hallows (Harry Potter #7), £23.32, (1 stars).>
+<Book Fruits Basket, Vol. 5 (Fruits Basket #5), £16.33, (1 stars).>
+<Book Foundation (Foundation (Publication Order) #1), £32.42, (1 stars).>
+<Book Fool Me Once, £16.96, (1 stars).>
+<Book Find Her (Detective D.D. Warren #8), £22.37, (1 stars).>
+<Book Evicted: Poverty and Profit in the American City, £42.27, (1 stars).>
+<Book Drama, £38.7, (2 stars).>
+<Book Dracula the Un-Dead, £35.63, (5 stars).>
+<Book Digital Fortress, £58.0, (5 stars).>
+<Book Death Note, Vol. 5: Whiteout (Death Note #5), £52.41, (1 stars).>
+<Book Data, A Love Story: How I Gamed Online Dating to Meet My Match, £32.35, (3 stars).>
+<Book Critique of Pure Reason, £20.75, (1 stars).>
+<Book Booked, £17.49, (5 stars).>
+<Book Blue Lily, Lily Blue (The Raven Cycle #3), £34.13, (5 stars).>
+<Book Approval Junkie: Adventures in Caring Too Much, £58.81, (5 stars).>
+<Book An Abundance of Katherines, £10.0, (5 stars).>
+<Book America's War for the Greater Middle East: A Military History, £51.22, (2 stars).>
+<Book Alight (The Generations Trilogy #2), £58.59, (4 stars).>
+<Book A Girl's Guide to Moving On (New Beginnings #2), £31.3, (1 stars).>
+<Book A Game of Thrones (A Song of Ice and Fire #1), £46.42, (2 stars).>
+<Book A Feast for Crows (A Song of Ice and Fire #4), £17.21, (4 stars).>
+<Book A Clash of Kings (A Song of Ice and Fire #2), £10.79, (3 stars).>
+<Book Vogue Colors A to Z: A Fashion Coloring Book, £52.35, (4 stars).>
+<Book The Shining (The Shining #1), £27.88, (3 stars).>
+<Book The Pilgrim's Progress, £50.26, (2 stars).>
+<Book The Perfect Play (Play by Play #1), £59.99, (3 stars).>
+<Book The Passion of Dolssa, £28.32, (5 stars).>
+<Book The Jazz of Physics: The Secret Link Between Music and the Structure of the Universe, £38.71, (3 stars).>
+<Book The Hunger Games (The Hunger Games #1), £29.85, (5 stars).>
+<Book The Hound of the Baskervilles (Sherlock Holmes #5), £14.82, (2 stars).>
+<Book The Gunning of America: Business and the Making of American Gun Culture, £16.81, (4 stars).>
+<Book The Geography of Bliss: One Grump's Search for the Happiest Places in the World, £28.23, (2 stars).>
+<Book The Demonists (Demonist #1), £52.11, (2 stars).>
+<Book The Demon Prince of Momochi House, Vol. 4 (The Demon Prince of Momochi House #4), £27.88, (2 stars).>
+<Book The Bone Hunters (Lexy Vaughan & Steven Macaulay #2), £59.71, (3 stars).>
+<Book The Beast (Black Dagger Brotherhood #14), £46.08, (5 stars).>
+<Book Some Women, £13.73, (5 stars).>
+<Book Shopaholic Ties the Knot (Shopaholic #3), £48.39, (5 stars).>
+<Book Paper and Fire (The Great Library #2), £49.45, (5 stars).>
+<Book Outlander (Outlander #1), £19.67, (5 stars).>
+<Book Orchestra of Exiles: The Story of Bronislaw Huberman, the Israel Philharmonic, and the One Thousand Jews He Saved from Nazi Horrors, £12.36, (3 stars).>
+<Book No One Here Gets Out Alive, £20.02, (5 stars).>
+<Book Night Shift (Night Shift #1-20), £12.75, (4 stars).>
+<Book Needful Things, £47.51, (4 stars).>
+<Book Mockingjay (The Hunger Games #3), £20.44, (4 stars).>
+<Book Misery, £34.79, (2 stars).>
+<Book Little Women (Little Women #1), £28.07, (4 stars).>
+<Book It, £25.01, (3 stars).>
+<Book Harry Potter and the Sorcerer's Stone (Harry Potter #1), £13.9, (3 stars).>
+<Book Harry Potter and the Prisoner of Azkaban (Harry Potter #3), £24.17, (4 stars).>
+<Book Harry Potter and the Order of the Phoenix (Harry Potter #5), £31.63, (4 stars).>
+<Book Harry Potter and the Half-Blood Prince (Harry Potter #6), £48.75, (5 stars).>
+<Book Harry Potter and the Chamber of Secrets (Harry Potter #2), £14.74, (1 stars).>
+<Book Gone with the Wind, £32.49, (3 stars).>
+<Book God Is Not Great: How Religion Poisons Everything, £27.8, (1 stars).>
+<Book Girl With a Pearl Earring, £26.77, (1 stars).>
+<Book Fruits Basket, Vol. 4 (Fruits Basket #4), £50.44, (4 stars).>
+<Book Far From True (Promise Falls Trilogy #2), £34.93, (2 stars).>
+<Book Dark Lover (Black Dagger Brotherhood #1), £12.87, (1 stars).>
+<Book Confessions of a Shopaholic (Shopaholic #1), £48.94, (2 stars).>
+<Book Changing the Game (Play by Play #2), £13.38, (3 stars).>
+<Book Candide, £58.63, (3 stars).>
+<Book Can You Keep a Secret?, £21.94, (1 stars).>
+<Book Atlas Shrugged, £26.58, (5 stars).>
+<Book Animal Farm, £57.22, (3 stars).>
+<Book A Walk to Remember, £56.43, (1 stars).>
+<Book A New Earth: Awakening to Your Life's Purpose, £55.65, (5 stars).>
+<Book A History of God: The 4,000-Year Quest of Judaism, Christianity, and Islam, £27.62, (1 stars).>
+<Book 'Salem's Lot, £49.56, (4 stars).>
+<Book Zero History (Blue Ant #3), £34.77, (1 stars).>
+<Book Wuthering Heights, £17.73, (3 stars).>
+<Book World War Z: An Oral History of the Zombie War, £21.8, (1 stars).>
+<Book Wild: From Lost to Found on the Pacific Crest Trail, £46.02, (3 stars).>
+<Book Where'd You Go, Bernadette, £18.13, (1 stars).>
+<Book When You Are Engulfed in Flames, £30.89, (5 stars).>
+<Book We the People: The Modern-Day Figures Who Have Reshaped and Affirmed the Founding Fathers' Vision of America, £31.95, (3 stars).>
+<Book We Are All Completely Beside Ourselves, £24.04, (1 stars).>
+<Book Walk the Edge (Thunder Road #2), £32.36, (3 stars).>
+<Book Voyager (Outlander #3), £21.07, (5 stars).>
+<Book Very Good Lives: The Fringe Benefits of Failure and the Importance of Imagination, £50.66, (3 stars).>
+<Book Vegan Vegetarian Omnivore: Dinner for Everyone at the Table, £13.66, (2 stars).>
+<Book Unstuffed: Decluttering Your Home, Mind, and Soul, £58.09, (1 stars).>
+<Book Under the Banner of Heaven: A Story of Violent Faith, £30.0, (1 stars).>
+<Book Two Boys Kissing, £32.74, (2 stars).>
+<Book Twilight (Twilight #1), £41.93, (2 stars).>
+<Book Twenties Girl, £42.8, (2 stars).>
+<Book Trespassing Across America: One Man's Epic, Never-Done-Before (and Sort of Illegal) Hike Across the Heartland, £53.51, (1 stars).>
+<Book Three-Martini Lunch, £23.21, (3 stars).>
+<Book Thinking, Fast and Slow, £21.14, (1 stars).>
+<Book The Wild Robot, £56.07, (3 stars).>
+<Book The Wicked + The Divine, Vol. 3: Commercial Suicide (The Wicked + The Divine), £14.41, (3 stars).>
+<Book The Undomestic Goddess, £45.75, (4 stars).>
+<Book The Travelers, £15.77, (1 stars).>
+<Book The Tipping Point: How Little Things Can Make a Big Difference, £10.02, (2 stars).>
+<Book The Thing About Jellyfish, £48.77, (1 stars).>
+<Book The Stand, £57.86, (2 stars).>
+<Book The Smitten Kitchen Cookbook, £23.59, (1 stars).>
+<Book The Silkworm (Cormoran Strike #2), £23.05, (5 stars).>
+<Book The Sandman, Vol. 3: Dream Country (The Sandman (volumes) #3), £55.55, (5 stars).>
+<Book The Rose & the Dagger (The Wrath and the Dawn #2), £58.64, (4 stars).>
+<Book The Road to Little Dribbling: Adventures of an American in Britain (Notes From a Small Island #2), £23.21, (1 stars).>
+<Book The Rise of Theodore Roosevelt (Theodore Roosevelt #1), £42.57, (3 stars).>
+<Book The Restaurant at the End of the Universe (Hitchhiker's Guide to the Galaxy #2), £10.92, (1 stars).>
+<Book The Rest Is Noise: Listening to the Twentieth Century, £34.77, (1 stars).>
+<Book The Red Tent, £35.66, (5 stars).>
+<Book The Purpose Driven Life: What on Earth Am I Here for?, £37.19, (3 stars).>
+<Book The Purest Hook (Second Circle Tattoos #3), £12.25, (1 stars).>
+<Book The Picture of Dorian Gray, £29.7, (2 stars).>
+<Book The Paris Wife, £36.8, (3 stars).>
+<Book The Obsession, £45.43, (1 stars).>
+<Book The Nightingale, £26.26, (4 stars).>
+<Book The New Guy (and Other Senior Year Distractions), £44.92, (3 stars).>
+<Book The Nanny Diaries (Nanny #1), £52.53, (5 stars).>
+<Book The Name of God is Mercy, £37.25, (2 stars).>
+<Book The Maze Runner (The Maze Runner #1), £20.93, (1 stars).>
+<Book The Lover's Dictionary, £58.09, (2 stars).>
+<Book The Lonely Ones, £43.59, (5 stars).>
+<Book The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses, £33.92, (3 stars).>
+<Book The Last Painting of Sara de Vos, £55.55, (2 stars).>
+<Book The Land of 10,000 Madonnas, £29.64, (4 stars).>
+<Book The Infinities, £27.41, (1 stars).>
+<Book The Husband's Secret, £52.51, (5 stars).>
+<Book The Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy #1), £47.8, (3 stars).>
+<Book The Guns of August, £14.54, (2 stars).>
+<Book The Guernsey Literary and Potato Peel Pie Society, £49.53, (1 stars).>
+<Book The Goldfinch, £43.58, (3 stars).>
+<Book The Giver (The Giver Quartet #1), £12.3, (1 stars).>
+<Book The Girl with All the Gifts, £49.47, (3 stars).>
+<Book The Girl Who Played with Fire (Millennium Trilogy #2), £22.14, (2 stars).>
+<Book The Girl Who Kicked the Hornet's Nest (Millennium Trilogy #3), £57.48, (1 stars).>
+<Book The Exiled, £43.45, (3 stars).>
+<Book The End of Faith: Religion, Terror, and the Future of Reason, £22.13, (4 stars).>
+<Book The Elegant Universe: Superstrings, Hidden Dimensions, and the Quest for the Ultimate Theory, £13.03, (4 stars).>
+<Book The Disappearing Spoon: And Other True Tales of Madness, Love, and the History of the World from the Periodic Table of the Elements, £57.35, (5 stars).>
+<Book The Devil Wears Prada (The Devil Wears Prada #1), £44.29, (1 stars).>
+<Book The Demon-Haunted World: Science as a Candle in the Dark, £52.25, (4 stars).>
+<Book The Day the Crayons Came Home (Crayons), £26.33, (5 stars).>
+<Book The Da Vinci Code (Robert Langdon #2), £22.96, (2 stars).>
+<Book The Cuckoo's Calling (Cormoran Strike #1), £19.21, (1 stars).>
+<Book The Complete Stories and Poems (The Works of Edgar Allan Poe [Cameo Edition]), £26.78, (4 stars).>
+<Book The Complete Poems, £41.32, (5 stars).>
+<Book The Catcher in the Rye, £24.55, (1 stars).>
+<Book The Cat in the Hat (Beginner Books B-1), £16.26, (2 stars).>
+<Book The Case for Christ (Cases for Christianity), £47.84, (1 stars).>
+<Book The Book Thief, £53.49, (2 stars).>
+<Book The Book of Basketball: The NBA According to The Sports Guy, £44.84, (5 stars).>
+<Book The Blind Side: Evolution of a Game, £53.71, (5 stars).>
+<Book The Autobiography of Malcolm X, £23.43, (2 stars).>
+<Book The Art of Simple Food: Notes, Lessons, and Recipes from a Delicious Revolution, £34.32, (3 stars).>
+<Book The Art of Fielding, £22.1, (1 stars).>
+<Book Surely You're Joking, Mr. Feynman!: Adventures of a Curious Character, £25.83, (2 stars).>
+<Book Stiff: The Curious Lives of Human Cadavers, £36.74, (3 stars).>
+<Book Spilled Milk: Based on a True Story, £49.51, (1 stars).>
+<Book Something Borrowed (Darcy & Rachel #1), £48.96, (5 stars).>
+<Book Something Blue (Darcy & Rachel #2), £54.62, (1 stars).>
+<Book Soldier (Talon #3), £24.72, (2 stars).>
+<Book Shopaholic & Baby (Shopaholic #5), £46.45, (2 stars).>
+<Book Seven Days in the Art World, £52.33, (2 stars).>
+<Book Seven Brief Lessons on Physics, £30.6, (4 stars).>
+<Book Scarlet (The Lunar Chronicles #2), £14.57, (4 stars).>
+<Book Sarah's Key, £46.29, (1 stars).>
+<Book Saga, Volume 3 (Saga (Collected Editions) #3), £21.57, (5 stars).>
+<Book Running with Scissors, £12.91, (4 stars).>
+<Book Rogue Lawyer (Rogue Lawyer #1), £50.11, (3 stars).>
+<Book Rise of the Rocket Girls: The Women Who Propelled Us, from Missiles to the Moon to Mars, £41.67, (4 stars).>
+<Book Rework, £44.88, (2 stars).>
+<Book Reservations for Two, £11.1, (3 stars).>
+<Book Red: The True Story of Red Riding Hood, £28.54, (3 stars).>
+<Book Ready Player One, £19.07, (4 stars).>
+<Book Quiet: The Power of Introverts in a World That Can't Stop Talking, £43.55, (1 stars).>
+<Book Prodigy: The Graphic Novel (Legend: The Graphic Novel #2), £43.63, (3 stars).>
+<Book Persepolis: The Story of a Childhood (Persepolis #1-2), £39.13, (1 stars).>
+<Book Packing for Mars: The Curious Science of Life in the Void, £56.68, (2 stars).>
+<Book Outliers: The Story of Success, £14.16, (1 stars).>
+<Book Original Fake, £31.45, (3 stars).>
+<Book Orange Is the New Black, £24.61, (2 stars).>
+<Book One for the Money (Stephanie Plum #1), £32.87, (2 stars).>
+<Book Notes from a Small Island (Notes From a Small Island #1), £40.17, (1 stars).>
+<Book Night (The Night Trilogy #1), £13.51, (1 stars).>
+<Book Neither Here nor There: Travels in Europe, £38.95, (3 stars).>
+<Book Naked, £31.69, (3 stars).>
+<Book Morning Star (Red Rising #3), £29.4, (1 stars).>
+<Book Miracles from Heaven: A Little Girl, Her Journey to Heaven, and Her Amazing Story of Healing, £57.83, (1 stars).>
+<Book Midnight Riot (Peter Grant/ Rivers of London - books #1), £55.46, (2 stars).>
+<Book Me Talk Pretty One Day, £57.6, (2 stars).>
+<Book Manuscript Found in Accra, £34.98, (2 stars).>
+<Book Lust & Wonder, £11.87, (2 stars).>
+<Book Lila (Gilead #3), £12.47, (3 stars).>
+<Book Life, the Universe and Everything (Hitchhiker's Guide to the Galaxy #3), £33.26, (2 stars).>
+<Book Life Without a Recipe, £59.04, (5 stars).>
+<Book Life After Life, £26.13, (2 stars).>
+<Book Letter to a Christian Nation, £22.2, (1 stars).>
+<Book Let's Pretend This Never Happened: A Mostly True Memoir, £45.11, (1 stars).>
+<Book Legend (Legend #1), £43.69, (4 stars).>
+<Book Lean In: Women, Work, and the Will to Lead, £25.02, (1 stars).>
+<Book Lamb: The Gospel According to Biff, Christ's Childhood Pal, £55.5, (5 stars).>
+<Book Lady Renegades (Rebel Belle #3), £53.04, (5 stars).>
+<Book Jurassic Park (Jurassic Park #1), £44.97, (1 stars).>
+<Book It's Never Too Late to Begin Again: Discovering Creativity and Meaning at Midlife and Beyond, £42.38, (1 stars).>
+<Book Is Everyone Hanging Out Without Me? (And Other Concerns), £20.11, (3 stars).>
+<Book Into the Wild, £56.7, (5 stars).>
+<Book Inferno (Robert Langdon #4), £41.0, (5 stars).>
+<Book In the Garden of Beasts: Love, Terror, and an American Family in Hitler's Berlin, £28.85, (3 stars).>
+<Book If I Run (If I Run #1), £49.97, (4 stars).>
+<Book I've Got Your Number, £19.69, (1 stars).>
+<Book I Am Malala: The Girl Who Stood Up for Education and Was Shot by the Taliban, £28.88, (2 stars).>
+<Book Hungry Girl Clean & Hungry: Easy All-Natural Recipes for Healthy Eating in the Real World, £33.14, (3 stars).>
+<Book House of Lost Worlds: Dinosaurs, Dynasties, and the Story of Life on Earth, £43.7, (2 stars).>
+<Book House of Leaves, £54.89, (1 stars).>
+<Book Horrible Bear!, £37.52, (2 stars).>
+<Book Holidays on Ice, £51.07, (2 stars).>
+<Book Heir to the Sky, £44.07, (4 stars).>
+<Book Green Eggs and Ham (Beginner Books B-16), £10.79, (4 stars).>
+<Book Grayson, Vol 3: Nemesis (Grayson #3), £42.72, (1 stars).>
+<Book Gratitude, £26.66, (5 stars).>
+<Book Gone Girl, £37.6, (5 stars).>
+<Book Golden (Heart of Dread #3), £42.21, (4 stars).>
+<Book Girl in the Blue Coat, £46.83, (2 stars).>
+<Book Fruits Basket, Vol. 3 (Fruits Basket #3), £45.17, (2 stars).>
+<Book Friday Night Lights: A Town, a Team, and a Dream, £51.22, (3 stars).>
+<Book Fire Bound (Sea Haven/Sisters of the Heart #5), £21.28, (4 stars).>
+<Book Fifty Shades Freed (Fifty Shades #3), £15.36, (5 stars).>
+<Book Fellside, £38.62, (1 stars).>
+<Book Extreme Prey (Lucas Davenport #26), £25.4, (3 stars).>
+<Book Eragon (The Inheritance Cycle #1), £43.87, (3 stars).>
+<Book Eclipse (Twilight #3), £18.74, (1 stars).>
+<Book Dune (Dune #1), £54.86, (1 stars).>
+<Book Dracula, £52.62, (3 stars).>
+<Book Do Androids Dream of Electric Sheep? (Blade Runner #1), £51.48, (1 stars).>
+<Book Disrupted: My Misadventure in the Start-Up Bubble, £15.28, (5 stars).>
+<Book Dead Wake: The Last Crossing of the Lusitania, £39.24, (5 stars).>
+<Book David and Goliath: Underdogs, Misfits, and the Art of Battling Giants, £17.81, (1 stars).>
+<Book Darkfever (Fever #1), £56.02, (1 stars).>
+<Book Dark Places, £23.9, (5 stars).>
+<Book Crazy Rich Asians (Crazy Rich Asians #1), £49.13, (5 stars).>
+<Book Counting Thyme, £10.62, (1 stars).>
+<Book Cosmos, £36.17, (2 stars).>
+<Book Civilization and Its Discontents, £59.95, (2 stars).>
+<Book Cinder (The Lunar Chronicles #1), £26.09, (1 stars).>
+<Book Catastrophic Happiness: Finding Joy in Childhood's Messy Years, £37.35, (2 stars).>
+<Book Career of Evil (Cormoran Strike #3), £24.72, (2 stars).>
+<Book Breaking Dawn (Twilight #4), £35.28, (5 stars).>
+<Book Brave Enough, £51.32, (5 stars).>
+<Book Boy Meets Boy, £21.12, (3 stars).>
+<Book Born to Run: A Hidden Tribe, Superathletes, and the Greatest Race the World Has Never Seen, £27.35, (2 stars).>
+<Book Blink: The Power of Thinking Without Thinking, £21.74, (5 stars).>
+<Book Black Flags: The Rise of ISIS, £40.87, (1 stars).>
+<Book Black Butler, Vol. 1 (Black Butler #1), £49.31, (1 stars).>
+<Book Big Little Lies, £22.11, (1 stars).>
+<Book Between Shades of Gray, £20.79, (5 stars).>
+<Book Best of My Love (Fool's Gold #20), £27.41, (2 stars).>
+<Book Beowulf, £38.35, (2 stars).>
+<Book Beautiful Creatures (Caster Chronicles #1), £21.55, (5 stars).>
+<Book Awkward, £38.02, (2 stars).>
+<Book Ash, £22.06, (4 stars).>
+<Book Are We There Yet?, £10.66, (3 stars).>
+<Book Are We Smart Enough to Know How Smart Animals Are?, £56.58, (1 stars).>
+<Book Annie on My Mind, £36.83, (5 stars).>
+<Book And Then There Were None, £35.01, (2 stars).>
+<Book A Walk in the Woods: Rediscovering America on the Appalachian Trail, £30.48, (4 stars).>
+<Book A Visit from the Goon Squad, £14.08, (5 stars).>
+<Book A Storm of Swords (A Song of Ice and Fire #3), £31.22, (2 stars).>
+<Book A Heartbreaking Work of Staggering Genius, £54.29, (5 stars).>
+<Book 8 Keys to Mental Health Through Exercise, £31.04, (1 stars).>
+<Book #GIRLBOSS, £50.96, (1 stars).>
+<Book The Suffragettes (Little Black Classics, #96), £11.89, (2 stars).>
+<Book The Sense of an Ending, £31.38, (3 stars).>
+<Book The Sandman, Vol. 2: The Doll's House (The Sandman (volumes) #2), £54.81, (1 stars).>
+<Book The Course of Love, £16.78, (3 stars).>
+<Book Sugar Rush (Offensive Line #2), £24.42, (1 stars).>
+<Book Saga, Volume 2 (Saga (Collected Editions) #2), £11.75, (3 stars).>
+<Book Run, Spot, Run: The Ethics of Keeping Pets, £20.02, (1 stars).>
+<Book New Moon (Twilight #2), £12.86, (4 stars).>
+<Book Life, £31.58, (5 stars).>
+<Book Kindle Paperwhite User's Guide, £34.0, (3 stars).>
+<Book H is for Hawk, £57.42, (5 stars).>
+<Book Girl Online On Tour (Girl Online #2), £53.47, (1 stars).>
+<Book Fruits Basket, Vol. 2 (Fruits Basket #2), £11.64, (5 stars).>
+<Book Diary of a Minecraft Zombie Book 1: A Scare of a Dare (An Unofficial Minecraft Book), £52.88, (4 stars).>
+<Book Y: The Last Man, Vol. 1: Unmanned (Y: The Last Man #1), £18.51, (4 stars).>
+<Book While You Were Mine, £41.32, (5 stars).>
+<Book Where Lightning Strikes (Bleeding Stars #3), £39.77, (3 stars).>
+<Book When I'm Gone, £51.96, (3 stars).>
+<Book Ways of Seeing, £39.51, (5 stars).>
+<Book Vampire Knight, Vol. 1 (Vampire Knight #1), £15.4, (1 stars).>
+<Book Vampire Girl (Vampire Girl #1), £53.82, (2 stars).>
+<Book Twenty Love Poems and a Song of Despair, £30.95, (4 stars).>
+<Book Travels with Charley: In Search of America, £57.82, (5 stars).>
+<Book Three Wishes (River of Time: California #1), £44.18, (2 stars).>
+<Book This One Moment (Pushing Limits #1), £48.71, (1 stars).>
+<Book The Zombie Room, £19.69, (5 stars).>
+<Book The Wicked + The Divine, Vol. 1: The Faust Act (The Wicked + The Divine), £36.52, (2 stars).>
+<Book The Tumor, £41.56, (5 stars).>
+<Book The Story of Hong Gildong, £43.19, (4 stars).>
+<Book The Silent Wife, £12.34, (5 stars).>
+<Book The Silent Twin (Detective Jennifer Knight #3), £36.25, (3 stars).>
+<Book The Selfish Gene, £29.45, (1 stars).>
+<Book The Secret Healer, £34.56, (3 stars).>
+<Book The Sandman, Vol. 1: Preludes and Nocturnes (The Sandman (volumes) #1), £54.12, (3 stars).>
+<Book The Republic, £33.78, (3 stars).>
+<Book The Odyssey, £29.64, (3 stars).>
+<Book The No. 1 Ladies' Detective Agency (No. 1 Ladies' Detective Agency #1), £57.7, (4 stars).>
+<Book The Nicomachean Ethics, £36.34, (1 stars).>
+<Book The Name of the Wind (The Kingkiller Chronicle #1), £50.59, (3 stars).>
+<Book The Mirror & the Maze (The Wrath and the Dawn #1.5), £29.38, (1 stars).>
+<Book The Little Prince, £45.42, (2 stars).>
+<Book The Light of the Fireflies, £54.43, (1 stars).>
+<Book The Last Girl (The Dominion Trilogy #1), £36.26, (2 stars).>
+<Book The Iliad, £16.16, (1 stars).>
+<Book The Hook Up (Game On #1), £36.29, (5 stars).>
+<Book The Haters, £27.89, (5 stars).>
+<Book The Girl You Lost, £12.29, (5 stars).>
+<Book The Girl In The Ice (DCI Erika Foster #1), £15.85, (3 stars).>
+<Book The End of the Jesus Era (An Investigation #1), £14.4, (1 stars).>
+<Book The Edge of Reason (Bridget Jones #2), £19.18, (4 stars).>
+<Book The Complete Maus (Maus #1-2), £10.64, (3 stars).>
+<Book The Communist Manifesto, £14.76, (3 stars).>
+<Book The Bhagavad Gita, £57.49, (3 stars).>
+<Book The Bette Davis Club, £30.66, (3 stars).>
+<Book The Art of Not Breathing, £40.83, (4 stars).>
+<Book Taking Shots (Assassins #1), £18.88, (2 stars).>
+<Book Starlark, £25.83, (3 stars).>
+<Book Skip Beat!, Vol. 01 (Skip Beat! #1), £42.12, (3 stars).>
+<Book Sister Sable (The Mad Queen #1), £13.33, (3 stars).>
+<Book Shatter Me (Shatter Me #1), £42.4, (1 stars).>
+<Book Shameless, £58.35, (3 stars).>
+<Book Shadow Rites (Jane Yellowrock #10), £21.72, (4 stars).>
+<Book Settling the Score (The Summer Games #1), £44.91, (2 stars).>
+<Book Sense and Sensibility, £37.46, (1 stars).>
+<Book Saga, Volume 1 (Saga (Collected Editions) #1), £28.48, (1 stars).>
+<Book Rhythm, Chord & Malykhin, £28.34, (2 stars).>
+<Book Rat Queens, Vol. 1: Sass & Sorcery (Rat Queens (Collected Editions) #1-5), £46.96, (5 stars).>
+<Book Paradise Lost (Paradise #1), £24.96, (1 stars).>
+<Book Paper Girls, Vol. 1 (Paper Girls #1-5), £21.71, (4 stars).>
+<Book Ouran High School Host Club, Vol. 1 (Ouran High School Host Club #1), £29.87, (3 stars).>
+<Book Origins (Alphas 0.5), £28.99, (1 stars).>
+<Book One Second (Seven #7), £52.94, (2 stars).>
+<Book On the Road (Duluoz Legend), £32.36, (3 stars).>
+<Book Old Records Never Die: One Man's Quest for His Vinyl and His Past, £55.66, (2 stars).>
+<Book Off Sides (Off #1), £39.45, (5 stars).>
+<Book Of Mice and Men, £47.11, (2 stars).>
+<Book Myriad (Prentor #1), £58.75, (4 stars).>
+<Book My Perfect Mistake (Over the Top #1), £38.92, (2 stars).>
+<Book Ms. Marvel, Vol. 1: No Normal (Ms. Marvel (2014-2015) #1), £39.39, (4 stars).>
+<Book Meditations, £25.89, (2 stars).>
+<Book Matilda, £28.34, (1 stars).>
+<Book Lost Among the Living, £27.7, (4 stars).>
+<Book Lord of the Flies, £24.89, (3 stars).>
+<Book Listen to Me (Fusion #1), £58.99, (3 stars).>
+<Book Kitchens of the Great Midwest, £57.2, (5 stars).>
+<Book Jane Eyre, £38.43, (5 stars).>
+<Book Imperfect Harmony, £34.74, (4 stars).>
+<Book Icing (Aces Hockey #2), £40.44, (4 stars).>
+<Book Hawkeye, Vol. 1: My Life as a Weapon (Hawkeye #1), £45.24, (3 stars).>
+<Book Having the Barbarian's Baby (Ice Planet Barbarians #7.5), £34.96, (4 stars).>
+<Book Giant Days, Vol. 1 (Giant Days #1-4), £56.76, (4 stars).>
+<Book Fruits Basket, Vol. 1 (Fruits Basket #1), £40.28, (5 stars).>
+<Book Frankenstein, £38.0, (2 stars).>
+<Book Forever Rockers (The Rocker #12), £28.8, (3 stars).>
+<Book Fighting Fate (Fighting #6), £39.24, (3 stars).>
+<Book Emma, £32.93, (2 stars).>
+<Book Eat, Pray, Love, £51.32, (3 stars).>
+<Book Deep Under (Walker Security #1), £47.09, (5 stars).>
+<Book Choosing Our Religion: The Spiritual Lives of America's Nones, £28.42, (4 stars).>
+<Book Charlie and the Chocolate Factory (Charlie Bucket #1), £22.85, (3 stars).>
+<Book Charity's Cross (Charles Towne Belles #4), £41.24, (1 stars).>
+<Book Bright Lines, £39.07, (5 stars).>
+<Book Bridget Jones's Diary (Bridget Jones #1), £29.82, (1 stars).>
+<Book Bounty (Colorado Mountain #7), £37.26, (4 stars).>
+<Book Blood Defense (Samantha Brinkman #1), £20.3, (3 stars).>
+<Book Bleach, Vol. 1: Strawberry and the Soul Reapers (Bleach #1), £34.65, (5 stars).>
+<Book Beyond Good and Evil, £43.38, (1 stars).>
+<Book Alice in Wonderland (Alice's Adventures in Wonderland #1), £55.53, (1 stars).>
+<Book Ajin: Demi-Human, Volume 1 (Ajin: Demi-Human #1), £57.06, (4 stars).>
+<Book A Spy's Devotion (The Regency Spies of London #1), £16.97, (5 stars).>
+<Book 1st to Die (Women's Murder Club #1), £53.98, (1 stars).>
+<Book 1,000 Places to See Before You Die, £26.08, (5 stars).>
+
+Enter one of the following
+    - 'l' to list all books
+    - 'b' to look at 5-star books
+    - 'c' to look at cheapest books
+    - 'n' to just get next avilable book on catalogue
+    - 'q' to exit
+
+Enter your choice: b
+<Book An Abundance of Katherines, £10.0, (5 stars).>
+<Book Greek Mythic History, £10.23, (5 stars).>
+<Book The Power Greens Cookbook: 140 Delicious Superfood Recipes, £11.05, (5 stars).>
+<Book Dear Mr. Knightley, £11.21, (5 stars).>
+<Book The Darkest Corners, £11.33, (5 stars).>
+<Book Naturally Lean: 125 Nourishing Gluten-Free, Plant-Based Recipes--All Under 300 Calories, £11.38, (5 stars).>
+<Book Fruits Basket, Vol. 2 (Fruits Basket #2), £11.64, (5 stars).>
+<Book Old School (Diary of a Wimpy Kid #10), £11.83, (5 stars).>
+<Book Superman Vol. 1: Before Truth (Superman by Gene Luen Yang #1), £11.89, (5 stars).>
+<Book Every Heart a Doorway (Every Heart A Doorway #1), £12.16, (5 stars).>
+
+Enter one of the following
+    - 'l' to list all books
+    - 'b' to look at 5-star books
+    - 'c' to look at cheapest books
+    - 'n' to just get next avilable book on catalogue
+    - 'q' to exit
+
+Enter your choice: c
+<Book An Abundance of Katherines, £10.0, (5 stars).>
+<Book The Origin of Species, £10.01, (4 stars).>
+<Book The Tipping Point: How Little Things Can Make a Big Difference, £10.02, (2 stars).>
+<Book Patience, £10.16, (3 stars).>
+<Book Greek Mythic History, £10.23, (5 stars).>
+<Book The Fellowship of the Ring (The Lord of the Rings #1), £10.27, (2 stars).>
+<Book History of Beauty, £10.29, (4 stars).>
+<Book The Lucifer Effect: Understanding How Good People Turn Evil, £10.4, (1 stars).>
+<Book NaNo What Now? Finding your editing process, revising your NaNoWriMo book and building a writing career through publishing and beyond, £10.41, (4 stars).>
+<Book Pet Sematary, £10.56, (3 stars).>
+
+Enter one of the following
+    - 'l' to list all books
+    - 'b' to look at 5-star books
+    - 'c' to look at cheapest books
+    - 'n' to just get next avilable book on catalogue
+    - 'q' to exit
+
+Enter your choice: l
+<Book A Light in the Attic, £51.77, (3 stars).>
+<Book Tipping the Velvet, £53.74, (1 stars).>
+<Book Soumission, £50.1, (1 stars).>
+<Book Sharp Objects, £47.82, (4 stars).>
+<Book Sapiens: A Brief History of Humankind, £54.23, (5 stars).>
+<Book The Requiem Red, £22.65, (1 stars).>
+<Book The Dirty Little Secrets of Getting Your Dream Job, £33.34, (4 stars).>
+<Book The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull, £17.93, (3 stars).>
+<Book The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics, £22.6, (4 stars).>
+<Book The Black Maria, £52.15, (1 stars).>
+<Book Starving Hearts (Triangular Trade Trilogy, #1), £13.99, (2 stars).>
+<Book Shakespeare's Sonnets, £20.66, (4 stars).>
+<Book Set Me Free, £17.46, (5 stars).>
+<Book Scott Pilgrim's Precious Little Life (Scott Pilgrim #1), £52.29, (5 stars).>
+<Book Rip it Up and Start Again, £35.02, (5 stars).>
+<Book Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991, £57.25, (3 stars).>
+<Book Olio, £23.88, (1 stars).>
+<Book Mesaerion: The Best Science Fiction Stories 1800-1849, £37.59, (1 stars).>
+<Book Libertarianism for Beginners, £51.33, (2 stars).>
+<Book It's Only the Himalayas, £45.17, (2 stars).>
+<Book In Her Wake, £12.84, (1 stars).>
+<Book How Music Works, £37.32, (2 stars).>
+<Book Foolproof Preserving: A Guide to Small Batch Jams, Jellies, Pickles, Condiments, and More: A Foolproof Guide to Making Small Batch Jams, Jellies, Pickles, Condiments, and More, £30.52, (3 stars).>
+<Book Chase Me (Paris Nights #2), £25.27, (5 stars).>
+<Book Black Dust, £34.53, (5 stars).>
+<Book Birdsong: A Story in Pictures, £54.64, (3 stars).>
+<Book America's Cradle of Quarterbacks: Western Pennsylvania's Football Factory from Johnny Unitas to Joe Montana, £22.5, (3 stars).>
+<Book Aladdin and His Wonderful Lamp, £53.13, (3 stars).>
+<Book Worlds Elsewhere: Journeys Around Shakespeare’s Globe, £40.3, (5 stars).>
+<Book Wall and Piece, £44.18, (4 stars).>
+<Book The Four Agreements: A Practical Guide to Personal Freedom, £17.66, (5 stars).>
+<Book The Five Love Languages: How to Express Heartfelt Commitment to Your Mate, £31.05, (3 stars).>
+<Book The Elephant Tree, £23.82, (5 stars).>
+<Book The Bear and the Piano, £36.89, (1 stars).>
+<Book Sophie's World, £15.94, (5 stars).>
+<Book Penny Maybe, £33.29, (3 stars).>
+<Book Maude (1883-1993):She Grew Up with the country, £18.02, (2 stars).>
+<Book In a Dark, Dark Wood, £19.63, (1 stars).>
+<Book Behind Closed Doors, £52.22, (4 stars).>
+<Book You can't bury them all: Poems, £33.63, (2 stars).>
+<Book Slow States of Collapse: Poems, £57.31, (3 stars).>
+<Book Reasons to Stay Alive, £26.41, (2 stars).>
+<Book Private Paris (Private #10), £47.61, (5 stars).>
+<Book #HigherSelfie: Wake Up Your Life. Free Your Soul. Find Your Tribe., £23.11, (5 stars).>
+<Book Without Borders (Wanderlove #1), £45.07, (2 stars).>
+<Book When We Collided, £31.77, (1 stars).>
+<Book We Love You, Charlie Freeman, £50.27, (5 stars).>
+<Book Untitled Collection: Sabbath Poems 2014, £14.27, (4 stars).>
+<Book Unseen City: The Majesty of Pigeons, the Discreet Charm of Snails & Other Wonders of the Urban Wilderness, £44.18, (4 stars).>
+<Book Unicorn Tracks, £18.78, (3 stars).>
+<Book Unbound: How Eight Technologies Made Us Human, Transformed Society, and Brought Our World to the Brink, £25.52, (1 stars).>
+<Book Tsubasa: WoRLD CHRoNiCLE 2 (Tsubasa WoRLD CHRoNiCLE #2), £16.28, (1 stars).>
+<Book Throwing Rocks at the Google Bus: How Growth Became the Enemy of Prosperity, £31.12, (3 stars).>
+<Book This One Summer, £19.49, (4 stars).>
+<Book Thirst, £17.27, (5 stars).>
+<Book The Torch Is Passed: A Harding Family Story, £19.09, (1 stars).>
+<Book The Secret of Dreadwillow Carse, £56.13, (1 stars).>
+<Book The Pioneer Woman Cooks: Dinnertime: Comfort Classics, Freezer Food, 16-Minute Meals, and Other Delicious Ways to Solve Supper!, £56.41, (1 stars).>
+<Book The Past Never Ends, £56.5, (4 stars).>
+<Book The Natural History of Us (The Fine Art of Pretending #2), £45.22, (3 stars).>
+<Book The Nameless City (The Nameless City #1), £38.16, (4 stars).>
+<Book The Murder That Never Was (Forensic Instincts #5), £54.11, (3 stars).>
+<Book The Most Perfect Thing: Inside (and Outside) a Bird's Egg, £42.96, (4 stars).>
+<Book The Mindfulness and Acceptance Workbook for Anxiety: A Guide to Breaking Free from Anxiety, Phobias, and Worry Using Acceptance and Commitment Therapy, £23.89, (4 stars).>
+<Book The Life-Changing Magic of Tidying Up: The Japanese Art of Decluttering and Organizing, £16.77, (3 stars).>
+<Book The Inefficiency Assassin: Time Management Tactics for Working Smarter, Not Longer, £20.59, (5 stars).>
+<Book The Gutsy Girl: Escapades for Your Life of Epic Adventure, £37.13, (1 stars).>
+<Book The Electric Pencil: Drawings from Inside State Hospital No. 3, £56.06, (1 stars).>
+<Book The Death of Humanity: and the Case for Life, £58.11, (4 stars).>
+<Book The Bulletproof Diet: Lose up to a Pound a Day, Reclaim Energy and Focus, Upgrade Your Life, £49.05, (3 stars).>
+<Book The Art Forger, £40.76, (3 stars).>
+<Book The Age of Genius: The Seventeenth Century and the Birth of the Modern Mind, £19.73, (1 stars).>
+<Book The Activist's Tao Te Ching: Ancient Advice for a Modern Revolution, £32.24, (5 stars).>
+<Book Spark Joy: An Illustrated Master Class on the Art of Organizing and Tidying Up, £41.83, (4 stars).>
+<Book Soul Reader, £39.58, (2 stars).>
+<Book Security, £39.25, (2 stars).>
+<Book Saga, Volume 6 (Saga (Collected Editions) #6), £25.02, (3 stars).>
+<Book Saga, Volume 5 (Saga (Collected Editions) #5), £51.04, (2 stars).>
+<Book Reskilling America: Learning to Labor in the Twenty-First Century, £19.83, (2 stars).>
+<Book Rat Queens, Vol. 3: Demons (Rat Queens (Collected Editions) #11-15), £50.4, (3 stars).>
+<Book Princess Jellyfish 2-in-1 Omnibus, Vol. 01 (Princess Jellyfish 2-in-1 Omnibus #1), £13.61, (5 stars).>
+<Book Princess Between Worlds (Wide-Awake Princess #5), £13.34, (5 stars).>
+<Book Pop Gun War, Volume 1: Gift, £18.97, (1 stars).>
+<Book Political Suicide: Missteps, Peccadilloes, Bad Calls, Backroom Hijinx, Sordid Pasts, Rotten Breaks, and Just Plain Dumb Mistakes in the Annals of American Politics, £36.28, (2 stars).>
+<Book Patience, £10.16, (3 stars).>
+<Book Outcast, Vol. 1: A Darkness Surrounds Him (Outcast #1), £15.44, (4 stars).>
+<Book orange: The Complete Collection 1 (orange: The Complete Collection #1), £48.41, (1 stars).>
+<Book Online Marketing for Busy Authors: A Step-By-Step Guide, £46.35, (1 stars).>
+<Book On a Midnight Clear, £14.07, (3 stars).>
+<Book Obsidian (Lux #1), £14.86, (2 stars).>
+<Book My Paris Kitchen: Recipes and Stories, £33.37, (2 stars).>
+<Book Masks and Shadows, £56.4, (2 stars).>
+<Book Mama Tried: Traditional Italian Cooking for the Screwed, Crude, Vegan, and Tattooed, £14.02, (4 stars).>
+<Book Lumberjanes, Vol. 2: Friendship to the Max (Lumberjanes #5-8), £46.91, (2 stars).>
+<Book Lumberjanes, Vol. 1: Beware the Kitten Holy (Lumberjanes #1-4), £45.61, (3 stars).>
+<Book Lumberjanes Vol. 3: A Terrible Plan (Lumberjanes #9-12), £19.92, (2 stars).>
+<Book Layered: Baking, Building, and Styling Spectacular Cakes, £40.11, (1 stars).>
+<Book Judo: Seven Steps to Black Belt (an Introductory Guide for Beginners), £53.9, (2 stars).>
+<Book Join, £35.67, (5 stars).>
+<Book In the Country We Love: My Family Divided, £22.0, (4 stars).>
+<Book Immunity: How Elie Metchnikoff Changed the Course of Modern Medicine, £57.36, (5 stars).>
+<Book I Hate Fairyland, Vol. 1: Madly Ever After (I Hate Fairyland (Compilations) #1-5), £29.17, (2 stars).>
+<Book I am a Hero Omnibus Volume 1, £54.63, (3 stars).>
+<Book How to Be Miserable: 40 Strategies You Already Use, £46.03, (1 stars).>
+<Book Her Backup Boyfriend (The Sorensen Family #1), £33.97, (1 stars).>
+<Book Giant Days, Vol. 2 (Giant Days #5-8), £22.11, (2 stars).>
+<Book Forever and Forever: The Courtship of Henry Longfellow and Fanny Appleton, £29.69, (3 stars).>
+<Book First and First (Five Boroughs #3), £15.97, (4 stars).>
+<Book Fifty Shades Darker (Fifty Shades #2), £21.96, (1 stars).>
+<Book Everydata: The Misinformation Hidden in the Little Data You Consume Every Day, £54.35, (2 stars).>
+<Book Don't Be a Jerk: And Other Practical Advice from Dogen, Japan's Greatest Zen Master, £37.97, (2 stars).>
+<Book Danganronpa Volume 1, £51.99, (4 stars).>
+<Book Crown of Midnight (Throne of Glass #2), £43.29, (3 stars).>
+<Book Codename Baboushka, Volume 1: The Conclave of Death, £36.72, (4 stars).>
+<Book Camp Midnight, £17.08, (4 stars).>
+<Book Call the Nurse: True Stories of a Country Nurse on a Scottish Isle, £29.14, (5 stars).>
+<Book Burning, £28.81, (3 stars).>
+<Book Bossypants, £49.46, (2 stars).>
+<Book Bitch Planet, Vol. 1: Extraordinary Machine (Bitch Planet (Collected Editions)), £37.92, (2 stars).>
+<Book Avatar: The Last Airbender: Smoke and Shadow, Part 3 (Smoke and Shadow #3), £28.09, (2 stars).>
+<Book Algorithms to Live By: The Computer Science of Human Decisions, £30.81, (1 stars).>
+<Book A World of Flavor: Your Gluten Free Passport, £42.95, (1 stars).>
+<Book A Piece of Sky, a Grain of Rice: A Memoir in Four Meditations, £56.76, (5 stars).>
+<Book A Murder in Time, £16.64, (1 stars).>
+<Book A Flight of Arrows (The Pathfinders #2), £55.53, (5 stars).>
+<Book A Fierce and Subtle Poison, £28.13, (4 stars).>
+<Book A Court of Thorns and Roses (A Court of Thorns and Roses #1), £52.37, (1 stars).>
+<Book (Un)Qualified: How God Uses Broken People to Do Big Things, £54.0, (5 stars).>
+<Book You Are What You Love: The Spiritual Power of Habit, £21.87, (4 stars).>
+<Book William Shakespeare's Star Wars: Verily, A New Hope (William Shakespeare's Star Wars #4), £43.3, (4 stars).>
+<Book Tuesday Nights in 1980, £21.04, (2 stars).>
+<Book Tracing Numbers on a Train, £41.6, (3 stars).>
+<Book Throne of Glass (Throne of Glass #1), £35.07, (3 stars).>
+<Book Thomas Jefferson and the Tripoli Pirates: The Forgotten War That Changed American History, £59.64, (1 stars).>
+<Book Thirteen Reasons Why, £52.72, (1 stars).>
+<Book The White Cat and the Monk: A Retelling of the Poem “Pangur Bán”, £58.08, (4 stars).>
+<Book The Wedding Dress, £24.12, (1 stars).>
+<Book The Vacationers, £42.15, (4 stars).>
+<Book The Third Wave: An Entrepreneur’s Vision of the Future, £12.61, (5 stars).>
+<Book The Stranger, £17.44, (4 stars).>
+<Book The Shadow Hero (The Shadow Hero), £33.14, (1 stars).>
+<Book The Secret (The Secret #1), £27.37, (4 stars).>
+<Book The Regional Office Is Under Attack!, £51.36, (5 stars).>
+<Book The Psychopath Test: A Journey Through the Madness Industry, £36.0, (2 stars).>
+<Book The Project, £10.65, (1 stars).>
+<Book The Power of Now: A Guide to Spiritual Enlightenment, £43.54, (2 stars).>
+<Book The Omnivore's Dilemma: A Natural History of Four Meals, £38.21, (2 stars).>
+<Book The Nerdy Nummies Cookbook: Sweet Treats for the Geek in All of Us, £37.34, (5 stars).>
+<Book The Murder of Roger Ackroyd (Hercule Poirot #4), £44.1, (4 stars).>
+<Book The Mistake (Off-Campus #2), £43.29, (3 stars).>
+<Book The Matchmaker's Playbook (Wingmen Inc. #1), £55.85, (1 stars).>
+<Book The Love and Lemons Cookbook: An Apple-to-Zucchini Celebration of Impromptu Cooking, £37.6, (2 stars).>
+<Book The Long Shadow of Small Ghosts: Murder and Memory in an American City, £10.97, (1 stars).>
+<Book The Kite Runner, £41.82, (4 stars).>
+<Book The House by the Lake, £36.95, (1 stars).>
+<Book The Glittering Court (The Glittering Court #1), £44.28, (1 stars).>
+<Book The Girl on the Train, £55.02, (2 stars).>
+<Book The Genius of Birds, £17.24, (1 stars).>
+<Book The Emerald Mystery, £23.15, (2 stars).>
+<Book The Cookies & Cups Cookbook: 125+ sweet & savory recipes reminding you to Always Eat Dessert First, £41.25, (1 stars).>
+<Book The Bridge to Consciousness: I'm Writing the Bridge Between Science and Our Old and New Beliefs., £32.0, (3 stars).>
+<Book The Artist's Way: A Spiritual Path to Higher Creativity, £38.49, (5 stars).>
+<Book The Art of War, £33.34, (5 stars).>
+<Book The Argonauts, £10.93, (2 stars).>
+<Book The 10% Entrepreneur: Live Your Startup Dream Without Quitting Your Day Job, £27.55, (3 stars).>
+<Book Suddenly in Love (Lake Haven #1), £55.99, (2 stars).>
+<Book Something More Than This, £16.24, (4 stars).>
+<Book Soft Apocalypse, £26.12, (2 stars).>
+<Book So You've Been Publicly Shamed, £12.23, (2 stars).>
+<Book Shoe Dog: A Memoir by the Creator of NIKE, £23.99, (2 stars).>
+<Book Shobu Samurai, Project Aryoku (#3), £29.06, (3 stars).>
+<Book Secrets and Lace (Fatal Hearts #1), £20.27, (1 stars).>
+<Book Scarlett Epstein Hates It Here, £43.55, (5 stars).>
+<Book Romero and Juliet: A Tragic Tale of Love and Zombies, £36.94, (1 stars).>
+<Book Redeeming Love, £20.47, (5 stars).>
+<Book Poses for Artists Volume 1 - Dynamic and Sitting Poses: An Essential Reference for Figure Drawing and the Human Form, £41.06, (1 stars).>
+<Book Poems That Make Grown Women Cry, £14.19, (4 stars).>
+<Book Nightingale, Sing, £38.28, (1 stars).>
+<Book Night Sky with Exit Wounds, £41.05, (1 stars).>
+<Book Mrs. Houdini, £30.25, (5 stars).>
+<Book Modern Romance, £28.26, (5 stars).>
+<Book Miss Peregrine’s Home for Peculiar Children (Miss Peregrine’s Peculiar Children #1), £10.76, (1 stars).>
+<Book Louisa: The Extraordinary Life of Mrs. Adams, £16.85, (2 stars).>
+<Book Little Red, £13.47, (3 stars).>
+<Book Library of Souls (Miss Peregrine’s Peculiar Children #3), £48.56, (5 stars).>
+<Book Large Print Heart of the Pride, £19.15, (2 stars).>
+<Book I Had a Nice Time And Other Lies...: How to find love & sh*t like that, £57.36, (4 stars).>
+<Book Hollow City (Miss Peregrine’s Peculiar Children #2), £42.98, (1 stars).>
+<Book Grumbles, £22.16, (2 stars).>
+<Book Full Moon over Noah’s Ark: An Odyssey to Mount Ararat and Beyond, £49.43, (4 stars).>
+<Book Frostbite (Vampire Academy #2), £29.99, (5 stars).>
+<Book Follow You Home, £21.36, (1 stars).>
+<Book First Steps for New Christians (Print Edition), £29.0, (1 stars).>
+<Book Finders Keepers (Bill Hodges Trilogy #2), £53.53, (5 stars).>
+<Book Fables, Vol. 1: Legends in Exile (Fables #1), £41.62, (4 stars).>
+<Book Eureka Trivia 6.0, £54.59, (4 stars).>
+<Book Drive: The Surprising Truth About What Motivates Us, £34.95, (4 stars).>
+<Book Done Rubbed Out (Reightman & Bailey #1), £37.72, (5 stars).>
+<Book Doing It Over (Most Likely To #1), £35.61, (3 stars).>
+<Book Deliciously Ella Every Day: Quick and Easy Recipes for Gluten-Free Snacks, Packed Lunches, and Simple Meals, £42.16, (3 stars).>
+<Book Dark Notes, £19.19, (5 stars).>
+<Book Daring Greatly: How the Courage to Be Vulnerable Transforms the Way We Live, Love, Parent, and Lead, £19.43, (3 stars).>
+<Book Close to You, £49.46, (4 stars).>
+<Book Chasing Heaven: What Dying Taught Me About Living, £37.8, (2 stars).>
+<Book Big Magic: Creative Living Beyond Fear, £30.8, (3 stars).>
+<Book Becoming Wise: An Inquiry into the Mystery and Art of Living, £27.43, (2 stars).>
+<Book Beauty Restored (Riley Family Legacy Novellas #3), £11.11, (2 stars).>
+<Book Batman: The Long Halloween (Batman), £36.5, (2 stars).>
+<Book Batman: The Dark Knight Returns (Batman), £15.38, (5 stars).>
+<Book Ayumi's Violin, £15.48, (2 stars).>
+<Book Anonymous, £46.82, (4 stars).>
+<Book Amy Meets the Saints and Sages, £18.46, (3 stars).>
+<Book Amid the Chaos, £36.58, (1 stars).>
+<Book Amatus, £50.54, (5 stars).>
+<Book Agnostic: A Spirited Manifesto, £12.51, (5 stars).>
+<Book Zealot: The Life and Times of Jesus of Nazareth, £24.7, (3 stars).>
+<Book You (You #1), £43.61, (5 stars).>
+<Book Wonder Woman: Earth One, Volume One (Wonder Woman: Earth One #1), £37.34, (4 stars).>
+<Book Wild Swans, £14.36, (2 stars).>
+<Book Why the Right Went Wrong: Conservatism--From Goldwater to the Tea Party and Beyond, £52.65, (4 stars).>
+<Book Whole Lotta Creativity Going On: 60 Fun and Unusual Exercises to Awaken and Strengthen Your Creativity, £38.2, (4 stars).>
+<Book What's It Like in Space?: Stories from Astronauts Who've Been There, £19.6, (2 stars).>
+<Book We Are Robin, Vol. 1: The Vigilante Business (We Are Robin #1), £53.9, (1 stars).>
+<Book Walt Disney's Alice in Wonderland, £12.96, (5 stars).>
+<Book V for Vendetta (V for Vendetta Complete), £37.1, (4 stars).>
+<Book Until Friday Night (The Field Party #1), £46.31, (2 stars).>
+<Book Unbroken: A World War II Story of Survival, Resilience, and Redemption, £45.95, (2 stars).>
+<Book Twenty Yawns, £22.08, (2 stars).>
+<Book Through the Woods, £25.38, (2 stars).>
+<Book This Is Where It Ends, £27.12, (2 stars).>
+<Book The Year of Magical Thinking, £43.04, (2 stars).>
+<Book The Wright Brothers, £56.8, (4 stars).>
+<Book The White Queen (The Cousins' War #1), £25.91, (5 stars).>
+<Book The Wedding Pact (The O'Malleys #2), £32.61, (3 stars).>
+<Book The Time Keeper, £27.88, (5 stars).>
+<Book The Testament of Mary, £52.67, (4 stars).>
+<Book The Star-Touched Queen, £46.02, (5 stars).>
+<Book The Songs of the Gods, £44.48, (5 stars).>
+<Book The Song of Achilles, £37.4, (5 stars).>
+<Book The Rosie Project (Don Tillman #1), £54.04, (1 stars).>
+<Book The Power of Habit: Why We Do What We Do in Life and Business, £16.88, (3 stars).>
+<Book The Marriage of Opposites, £28.08, (4 stars).>
+<Book The Lucifer Effect: Understanding How Good People Turn Evil, £10.4, (1 stars).>
+<Book The Long Haul (Diary of a Wimpy Kid #9), £44.07, (1 stars).>
+<Book The Loney, £23.4, (1 stars).>
+<Book The Literature Book (Big Ideas Simply Explained), £17.43, (3 stars).>
+<Book The Last Mile (Amos Decker #2), £54.21, (2 stars).>
+<Book The Immortal Life of Henrietta Lacks, £40.67, (2 stars).>
+<Book The Hidden Oracle (The Trials of Apollo #1), £52.26, (2 stars).>
+<Book The Help Yourself Cookbook for Kids: 60 Easy Plant-Based Recipes Kids Can Make to Stay Healthy and Save the Earth, £28.77, (3 stars).>
+<Book The Guilty (Will Robie #4), £13.82, (2 stars).>
+<Book The First Hostage (J.B. Collins #2), £25.85, (3 stars).>
+<Book The Dovekeepers, £48.78, (1 stars).>
+<Book The Darkest Lie, £35.35, (5 stars).>
+<Book The Bane Chronicles (The Bane Chronicles #1-11), £44.73, (4 stars).>
+<Book The Bad-Ass Librarians of Timbuktu: And Their Race to Save the World’s Most Precious Manuscripts, £15.77, (1 stars).>
+<Book The 14th Colony (Cotton Malone #11), £39.24, (1 stars).>
+<Book That Darkness (Gardiner and Renner #1), £13.92, (1 stars).>
+<Book Tastes Like Fear (DI Marnie Rome #3), £10.69, (1 stars).>
+<Book Take Me with You, £45.21, (3 stars).>
+<Book Swell: A Year of Waves, £45.58, (1 stars).>
+<Book Superman Vol. 1: Before Truth (Superman by Gene Luen Yang #1), £11.89, (5 stars).>
+<Book Still Life with Bread Crumbs, £26.41, (3 stars).>
+<Book Steve Jobs, £39.5, (5 stars).>
+<Book Sorting the Beef from the Bull: The Science of Food Fraud Forensics, £44.74, (4 stars).>
+<Book Someone Like You (The Harrisons #2), £52.79, (5 stars).>
+<Book So Cute It Hurts!!, Vol. 6 (So Cute It Hurts!! #6), £35.43, (4 stars).>
+<Book Shtum, £55.84, (4 stars).>
+<Book See America: A Celebration of Our National Parks & Treasured Sites, £48.87, (3 stars).>
+<Book salt., £46.78, (4 stars).>
+<Book Robin War, £47.82, (3 stars).>
+<Book Red Hood/Arsenal, Vol. 1: Open for Business (Red Hood/Arsenal #1), £25.48, (2 stars).>
+<Book Rain Fish, £23.57, (3 stars).>
+<Book Quarter Life Poetry: Poems for the Young, Broke and Hangry, £50.89, (5 stars).>
+<Book Pet Sematary, £10.56, (3 stars).>
+<Book Overload: How to Unplug, Unwind, and Unleash Yourself from the Pressure of Stress, £52.15, (3 stars).>
+<Book Once Was a Time, £18.28, (2 stars).>
+<Book Old School (Diary of a Wimpy Kid #10), £11.83, (5 stars).>
+<Book No Dream Is Too High: Life Lessons From a Man Who Walked on the Moon, £21.95, (2 stars).>
+<Book Naruto (3-in-1 Edition), Vol. 14: Includes Vols. 40, 41 & 42 (Naruto: Omnibus #14), £38.39, (2 stars).>
+<Book My Name Is Lucy Barton, £41.56, (1 stars).>
+<Book My Mrs. Brown, £24.48, (3 stars).>
+<Book My Kind of Crazy, £40.36, (1 stars).>
+<Book Mr. Mercedes (Bill Hodges Trilogy #1), £28.9, (1 stars).>
+<Book More Than Music (Chasing the Dream #1), £37.61, (2 stars).>
+<Book Made to Stick: Why Some Ideas Survive and Others Die, £38.85, (5 stars).>
+<Book Luis Paints the World, £53.95, (3 stars).>
+<Book Luckiest Girl Alive, £49.83, (3 stars).>
+<Book Lowriders to the Center of the Earth (Lowriders in Space #2), £51.51, (2 stars).>
+<Book Love Is a Mix Tape (Music #1), £18.03, (1 stars).>
+<Book Looking for Lovely: Collecting the Moments that Matter, £29.14, (5 stars).>
+<Book Living Leadership by Insight: A Good Leader Achieves, a Great Leader Builds Monuments, £46.91, (4 stars).>
+<Book Let It Out: A Journey Through Journaling, £26.79, (5 stars).>
+<Book Lady Midnight (The Dark Artifices #1), £16.28, (5 stars).>
+<Book It's All Easy: Healthy, Delicious Weeknight Meals in under 30 Minutes, £19.55, (1 stars).>
+<Book Island of Dragons (Unwanteds #7), £29.65, (1 stars).>
+<Book I Know What I'm Doing -- and Other Lies I Tell Myself: Dispatches from a Life Under Construction, £25.98, (4 stars).>
+<Book I Am Pilgrim (Pilgrim #1), £10.6, (4 stars).>
+<Book Hyperbole and a Half: Unfortunate Situations, Flawed Coping Mechanisms, Mayhem, and Other Things That Happened, £14.75, (5 stars).>
+<Book Hush, Hush (Hush, Hush #1), £47.02, (3 stars).>
+<Book Hold Your Breath (Search and Rescue #1), £28.82, (1 stars).>
+<Book Hamilton: The Revolution, £58.79, (3 stars).>
+<Book Greek Mythic History, £10.23, (5 stars).>
+<Book God: The Most Unpleasant Character in All Fiction, £30.03, (5 stars).>
+<Book Glory over Everything: Beyond The Kitchen House, £45.84, (3 stars).>
+<Book Feathers: Displays of Brilliant Plumage, £49.05, (3 stars).>
+<Book Far & Away: Places on the Brink of Change: Seven Continents, Twenty-Five Years, £15.06, (4 stars).>
+<Book Every Last Word, £46.47, (3 stars).>
+<Book Eligible (The Austen Project #4), £27.09, (3 stars).>
+<Book El Deafo, £57.62, (5 stars).>
+<Book Eight Hundred Grapes, £14.39, (4 stars).>
+<Book Eaternity: More than 150 Deliciously Easy Vegan Recipes for a Long, Healthy, Satisfied, Joyful Life, £51.75, (5 stars).>
+<Book Eat Fat, Get Thin, £54.07, (2 stars).>
+<Book Don't Get Caught, £55.35, (1 stars).>
+<Book Doctor Sleep (The Shining #2), £40.12, (2 stars).>
+<Book Demigods & Magicians: Percy and Annabeth Meet the Kanes (Percy Jackson & Kane Chronicles Crossover #1-3), £37.51, (5 stars).>
+<Book Dear Mr. Knightley, £11.21, (5 stars).>
+<Book Daily Fantasy Sports, £36.58, (1 stars).>
+<Book Crazy Love: Overwhelmed by a Relentless God, £47.72, (2 stars).>
+<Book Cometh the Hour (The Clifton Chronicles #6), £25.01, (3 stars).>
+<Book Code Name Verity (Code Name Verity #1), £22.13, (4 stars).>
+<Book Clockwork Angel (The Infernal Devices #1), £44.14, (1 stars).>
+<Book City of Glass (The Mortal Instruments #3), £56.02, (4 stars).>
+<Book City of Fallen Angels (The Mortal Instruments #4), £11.23, (4 stars).>
+<Book City of Bones (The Mortal Instruments #1), £43.28, (1 stars).>
+<Book City of Ashes (The Mortal Instruments #2), £47.27, (1 stars).>
+<Book Cell, £20.29, (4 stars).>
+<Book Catching Jordan (Hundred Oaks), £50.83, (3 stars).>
+<Book Carry On, Warrior: Thoughts on Life Unarmed, £31.85, (3 stars).>
+<Book Carrie, £46.23, (2 stars).>
+<Book Buying In: The Secret Dialogue Between What We Buy and Who We Are, £37.8, (4 stars).>
+<Book Brain on Fire: My Month of Madness, £49.32, (5 stars).>
+<Book Batman: Europa, £32.01, (2 stars).>
+<Book Barefoot Contessa Back to Basics, £28.01, (1 stars).>
+<Book Barefoot Contessa at Home: Everyday Recipes You'll Make Over and Over Again, £50.62, (5 stars).>
+<Book Balloon Animals, £17.03, (3 stars).>
+<Book Art Ops Vol. 1, £48.8, (3 stars).>
+<Book Aristotle and Dante Discover the Secrets of the Universe (Aristotle and Dante Discover the Secrets of the Universe #1), £58.14, (4 stars).>
+<Book Angels Walking (Angels Walking #1), £34.2, (2 stars).>
+<Book Angels & Demons (Robert Langdon #1), £51.48, (3 stars).>
+<Book All the Light We Cannot See, £29.87, (5 stars).>
+<Book Adulthood Is a Myth: A "Sarah's Scribbles" Collection, £10.9, (2 stars).>
+<Book Abstract City, £56.37, (5 stars).>
+<Book A Time of Torment (Charlie Parker #14), £48.35, (5 stars).>
+<Book A Study in Scarlet (Sherlock Holmes #1), £16.73, (2 stars).>
+<Book A Series of Catastrophes and Miracles: A True Story of Love, Science, and Cancer, £56.48, (2 stars).>
+<Book A People's History of the United States, £40.79, (2 stars).>
+<Book A Man Called Ove, £39.72, (1 stars).>
+<Book A Distant Mirror: The Calamitous 14th Century, £14.58, (3 stars).>
+<Book A Brush of Wings (Angels Walking #3), £55.51, (1 stars).>
+<Book 1491: New Revelations of the Americas Before Columbus, £21.8, (3 stars).>
+<Book The Three Searches, Meaning, and the Story, £13.33, (3 stars).>
+<Book Searching for Meaning in Gailana, £38.73, (1 stars).>
+<Book Rook, £37.86, (4 stars).>
+<Book My Kitchen Year: 136 Recipes That Saved My Life, £11.53, (2 stars).>
+<Book 13 Hours: The Inside Account of What Really Happened In Benghazi, £27.06, (1 stars).>
+<Book Will You Won't You Want Me?, £13.86, (3 stars).>
+<Book Tipping Point for Planet Earth: How Close Are We to the Edge?, £37.55, (1 stars).>
+<Book The Star-Touched Queen, £32.3, (5 stars).>
+<Book The Silent Sister (Riley MacPherson #1), £46.29, (5 stars).>
+<Book The Midnight Watch: A Novel of the Titanic and the Californian, £26.2, (1 stars).>
+<Book The Lonely City: Adventures in the Art of Being Alone, £33.26, (2 stars).>
+<Book The Gray Rhino: How to Recognize and Act on the Obvious Dangers We Ignore, £59.15, (4 stars).>
+<Book The Golden Condom: And Other Essays on Love Lost and Found, £39.43, (1 stars).>
+<Book The Epidemic (The Program 0.6), £14.44, (5 stars).>
+<Book The Dinner Party, £56.54, (2 stars).>
+<Book The Diary of a Young Girl, £59.9, (3 stars).>
+<Book The Children, £11.88, (3 stars).>
+<Book Stars Above (The Lunar Chronicles #4.5), £48.05, (2 stars).>
+<Book Snatched: How A Drug Queen Went Undercover for the DEA and Was Kidnapped By Colombian Guerillas, £21.21, (3 stars).>
+<Book Raspberry Pi Electronics Projects for the Evil Genius, £49.67, (4 stars).>
+<Book Quench Your Own Thirst: Business Lessons Learned Over a Beer or Two, £43.14, (1 stars).>
+<Book Psycho: Sanitarium (Psycho #1.5), £36.97, (5 stars).>
+<Book Poisonous (Max Revere Novels #3), £26.8, (3 stars).>
+<Book One with You (Crossfire #5), £15.71, (4 stars).>
+<Book No Love Allowed (Dodge Cove #1), £54.65, (4 stars).>
+<Book Murder at the 42nd Street Library (Raymond Ambler #1), £54.36, (4 stars).>
+<Book Most Wanted, £35.28, (3 stars).>
+<Book Love, Lies and Spies, £20.55, (2 stars).>
+<Book How to Speak Golf: An Illustrated Guide to Links Lingo, £58.32, (5 stars).>
+<Book Hide Away (Eve Duncan #20), £11.84, (1 stars).>
+<Book Furiously Happy: A Funny Book About Horrible Things, £41.46, (4 stars).>
+<Book Everyday Italian: 125 Simple and Delicious Recipes, £20.1, (5 stars).>
+<Book Equal Is Unfair: America's Misguided Fight Against Income Inequality, £56.86, (1 stars).>
+<Book Eleanor & Park, £56.51, (5 stars).>
+<Book Dirty (Dive Bar #1), £40.83, (4 stars).>
+<Book Can You Keep a Secret? (Fear Street Relaunch #4), £48.64, (1 stars).>
+<Book Boar Island (Anna Pigeon #19), £59.48, (3 stars).>
+<Book A Paris Apartment, £39.01, (4 stars).>
+<Book A la Mode: 120 Recipes in 60 Pairings: Pies, Tarts, Cakes, Crisps, and More Topped with Ice Cream, Gelato, Frozen Custard, and More, £38.77, (1 stars).>
+<Book Troublemaker: Surviving Hollywood and Scientology, £48.39, (2 stars).>
+<Book The Widow, £27.26, (2 stars).>
+<Book The Sleep Revolution: Transforming Your Life, One Night at a Time, £11.68, (4 stars).>
+<Book The Improbability of Love, £59.45, (1 stars).>
+<Book The Art of Startup Fundraising, £21.0, (3 stars).>
+<Book Take Me Home Tonight (Rock Star Romance #3), £53.98, (3 stars).>
+<Book Sleeping Giants (Themis Files #1), £48.74, (1 stars).>
+<Book Setting the World on Fire: The Brief, Astonishing Life of St. Catherine of Siena, £21.15, (2 stars).>
+<Book Playing with Fire, £13.71, (3 stars).>
+<Book Off the Hook (Fishing for Trouble #1), £47.67, (3 stars).>
+<Book Mothering Sunday, £13.34, (2 stars).>
+<Book Mother, Can You Not?, £16.89, (5 stars).>
+<Book M Train, £27.18, (1 stars).>
+<Book Lilac Girls, £17.28, (2 stars).>
+<Book Lies and Other Acts of Love, £45.14, (1 stars).>
+<Book Lab Girl, £40.85, (1 stars).>
+<Book Keep Me Posted, £20.46, (4 stars).>
+<Book It Didn't Start with You: How Inherited Family Trauma Shapes Who We Are and How to End the Cycle, £56.27, (3 stars).>
+<Book Grey (Fifty Shades #4), £48.49, (4 stars).>
+<Book Exit, Pursued by a Bear, £51.34, (4 stars).>
+<Book Daredevils, £16.34, (3 stars).>
+<Book Cravings: Recipes for What You Want to Eat, £20.5, (3 stars).>
+<Book Born for This: How to Find the Work You Were Meant to Do, £21.59, (5 stars).>
+<Book Arena, £21.36, (4 stars).>
+<Book Adultery, £20.88, (5 stars).>
+<Book A Mother's Reckoning: Living in the Aftermath of Tragedy, £19.53, (3 stars).>
+<Book A Gentleman's Position (Society of Gentlemen #3), £14.75, (5 stars).>
+<Book 11/22/63, £48.48, (3 stars).>
+<Book 10% Happier: How I Tamed the Voice in My Head, Reduced Stress Without Losing My Edge, and Found Self-Help That Actually Works, £24.57, (2 stars).>
+<Book 10-Day Green Smoothie Cleanse: Lose Up to 15 Pounds in 10 Days!, £49.71, (5 stars).>
+<Book Without Shame, £48.27, (5 stars).>
+<Book Watchmen, £58.05, (4 stars).>
+<Book Unlimited Intuition Now, £58.87, (4 stars).>
+<Book Underlying Notes, £11.82, (2 stars).>
+<Book The Shack, £28.03, (1 stars).>
+<Book The New Brand You: Your New Image Makes the Sale for You, £44.05, (5 stars).>
+<Book The Moosewood Cookbook: Recipes from Moosewood Restaurant, Ithaca, New York, £12.34, (4 stars).>
+<Book The Flowers Lied, £16.68, (2 stars).>
+<Book The Fabric of the Cosmos: Space, Time, and the Texture of Reality, £55.91, (1 stars).>
+<Book The Book of Mormon, £24.57, (3 stars).>
+<Book The Art and Science of Low Carbohydrate Living, £52.98, (5 stars).>
+<Book The Alien Club, £54.4, (1 stars).>
+<Book Suzie Snowflake: One beautiful flake (a self-esteem story), £54.81, (5 stars).>
+<Book Nap-a-Roo, £25.08, (1 stars).>
+<Book NaNo What Now? Finding your editing process, revising your NaNoWriMo book and building a writing career through publishing and beyond, £10.41, (4 stars).>
+<Book Modern Day Fables, £47.44, (2 stars).>
+<Book If I Gave You God's Phone Number....: Searching for Spirituality in America, £20.91, (1 stars).>
+<Book Fruits Basket, Vol. 9 (Fruits Basket #9), £33.95, (4 stars).>
+<Book Dress Your Family in Corduroy and Denim, £43.68, (3 stars).>
+<Book Don't Forget Steven, £33.23, (1 stars).>
+<Book Chernobyl 01:23:40: The Incredible True Story of the World's Worst Nuclear Disaster, £35.92, (2 stars).>
+<Book Art and Fear: Observations on the Perils (and Rewards) of Artmaking, £48.63, (4 stars).>
+<Book A Shard of Ice (The Black Symphony Saga #1), £56.63, (3 stars).>
+<Book A Hero's Curse (The Unseen Chronicles #1), £50.49, (3 stars).>
+<Book 23 Degrees South: A Tropical Tale of Changing Whether..., £35.79, (2 stars).>
+<Book Zero to One: Notes on Startups, or How to Build the Future, £34.06, (3 stars).>
+<Book Why Not Me?, £17.76, (1 stars).>
+<Book When Breath Becomes Air, £39.36, (2 stars).>
+<Book Vagabonding: An Uncommon Guide to the Art of Long-Term World Travel, £36.94, (2 stars).>
+<Book The Unlikely Pilgrimage of Harold Fry (Harold Fry #1), £43.62, (5 stars).>
+<Book The New Drawing on the Right Side of the Brain, £43.02, (3 stars).>
+<Book The Midnight Assassin: Panic, Scandal, and the Hunt for America's First Serial Killer, £28.45, (4 stars).>
+<Book The Martian (The Martian #1), £41.39, (2 stars).>
+<Book The High Mountains of Portugal, £51.15, (1 stars).>
+<Book The Grownup, £35.88, (1 stars).>
+<Book The E-Myth Revisited: Why Most Small Businesses Don't Work and What to Do About It, £36.91, (1 stars).>
+<Book South of Sunshine, £28.93, (1 stars).>
+<Book Smarter Faster Better: The Secrets of Being Productive in Life and Business, £38.89, (5 stars).>
+<Book Silence in the Dark (Logan Point #4), £58.33, (3 stars).>
+<Book Shadows of the Past (Logan Point #1), £39.67, (5 stars).>
+<Book Roller Girl, £14.1, (5 stars).>
+<Book Rising Strong, £21.82, (3 stars).>
+<Book Proofs of God: Classical Arguments from Tertullian to Barth, £54.21, (1 stars).>
+<Book Please Kill Me: The Uncensored Oral History of Punk, £31.19, (4 stars).>
+<Book Out of Print: City Lights Spotlight No. 14, £53.64, (5 stars).>
+<Book My Life Next Door (My Life Next Door ), £36.39, (5 stars).>
+<Book Miller's Valley, £58.54, (2 stars).>
+<Book Man's Search for Meaning, £29.48, (3 stars).>
+<Book Love That Boy: What Two Presidents, Eight Road Trips, and My Son Taught Me About a Parent's Expectations, £25.06, (2 stars).>
+<Book Living Forward: A Proven Plan to Stop Drifting and Get the Life You Want, £12.55, (3 stars).>
+<Book Les Fleurs du Mal, £29.04, (5 stars).>
+<Book Left Behind (Left Behind #1), £40.72, (2 stars).>
+<Book Kill 'Em and Leave: Searching for James Brown and the American Soul, £45.05, (5 stars).>
+<Book Kierkegaard: A Christian Missionary to Christians, £47.13, (1 stars).>
+<Book John Vassos: Industrial Design for Modern Life, £20.22, (4 stars).>
+<Book I'll Give You the Sun, £56.48, (1 stars).>
+<Book I Will Find You, £44.21, (1 stars).>
+<Book Hystopia: A Novel, £21.96, (4 stars).>
+<Book Howl and Other Poems, £40.45, (2 stars).>
+<Book History of Beauty, £10.29, (4 stars).>
+<Book Heaven is for Real: A Little Boy's Astounding Story of His Trip to Heaven and Back, £52.86, (2 stars).>
+<Book Future Shock (Future Shock #1), £55.65, (5 stars).>
+<Book Ender's Game (The Ender Quintet #1), £43.64, (1 stars).>
+<Book Diary of a Citizen Scientist: Chasing Tiger Beetles and Other New Ways of Engaging the World, £28.41, (1 stars).>
+<Book Death by Leisure: A Cautionary Tale, £37.51, (4 stars).>
+<Book Brilliant Beacons: A History of the American Lighthouse, £11.45, (3 stars).>
+<Book Brazen: The Courage to Find the You That's Been Hiding, £19.22, (2 stars).>
+<Book Between the World and Me, £56.91, (4 stars).>
+<Book Being Mortal: Medicine and What Matters in the End, £55.06, (4 stars).>
+<Book A Murder Over a Girl: Justice, Gender, Junior High, £13.2, (3 stars).>
+<Book 32 Yolks, £53.63, (2 stars).>
+<Book "Most Blessed of the Patriarchs": Thomas Jefferson and the Empire of the Imagination, £44.48, (5 stars).>
+<Book You Are a Badass: How to Stop Doubting Your Greatness and Start Living an Awesome Life, £12.08, (3 stars).>
+<Book Wildlife of New York: A Five-Borough Coloring Book, £22.14, (2 stars).>
+<Book What Happened on Beale Street (Secrets of the South Mysteries #2), £25.37, (5 stars).>
+<Book Unreasonable Hope: Finding Faith in the God Who Brings Purpose to Your Pain, £46.33, (2 stars).>
+<Book Under the Tuscan Sun, £37.33, (3 stars).>
+<Book Toddlers Are A**holes: It's Not Your Fault, £25.55, (1 stars).>
+<Book The Year of Living Biblically: One Man's Humble Quest to Follow the Bible as Literally as Possible, £34.72, (1 stars).>
+<Book The Whale, £35.96, (4 stars).>
+<Book The Story of Art, £41.14, (4 stars).>
+<Book The Origin of Species, £10.01, (4 stars).>
+<Book The Great Gatsby, £36.05, (4 stars).>
+<Book The Good Girl, £49.03, (3 stars).>
+<Book The Glass Castle, £16.24, (1 stars).>
+<Book The Faith of Christopher Hitchens: The Restless Soul of the World's Most Notorious Atheist, £39.55, (1 stars).>
+<Book The Drowning Girls, £35.67, (3 stars).>
+<Book The Constant Princess (The Tudor Court #1), £16.62, (3 stars).>
+<Book The Bourne Identity (Jason Bourne #1), £42.78, (4 stars).>
+<Book The Bachelor Girl's Guide to Murder (Herringford and Watts Mysteries #1), £52.3, (5 stars).>
+<Book The Art Book, £32.34, (2 stars).>
+<Book The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change, £33.17, (4 stars).>
+<Book Team of Rivals: The Political Genius of Abraham Lincoln, £20.12, (5 stars).>
+<Book Steal Like an Artist: 10 Things Nobody Told You About Being Creative, £20.9, (2 stars).>
+<Book Sit, Stay, Love, £20.9, (3 stars).>
+<Book Sister Dear, £40.2, (4 stars).>
+<Book Shrunken Treasures: Literary Classics, Short, Sweet, and Silly, £52.87, (3 stars).>
+<Book Rich Dad, Poor Dad, £51.74, (1 stars).>
+<Book Raymie Nightingale, £34.41, (2 stars).>
+<Book Playing from the Heart, £32.38, (1 stars).>
+<Book Nightstruck: A Novel, £50.35, (4 stars).>
+<Book Naturally Lean: 125 Nourishing Gluten-Free, Plant-Based Recipes--All Under 300 Calories, £11.38, (5 stars).>
+<Book Meternity, £43.58, (3 stars).>
+<Book Memoirs of a Geisha, £49.67, (3 stars).>
+<Book Like Never Before (Walker Family #2), £28.77, (2 stars).>
+<Book Life of Pi, £13.22, (4 stars).>
+<Book Leave This Song Behind: Teen Poetry at Its Best, £51.17, (5 stars).>
+<Book King's Folly (The Kinsman Chronicles #1), £39.61, (5 stars).>
+<Book John Adams, £57.43, (4 stars).>
+<Book How to Cook Everything Vegetarian: Simple Meatless Recipes for Great Food (How to Cook Everything), £46.01, (4 stars).>
+<Book How to Be a Domestic Goddess: Baking and the Art of Comfort Cooking, £28.25, (2 stars).>
+<Book Good in Bed (Cannie Shapiro #1), £37.05, (5 stars).>
+<Book Fruits Basket, Vol. 7 (Fruits Basket #7), £19.57, (1 stars).>
+<Book For the Love: Fighting for Grace in a World of Impossible Standards, £45.13, (3 stars).>
+<Book Finding God in the Ruins: How God Redeems Pain, £46.64, (2 stars).>
+<Book Every Heart a Doorway (Every Heart A Doorway #1), £12.16, (5 stars).>
+<Book Delivering the Truth (Quaker Midwife Mystery #1), £20.89, (4 stars).>
+<Book Counted With the Stars (Out from Egypt #1), £17.97, (5 stars).>
+<Book Chronicles, Vol. 1, £52.6, (2 stars).>
+<Book Blue Like Jazz: Nonreligious Thoughts on Christian Spirituality, £25.77, (1 stars).>
+<Book Benjamin Franklin: An American Life, £48.19, (3 stars).>
+<Book At The Existentialist Café: Freedom, Being, and apricot cocktails with: Jean-Paul Sartre, Simone de Beauvoir, Albert Camus, Martin Heidegger, Edmund Husserl, Karl Jaspers, Maurice Merleau-Ponty and others, £29.93, (5 stars).>
+<Book A Summer In Europe, £44.34, (2 stars).>
+<Book A Short History of Nearly Everything, £52.4, (5 stars).>
+<Book A Gathering of Shadows (Shades of Magic #2), £44.81, (4 stars).>
+<Book The Sound Of Love, £57.84, (5 stars).>
+<Book The Rise and Fall of the Third Reich: A History of Nazi Germany, £39.67, (2 stars).>
+<Book The Perks of Being a Wallflower, £55.02, (3 stars).>
+<Book The Mysterious Affair at Styles (Hercule Poirot #1), £24.8, (4 stars).>
+<Book The Man Who Mistook His Wife for a Hat and Other Clinical Tales, £59.45, (4 stars).>
+<Book The Makings of a Fatherless Child, £31.58, (2 stars).>
+<Book The Joy of Cooking, £43.27, (4 stars).>
+<Book The Invention of Wings, £37.34, (1 stars).>
+<Book The Hobbit (Middle-Earth Universe), £17.8, (5 stars).>
+<Book The Great Railway Bazaar, £30.54, (1 stars).>
+<Book The Golden Compass (His Dark Materials #1), £18.77, (1 stars).>
+<Book The God Delusion, £46.85, (3 stars).>
+<Book The Girl You Left Behind (The Girl You Left Behind #1), £15.79, (1 stars).>
+<Book The Fellowship of the Ring (The Lord of the Rings #1), £10.27, (2 stars).>
+<Book The Collected Poems of W.B. Yeats (The Collected Works of W.B. Yeats #1), £15.42, (5 stars).>
+<Book The Barefoot Contessa Cookbook, £59.92, (5 stars).>
+<Book Tell the Wolves I'm Home, £50.96, (2 stars).>
+<Book Ship Leaves Harbor: Essays on Travel by a Recovering Journeyman, £30.6, (3 stars).>
+<Book Pride and Prejudice, £19.27, (4 stars).>
+<Book Musicophilia: Tales of Music and the Brain, £46.58, (1 stars).>
+<Book Mere Christianity, £48.51, (3 stars).>
+<Book Me Before You (Me Before You #1), £19.02, (1 stars).>
+<Book In the Woods (Dublin Murder Squad #1), £38.38, (2 stars).>
+<Book In Cold Blood, £49.98, (4 stars).>
+<Book How to Stop Worrying and Start Living, £46.49, (5 stars).>
+<Book Give It Back, £18.32, (2 stars).>
+<Book Girl, Interrupted, £42.14, (3 stars).>
+<Book Fun Home: A Family Tragicomic, £56.59, (4 stars).>
+<Book Fruits Basket, Vol. 6 (Fruits Basket #6), £20.96, (4 stars).>
+<Book Deception Point, £40.32, (4 stars).>
+<Book Death Note, Vol. 6: Give-and-Take (Death Note #6), £36.39, (3 stars).>
+<Book Catherine the Great: Portrait of a Woman, £58.55, (4 stars).>
+<Book Better Homes and Gardens New Cook Book, £39.61, (3 stars).>
+<Book An Unquiet Mind: A Memoir of Moods and Madness, £21.3, (3 stars).>
+<Book A Year in Provence (Provence #1), £56.88, (4 stars).>
+<Book World Without End (The Pillars of the Earth #2), £32.97, (4 stars).>
+<Book Will Grayson, Will Grayson (Will Grayson, Will Grayson), £47.31, (4 stars).>
+<Book Why Save the Bankers?: And Other Essays on Our Economic and Political Crisis, £48.67, (2 stars).>
+<Book Where She Went (If I Stay #2), £41.73, (4 stars).>
+<Book What If?: Serious Scientific Answers to Absurd Hypothetical Questions, £53.68, (4 stars).>
+<Book Two Summers, £14.64, (1 stars).>
+<Book This Is Your Brain on Music: The Science of a Human Obsession, £38.4, (1 stars).>
+<Book The Secret Garden, £15.08, (4 stars).>
+<Book The Raven King (The Raven Cycle #4), £30.57, (2 stars).>
+<Book The Raven Boys (The Raven Cycle #1), £57.74, (4 stars).>
+<Book The Power Greens Cookbook: 140 Delicious Superfood Recipes, £11.05, (5 stars).>
+<Book The Metamorphosis, £28.58, (1 stars).>
+<Book The Mathews Men: Seven Brothers and the War Against Hitler's U-boats, £42.91, (5 stars).>
+<Book The Little Paris Bookshop, £24.73, (3 stars).>
+<Book The Hiding Place, £55.91, (4 stars).>
+<Book The Grand Design, £13.76, (3 stars).>
+<Book The Firm, £45.56, (3 stars).>
+<Book The Fault in Our Stars, £47.22, (1 stars).>
+<Book The False Prince (The Ascendance Trilogy #1), £56.0, (5 stars).>
+<Book The Expatriates, £44.58, (2 stars).>
+<Book The Dream Thieves (The Raven Cycle #2), £34.5, (1 stars).>
+<Book The Darkest Corners, £11.33, (5 stars).>
+<Book The Crossover, £38.77, (4 stars).>
+<Book The 5th Wave (The 5th Wave #1), £11.83, (2 stars).>
+<Book Tell the Wind and Fire, £45.51, (3 stars).>
+<Book Tell Me Three Things, £41.81, (1 stars).>
+<Book Talking to Girls About Duran Duran: One Young Man's Quest for True Love and a Cooler Haircut, £25.15, (4 stars).>
+<Book Siddhartha, £34.22, (5 stars).>
+<Book Shiver (The Wolves of Mercy Falls #1), £16.23, (5 stars).>
+<Book Remember Me?, £11.48, (3 stars).>
+<Book Red Dragon (Hannibal Lecter #1), £23.37, (3 stars).>
+<Book Peak: Secrets from the New Science of Expertise, £16.28, (2 stars).>
+<Book My Mother Was Nuts, £31.63, (4 stars).>
+<Book Mexican Today: New and Rediscovered Recipes for Contemporary Kitchens, £24.91, (5 stars).>
+<Book Maybe Something Beautiful: How Art Transformed a Neighborhood, £22.54, (1 stars).>
+<Book Lola and the Boy Next Door (Anna and the French Kiss #2), £23.63, (4 stars).>
+<Book Logan Kade (Fallen Crest High #5.5), £13.12, (2 stars).>
+<Book Last One Home (New Beginnings #1), £59.98, (3 stars).>
+<Book Killing Floor (Jack Reacher #1), £31.49, (4 stars).>
+<Book Kill the Boy Band, £15.52, (5 stars).>
+<Book Isla and the Happily Ever After (Anna and the French Kiss #3), £48.13, (5 stars).>
+<Book If I Stay (If I Stay #1), £38.13, (5 stars).>
+<Book I Know Why the Caged Bird Sings (Maya Angelou's Autobiography #1), £36.55, (2 stars).>
+<Book Harry Potter and the Deathly Hallows (Harry Potter #7), £23.32, (1 stars).>
+<Book Fruits Basket, Vol. 5 (Fruits Basket #5), £16.33, (1 stars).>
+<Book Foundation (Foundation (Publication Order) #1), £32.42, (1 stars).>
+<Book Fool Me Once, £16.96, (1 stars).>
+<Book Find Her (Detective D.D. Warren #8), £22.37, (1 stars).>
+<Book Evicted: Poverty and Profit in the American City, £42.27, (1 stars).>
+<Book Drama, £38.7, (2 stars).>
+<Book Dracula the Un-Dead, £35.63, (5 stars).>
+<Book Digital Fortress, £58.0, (5 stars).>
+<Book Death Note, Vol. 5: Whiteout (Death Note #5), £52.41, (1 stars).>
+<Book Data, A Love Story: How I Gamed Online Dating to Meet My Match, £32.35, (3 stars).>
+<Book Critique of Pure Reason, £20.75, (1 stars).>
+<Book Booked, £17.49, (5 stars).>
+<Book Blue Lily, Lily Blue (The Raven Cycle #3), £34.13, (5 stars).>
+<Book Approval Junkie: Adventures in Caring Too Much, £58.81, (5 stars).>
+<Book An Abundance of Katherines, £10.0, (5 stars).>
+<Book America's War for the Greater Middle East: A Military History, £51.22, (2 stars).>
+<Book Alight (The Generations Trilogy #2), £58.59, (4 stars).>
+<Book A Girl's Guide to Moving On (New Beginnings #2), £31.3, (1 stars).>
+<Book A Game of Thrones (A Song of Ice and Fire #1), £46.42, (2 stars).>
+<Book A Feast for Crows (A Song of Ice and Fire #4), £17.21, (4 stars).>
+<Book A Clash of Kings (A Song of Ice and Fire #2), £10.79, (3 stars).>
+<Book Vogue Colors A to Z: A Fashion Coloring Book, £52.35, (4 stars).>
+<Book The Shining (The Shining #1), £27.88, (3 stars).>
+<Book The Pilgrim's Progress, £50.26, (2 stars).>
+<Book The Perfect Play (Play by Play #1), £59.99, (3 stars).>
+<Book The Passion of Dolssa, £28.32, (5 stars).>
+<Book The Jazz of Physics: The Secret Link Between Music and the Structure of the Universe, £38.71, (3 stars).>
+<Book The Hunger Games (The Hunger Games #1), £29.85, (5 stars).>
+<Book The Hound of the Baskervilles (Sherlock Holmes #5), £14.82, (2 stars).>
+<Book The Gunning of America: Business and the Making of American Gun Culture, £16.81, (4 stars).>
+<Book The Geography of Bliss: One Grump's Search for the Happiest Places in the World, £28.23, (2 stars).>
+<Book The Demonists (Demonist #1), £52.11, (2 stars).>
+<Book The Demon Prince of Momochi House, Vol. 4 (The Demon Prince of Momochi House #4), £27.88, (2 stars).>
+<Book The Bone Hunters (Lexy Vaughan & Steven Macaulay #2), £59.71, (3 stars).>
+<Book The Beast (Black Dagger Brotherhood #14), £46.08, (5 stars).>
+<Book Some Women, £13.73, (5 stars).>
+<Book Shopaholic Ties the Knot (Shopaholic #3), £48.39, (5 stars).>
+<Book Paper and Fire (The Great Library #2), £49.45, (5 stars).>
+<Book Outlander (Outlander #1), £19.67, (5 stars).>
+<Book Orchestra of Exiles: The Story of Bronislaw Huberman, the Israel Philharmonic, and the One Thousand Jews He Saved from Nazi Horrors, £12.36, (3 stars).>
+<Book No One Here Gets Out Alive, £20.02, (5 stars).>
+<Book Night Shift (Night Shift #1-20), £12.75, (4 stars).>
+<Book Needful Things, £47.51, (4 stars).>
+<Book Mockingjay (The Hunger Games #3), £20.44, (4 stars).>
+<Book Misery, £34.79, (2 stars).>
+<Book Little Women (Little Women #1), £28.07, (4 stars).>
+<Book It, £25.01, (3 stars).>
+<Book Harry Potter and the Sorcerer's Stone (Harry Potter #1), £13.9, (3 stars).>
+<Book Harry Potter and the Prisoner of Azkaban (Harry Potter #3), £24.17, (4 stars).>
+<Book Harry Potter and the Order of the Phoenix (Harry Potter #5), £31.63, (4 stars).>
+<Book Harry Potter and the Half-Blood Prince (Harry Potter #6), £48.75, (5 stars).>
+<Book Harry Potter and the Chamber of Secrets (Harry Potter #2), £14.74, (1 stars).>
+<Book Gone with the Wind, £32.49, (3 stars).>
+<Book God Is Not Great: How Religion Poisons Everything, £27.8, (1 stars).>
+<Book Girl With a Pearl Earring, £26.77, (1 stars).>
+<Book Fruits Basket, Vol. 4 (Fruits Basket #4), £50.44, (4 stars).>
+<Book Far From True (Promise Falls Trilogy #2), £34.93, (2 stars).>
+<Book Dark Lover (Black Dagger Brotherhood #1), £12.87, (1 stars).>
+<Book Confessions of a Shopaholic (Shopaholic #1), £48.94, (2 stars).>
+<Book Changing the Game (Play by Play #2), £13.38, (3 stars).>
+<Book Candide, £58.63, (3 stars).>
+<Book Can You Keep a Secret?, £21.94, (1 stars).>
+<Book Atlas Shrugged, £26.58, (5 stars).>
+<Book Animal Farm, £57.22, (3 stars).>
+<Book A Walk to Remember, £56.43, (1 stars).>
+<Book A New Earth: Awakening to Your Life's Purpose, £55.65, (5 stars).>
+<Book A History of God: The 4,000-Year Quest of Judaism, Christianity, and Islam, £27.62, (1 stars).>
+<Book 'Salem's Lot, £49.56, (4 stars).>
+<Book Zero History (Blue Ant #3), £34.77, (1 stars).>
+<Book Wuthering Heights, £17.73, (3 stars).>
+<Book World War Z: An Oral History of the Zombie War, £21.8, (1 stars).>
+<Book Wild: From Lost to Found on the Pacific Crest Trail, £46.02, (3 stars).>
+<Book Where'd You Go, Bernadette, £18.13, (1 stars).>
+<Book When You Are Engulfed in Flames, £30.89, (5 stars).>
+<Book We the People: The Modern-Day Figures Who Have Reshaped and Affirmed the Founding Fathers' Vision of America, £31.95, (3 stars).>
+<Book We Are All Completely Beside Ourselves, £24.04, (1 stars).>
+<Book Walk the Edge (Thunder Road #2), £32.36, (3 stars).>
+<Book Voyager (Outlander #3), £21.07, (5 stars).>
+<Book Very Good Lives: The Fringe Benefits of Failure and the Importance of Imagination, £50.66, (3 stars).>
+<Book Vegan Vegetarian Omnivore: Dinner for Everyone at the Table, £13.66, (2 stars).>
+<Book Unstuffed: Decluttering Your Home, Mind, and Soul, £58.09, (1 stars).>
+<Book Under the Banner of Heaven: A Story of Violent Faith, £30.0, (1 stars).>
+<Book Two Boys Kissing, £32.74, (2 stars).>
+<Book Twilight (Twilight #1), £41.93, (2 stars).>
+<Book Twenties Girl, £42.8, (2 stars).>
+<Book Trespassing Across America: One Man's Epic, Never-Done-Before (and Sort of Illegal) Hike Across the Heartland, £53.51, (1 stars).>
+<Book Three-Martini Lunch, £23.21, (3 stars).>
+<Book Thinking, Fast and Slow, £21.14, (1 stars).>
+<Book The Wild Robot, £56.07, (3 stars).>
+<Book The Wicked + The Divine, Vol. 3: Commercial Suicide (The Wicked + The Divine), £14.41, (3 stars).>
+<Book The Undomestic Goddess, £45.75, (4 stars).>
+<Book The Travelers, £15.77, (1 stars).>
+<Book The Tipping Point: How Little Things Can Make a Big Difference, £10.02, (2 stars).>
+<Book The Thing About Jellyfish, £48.77, (1 stars).>
+<Book The Stand, £57.86, (2 stars).>
+<Book The Smitten Kitchen Cookbook, £23.59, (1 stars).>
+<Book The Silkworm (Cormoran Strike #2), £23.05, (5 stars).>
+<Book The Sandman, Vol. 3: Dream Country (The Sandman (volumes) #3), £55.55, (5 stars).>
+<Book The Rose & the Dagger (The Wrath and the Dawn #2), £58.64, (4 stars).>
+<Book The Road to Little Dribbling: Adventures of an American in Britain (Notes From a Small Island #2), £23.21, (1 stars).>
+<Book The Rise of Theodore Roosevelt (Theodore Roosevelt #1), £42.57, (3 stars).>
+<Book The Restaurant at the End of the Universe (Hitchhiker's Guide to the Galaxy #2), £10.92, (1 stars).>
+<Book The Rest Is Noise: Listening to the Twentieth Century, £34.77, (1 stars).>
+<Book The Red Tent, £35.66, (5 stars).>
+<Book The Purpose Driven Life: What on Earth Am I Here for?, £37.19, (3 stars).>
+<Book The Purest Hook (Second Circle Tattoos #3), £12.25, (1 stars).>
+<Book The Picture of Dorian Gray, £29.7, (2 stars).>
+<Book The Paris Wife, £36.8, (3 stars).>
+<Book The Obsession, £45.43, (1 stars).>
+<Book The Nightingale, £26.26, (4 stars).>
+<Book The New Guy (and Other Senior Year Distractions), £44.92, (3 stars).>
+<Book The Nanny Diaries (Nanny #1), £52.53, (5 stars).>
+<Book The Name of God is Mercy, £37.25, (2 stars).>
+<Book The Maze Runner (The Maze Runner #1), £20.93, (1 stars).>
+<Book The Lover's Dictionary, £58.09, (2 stars).>
+<Book The Lonely Ones, £43.59, (5 stars).>
+<Book The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses, £33.92, (3 stars).>
+<Book The Last Painting of Sara de Vos, £55.55, (2 stars).>
+<Book The Land of 10,000 Madonnas, £29.64, (4 stars).>
+<Book The Infinities, £27.41, (1 stars).>
+<Book The Husband's Secret, £52.51, (5 stars).>
+<Book The Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy #1), £47.8, (3 stars).>
+<Book The Guns of August, £14.54, (2 stars).>
+<Book The Guernsey Literary and Potato Peel Pie Society, £49.53, (1 stars).>
+<Book The Goldfinch, £43.58, (3 stars).>
+<Book The Giver (The Giver Quartet #1), £12.3, (1 stars).>
+<Book The Girl with All the Gifts, £49.47, (3 stars).>
+<Book The Girl Who Played with Fire (Millennium Trilogy #2), £22.14, (2 stars).>
+<Book The Girl Who Kicked the Hornet's Nest (Millennium Trilogy #3), £57.48, (1 stars).>
+<Book The Exiled, £43.45, (3 stars).>
+<Book The End of Faith: Religion, Terror, and the Future of Reason, £22.13, (4 stars).>
+<Book The Elegant Universe: Superstrings, Hidden Dimensions, and the Quest for the Ultimate Theory, £13.03, (4 stars).>
+<Book The Disappearing Spoon: And Other True Tales of Madness, Love, and the History of the World from the Periodic Table of the Elements, £57.35, (5 stars).>
+<Book The Devil Wears Prada (The Devil Wears Prada #1), £44.29, (1 stars).>
+<Book The Demon-Haunted World: Science as a Candle in the Dark, £52.25, (4 stars).>
+<Book The Day the Crayons Came Home (Crayons), £26.33, (5 stars).>
+<Book The Da Vinci Code (Robert Langdon #2), £22.96, (2 stars).>
+<Book The Cuckoo's Calling (Cormoran Strike #1), £19.21, (1 stars).>
+<Book The Complete Stories and Poems (The Works of Edgar Allan Poe [Cameo Edition]), £26.78, (4 stars).>
+<Book The Complete Poems, £41.32, (5 stars).>
+<Book The Catcher in the Rye, £24.55, (1 stars).>
+<Book The Cat in the Hat (Beginner Books B-1), £16.26, (2 stars).>
+<Book The Case for Christ (Cases for Christianity), £47.84, (1 stars).>
+<Book The Book Thief, £53.49, (2 stars).>
+<Book The Book of Basketball: The NBA According to The Sports Guy, £44.84, (5 stars).>
+<Book The Blind Side: Evolution of a Game, £53.71, (5 stars).>
+<Book The Autobiography of Malcolm X, £23.43, (2 stars).>
+<Book The Art of Simple Food: Notes, Lessons, and Recipes from a Delicious Revolution, £34.32, (3 stars).>
+<Book The Art of Fielding, £22.1, (1 stars).>
+<Book Surely You're Joking, Mr. Feynman!: Adventures of a Curious Character, £25.83, (2 stars).>
+<Book Stiff: The Curious Lives of Human Cadavers, £36.74, (3 stars).>
+<Book Spilled Milk: Based on a True Story, £49.51, (1 stars).>
+<Book Something Borrowed (Darcy & Rachel #1), £48.96, (5 stars).>
+<Book Something Blue (Darcy & Rachel #2), £54.62, (1 stars).>
+<Book Soldier (Talon #3), £24.72, (2 stars).>
+<Book Shopaholic & Baby (Shopaholic #5), £46.45, (2 stars).>
+<Book Seven Days in the Art World, £52.33, (2 stars).>
+<Book Seven Brief Lessons on Physics, £30.6, (4 stars).>
+<Book Scarlet (The Lunar Chronicles #2), £14.57, (4 stars).>
+<Book Sarah's Key, £46.29, (1 stars).>
+<Book Saga, Volume 3 (Saga (Collected Editions) #3), £21.57, (5 stars).>
+<Book Running with Scissors, £12.91, (4 stars).>
+<Book Rogue Lawyer (Rogue Lawyer #1), £50.11, (3 stars).>
+<Book Rise of the Rocket Girls: The Women Who Propelled Us, from Missiles to the Moon to Mars, £41.67, (4 stars).>
+<Book Rework, £44.88, (2 stars).>
+<Book Reservations for Two, £11.1, (3 stars).>
+<Book Red: The True Story of Red Riding Hood, £28.54, (3 stars).>
+<Book Ready Player One, £19.07, (4 stars).>
+<Book Quiet: The Power of Introverts in a World That Can't Stop Talking, £43.55, (1 stars).>
+<Book Prodigy: The Graphic Novel (Legend: The Graphic Novel #2), £43.63, (3 stars).>
+<Book Persepolis: The Story of a Childhood (Persepolis #1-2), £39.13, (1 stars).>
+<Book Packing for Mars: The Curious Science of Life in the Void, £56.68, (2 stars).>
+<Book Outliers: The Story of Success, £14.16, (1 stars).>
+<Book Original Fake, £31.45, (3 stars).>
+<Book Orange Is the New Black, £24.61, (2 stars).>
+<Book One for the Money (Stephanie Plum #1), £32.87, (2 stars).>
+<Book Notes from a Small Island (Notes From a Small Island #1), £40.17, (1 stars).>
+<Book Night (The Night Trilogy #1), £13.51, (1 stars).>
+<Book Neither Here nor There: Travels in Europe, £38.95, (3 stars).>
+<Book Naked, £31.69, (3 stars).>
+<Book Morning Star (Red Rising #3), £29.4, (1 stars).>
+<Book Miracles from Heaven: A Little Girl, Her Journey to Heaven, and Her Amazing Story of Healing, £57.83, (1 stars).>
+<Book Midnight Riot (Peter Grant/ Rivers of London - books #1), £55.46, (2 stars).>
+<Book Me Talk Pretty One Day, £57.6, (2 stars).>
+<Book Manuscript Found in Accra, £34.98, (2 stars).>
+<Book Lust & Wonder, £11.87, (2 stars).>
+<Book Lila (Gilead #3), £12.47, (3 stars).>
+<Book Life, the Universe and Everything (Hitchhiker's Guide to the Galaxy #3), £33.26, (2 stars).>
+<Book Life Without a Recipe, £59.04, (5 stars).>
+<Book Life After Life, £26.13, (2 stars).>
+<Book Letter to a Christian Nation, £22.2, (1 stars).>
+<Book Let's Pretend This Never Happened: A Mostly True Memoir, £45.11, (1 stars).>
+<Book Legend (Legend #1), £43.69, (4 stars).>
+<Book Lean In: Women, Work, and the Will to Lead, £25.02, (1 stars).>
+<Book Lamb: The Gospel According to Biff, Christ's Childhood Pal, £55.5, (5 stars).>
+<Book Lady Renegades (Rebel Belle #3), £53.04, (5 stars).>
+<Book Jurassic Park (Jurassic Park #1), £44.97, (1 stars).>
+<Book It's Never Too Late to Begin Again: Discovering Creativity and Meaning at Midlife and Beyond, £42.38, (1 stars).>
+<Book Is Everyone Hanging Out Without Me? (And Other Concerns), £20.11, (3 stars).>
+<Book Into the Wild, £56.7, (5 stars).>
+<Book Inferno (Robert Langdon #4), £41.0, (5 stars).>
+<Book In the Garden of Beasts: Love, Terror, and an American Family in Hitler's Berlin, £28.85, (3 stars).>
+<Book If I Run (If I Run #1), £49.97, (4 stars).>
+<Book I've Got Your Number, £19.69, (1 stars).>
+<Book I Am Malala: The Girl Who Stood Up for Education and Was Shot by the Taliban, £28.88, (2 stars).>
+<Book Hungry Girl Clean & Hungry: Easy All-Natural Recipes for Healthy Eating in the Real World, £33.14, (3 stars).>
+<Book House of Lost Worlds: Dinosaurs, Dynasties, and the Story of Life on Earth, £43.7, (2 stars).>
+<Book House of Leaves, £54.89, (1 stars).>
+<Book Horrible Bear!, £37.52, (2 stars).>
+<Book Holidays on Ice, £51.07, (2 stars).>
+<Book Heir to the Sky, £44.07, (4 stars).>
+<Book Green Eggs and Ham (Beginner Books B-16), £10.79, (4 stars).>
+<Book Grayson, Vol 3: Nemesis (Grayson #3), £42.72, (1 stars).>
+<Book Gratitude, £26.66, (5 stars).>
+<Book Gone Girl, £37.6, (5 stars).>
+<Book Golden (Heart of Dread #3), £42.21, (4 stars).>
+<Book Girl in the Blue Coat, £46.83, (2 stars).>
+<Book Fruits Basket, Vol. 3 (Fruits Basket #3), £45.17, (2 stars).>
+<Book Friday Night Lights: A Town, a Team, and a Dream, £51.22, (3 stars).>
+<Book Fire Bound (Sea Haven/Sisters of the Heart #5), £21.28, (4 stars).>
+<Book Fifty Shades Freed (Fifty Shades #3), £15.36, (5 stars).>
+<Book Fellside, £38.62, (1 stars).>
+<Book Extreme Prey (Lucas Davenport #26), £25.4, (3 stars).>
+<Book Eragon (The Inheritance Cycle #1), £43.87, (3 stars).>
+<Book Eclipse (Twilight #3), £18.74, (1 stars).>
+<Book Dune (Dune #1), £54.86, (1 stars).>
+<Book Dracula, £52.62, (3 stars).>
+<Book Do Androids Dream of Electric Sheep? (Blade Runner #1), £51.48, (1 stars).>
+<Book Disrupted: My Misadventure in the Start-Up Bubble, £15.28, (5 stars).>
+<Book Dead Wake: The Last Crossing of the Lusitania, £39.24, (5 stars).>
+<Book David and Goliath: Underdogs, Misfits, and the Art of Battling Giants, £17.81, (1 stars).>
+<Book Darkfever (Fever #1), £56.02, (1 stars).>
+<Book Dark Places, £23.9, (5 stars).>
+<Book Crazy Rich Asians (Crazy Rich Asians #1), £49.13, (5 stars).>
+<Book Counting Thyme, £10.62, (1 stars).>
+<Book Cosmos, £36.17, (2 stars).>
+<Book Civilization and Its Discontents, £59.95, (2 stars).>
+<Book Cinder (The Lunar Chronicles #1), £26.09, (1 stars).>
+<Book Catastrophic Happiness: Finding Joy in Childhood's Messy Years, £37.35, (2 stars).>
+<Book Career of Evil (Cormoran Strike #3), £24.72, (2 stars).>
+<Book Breaking Dawn (Twilight #4), £35.28, (5 stars).>
+<Book Brave Enough, £51.32, (5 stars).>
+<Book Boy Meets Boy, £21.12, (3 stars).>
+<Book Born to Run: A Hidden Tribe, Superathletes, and the Greatest Race the World Has Never Seen, £27.35, (2 stars).>
+<Book Blink: The Power of Thinking Without Thinking, £21.74, (5 stars).>
+<Book Black Flags: The Rise of ISIS, £40.87, (1 stars).>
+<Book Black Butler, Vol. 1 (Black Butler #1), £49.31, (1 stars).>
+<Book Big Little Lies, £22.11, (1 stars).>
+<Book Between Shades of Gray, £20.79, (5 stars).>
+<Book Best of My Love (Fool's Gold #20), £27.41, (2 stars).>
+<Book Beowulf, £38.35, (2 stars).>
+<Book Beautiful Creatures (Caster Chronicles #1), £21.55, (5 stars).>
+<Book Awkward, £38.02, (2 stars).>
+<Book Ash, £22.06, (4 stars).>
+<Book Are We There Yet?, £10.66, (3 stars).>
+<Book Are We Smart Enough to Know How Smart Animals Are?, £56.58, (1 stars).>
+<Book Annie on My Mind, £36.83, (5 stars).>
+<Book And Then There Were None, £35.01, (2 stars).>
+<Book A Walk in the Woods: Rediscovering America on the Appalachian Trail, £30.48, (4 stars).>
+<Book A Visit from the Goon Squad, £14.08, (5 stars).>
+<Book A Storm of Swords (A Song of Ice and Fire #3), £31.22, (2 stars).>
+<Book A Heartbreaking Work of Staggering Genius, £54.29, (5 stars).>
+<Book 8 Keys to Mental Health Through Exercise, £31.04, (1 stars).>
+<Book #GIRLBOSS, £50.96, (1 stars).>
+<Book The Suffragettes (Little Black Classics, #96), £11.89, (2 stars).>
+<Book The Sense of an Ending, £31.38, (3 stars).>
+<Book The Sandman, Vol. 2: The Doll's House (The Sandman (volumes) #2), £54.81, (1 stars).>
+<Book The Course of Love, £16.78, (3 stars).>
+<Book Sugar Rush (Offensive Line #2), £24.42, (1 stars).>
+<Book Saga, Volume 2 (Saga (Collected Editions) #2), £11.75, (3 stars).>
+<Book Run, Spot, Run: The Ethics of Keeping Pets, £20.02, (1 stars).>
+<Book New Moon (Twilight #2), £12.86, (4 stars).>
+<Book Life, £31.58, (5 stars).>
+<Book Kindle Paperwhite User's Guide, £34.0, (3 stars).>
+<Book H is for Hawk, £57.42, (5 stars).>
+<Book Girl Online On Tour (Girl Online #2), £53.47, (1 stars).>
+<Book Fruits Basket, Vol. 2 (Fruits Basket #2), £11.64, (5 stars).>
+<Book Diary of a Minecraft Zombie Book 1: A Scare of a Dare (An Unofficial Minecraft Book), £52.88, (4 stars).>
+<Book Y: The Last Man, Vol. 1: Unmanned (Y: The Last Man #1), £18.51, (4 stars).>
+<Book While You Were Mine, £41.32, (5 stars).>
+<Book Where Lightning Strikes (Bleeding Stars #3), £39.77, (3 stars).>
+<Book When I'm Gone, £51.96, (3 stars).>
+<Book Ways of Seeing, £39.51, (5 stars).>
+<Book Vampire Knight, Vol. 1 (Vampire Knight #1), £15.4, (1 stars).>
+<Book Vampire Girl (Vampire Girl #1), £53.82, (2 stars).>
+<Book Twenty Love Poems and a Song of Despair, £30.95, (4 stars).>
+<Book Travels with Charley: In Search of America, £57.82, (5 stars).>
+<Book Three Wishes (River of Time: California #1), £44.18, (2 stars).>
+<Book This One Moment (Pushing Limits #1), £48.71, (1 stars).>
+<Book The Zombie Room, £19.69, (5 stars).>
+<Book The Wicked + The Divine, Vol. 1: The Faust Act (The Wicked + The Divine), £36.52, (2 stars).>
+<Book The Tumor, £41.56, (5 stars).>
+<Book The Story of Hong Gildong, £43.19, (4 stars).>
+<Book The Silent Wife, £12.34, (5 stars).>
+<Book The Silent Twin (Detective Jennifer Knight #3), £36.25, (3 stars).>
+<Book The Selfish Gene, £29.45, (1 stars).>
+<Book The Secret Healer, £34.56, (3 stars).>
+<Book The Sandman, Vol. 1: Preludes and Nocturnes (The Sandman (volumes) #1), £54.12, (3 stars).>
+<Book The Republic, £33.78, (3 stars).>
+<Book The Odyssey, £29.64, (3 stars).>
+<Book The No. 1 Ladies' Detective Agency (No. 1 Ladies' Detective Agency #1), £57.7, (4 stars).>
+<Book The Nicomachean Ethics, £36.34, (1 stars).>
+<Book The Name of the Wind (The Kingkiller Chronicle #1), £50.59, (3 stars).>
+<Book The Mirror & the Maze (The Wrath and the Dawn #1.5), £29.38, (1 stars).>
+<Book The Little Prince, £45.42, (2 stars).>
+<Book The Light of the Fireflies, £54.43, (1 stars).>
+<Book The Last Girl (The Dominion Trilogy #1), £36.26, (2 stars).>
+<Book The Iliad, £16.16, (1 stars).>
+<Book The Hook Up (Game On #1), £36.29, (5 stars).>
+<Book The Haters, £27.89, (5 stars).>
+<Book The Girl You Lost, £12.29, (5 stars).>
+<Book The Girl In The Ice (DCI Erika Foster #1), £15.85, (3 stars).>
+<Book The End of the Jesus Era (An Investigation #1), £14.4, (1 stars).>
+<Book The Edge of Reason (Bridget Jones #2), £19.18, (4 stars).>
+<Book The Complete Maus (Maus #1-2), £10.64, (3 stars).>
+<Book The Communist Manifesto, £14.76, (3 stars).>
+<Book The Bhagavad Gita, £57.49, (3 stars).>
+<Book The Bette Davis Club, £30.66, (3 stars).>
+<Book The Art of Not Breathing, £40.83, (4 stars).>
+<Book Taking Shots (Assassins #1), £18.88, (2 stars).>
+<Book Starlark, £25.83, (3 stars).>
+<Book Skip Beat!, Vol. 01 (Skip Beat! #1), £42.12, (3 stars).>
+<Book Sister Sable (The Mad Queen #1), £13.33, (3 stars).>
+<Book Shatter Me (Shatter Me #1), £42.4, (1 stars).>
+<Book Shameless, £58.35, (3 stars).>
+<Book Shadow Rites (Jane Yellowrock #10), £21.72, (4 stars).>
+<Book Settling the Score (The Summer Games #1), £44.91, (2 stars).>
+<Book Sense and Sensibility, £37.46, (1 stars).>
+<Book Saga, Volume 1 (Saga (Collected Editions) #1), £28.48, (1 stars).>
+<Book Rhythm, Chord & Malykhin, £28.34, (2 stars).>
+<Book Rat Queens, Vol. 1: Sass & Sorcery (Rat Queens (Collected Editions) #1-5), £46.96, (5 stars).>
+<Book Paradise Lost (Paradise #1), £24.96, (1 stars).>
+<Book Paper Girls, Vol. 1 (Paper Girls #1-5), £21.71, (4 stars).>
+<Book Ouran High School Host Club, Vol. 1 (Ouran High School Host Club #1), £29.87, (3 stars).>
+<Book Origins (Alphas 0.5), £28.99, (1 stars).>
+<Book One Second (Seven #7), £52.94, (2 stars).>
+<Book On the Road (Duluoz Legend), £32.36, (3 stars).>
+<Book Old Records Never Die: One Man's Quest for His Vinyl and His Past, £55.66, (2 stars).>
+<Book Off Sides (Off #1), £39.45, (5 stars).>
+<Book Of Mice and Men, £47.11, (2 stars).>
+<Book Myriad (Prentor #1), £58.75, (4 stars).>
+<Book My Perfect Mistake (Over the Top #1), £38.92, (2 stars).>
+<Book Ms. Marvel, Vol. 1: No Normal (Ms. Marvel (2014-2015) #1), £39.39, (4 stars).>
+<Book Meditations, £25.89, (2 stars).>
+<Book Matilda, £28.34, (1 stars).>
+<Book Lost Among the Living, £27.7, (4 stars).>
+<Book Lord of the Flies, £24.89, (3 stars).>
+<Book Listen to Me (Fusion #1), £58.99, (3 stars).>
+<Book Kitchens of the Great Midwest, £57.2, (5 stars).>
+<Book Jane Eyre, £38.43, (5 stars).>
+<Book Imperfect Harmony, £34.74, (4 stars).>
+<Book Icing (Aces Hockey #2), £40.44, (4 stars).>
+<Book Hawkeye, Vol. 1: My Life as a Weapon (Hawkeye #1), £45.24, (3 stars).>
+<Book Having the Barbarian's Baby (Ice Planet Barbarians #7.5), £34.96, (4 stars).>
+<Book Giant Days, Vol. 1 (Giant Days #1-4), £56.76, (4 stars).>
+<Book Fruits Basket, Vol. 1 (Fruits Basket #1), £40.28, (5 stars).>
+<Book Frankenstein, £38.0, (2 stars).>
+<Book Forever Rockers (The Rocker #12), £28.8, (3 stars).>
+<Book Fighting Fate (Fighting #6), £39.24, (3 stars).>
+<Book Emma, £32.93, (2 stars).>
+<Book Eat, Pray, Love, £51.32, (3 stars).>
+<Book Deep Under (Walker Security #1), £47.09, (5 stars).>
+<Book Choosing Our Religion: The Spiritual Lives of America's Nones, £28.42, (4 stars).>
+<Book Charlie and the Chocolate Factory (Charlie Bucket #1), £22.85, (3 stars).>
+<Book Charity's Cross (Charles Towne Belles #4), £41.24, (1 stars).>
+<Book Bright Lines, £39.07, (5 stars).>
+<Book Bridget Jones's Diary (Bridget Jones #1), £29.82, (1 stars).>
+<Book Bounty (Colorado Mountain #7), £37.26, (4 stars).>
+<Book Blood Defense (Samantha Brinkman #1), £20.3, (3 stars).>
+<Book Bleach, Vol. 1: Strawberry and the Soul Reapers (Bleach #1), £34.65, (5 stars).>
+<Book Beyond Good and Evil, £43.38, (1 stars).>
+<Book Alice in Wonderland (Alice's Adventures in Wonderland #1), £55.53, (1 stars).>
+<Book Ajin: Demi-Human, Volume 1 (Ajin: Demi-Human #1), £57.06, (4 stars).>
+<Book A Spy's Devotion (The Regency Spies of London #1), £16.97, (5 stars).>
+<Book 1st to Die (Women's Murder Club #1), £53.98, (1 stars).>
+<Book 1,000 Places to See Before You Die, £26.08, (5 stars).>
+
+Enter one of the following
+    - 'l' to list all books
+    - 'b' to look at 5-star books
+    - 'c' to look at cheapest books
+    - 'n' to just get next avilable book on catalogue
+    - 'q' to exit
+
+Enter your choice: q
+
+D:\Ganesh Jamadar\Python Project\Scraping Books\scraping-books>
